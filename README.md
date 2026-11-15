@@ -108,3 +108,41 @@ Unentdeckte Länder sind dunkel, erkundete eingefärbt; sicher beherrschte Länd
 Die Richtlevel 1, 6, 12, 18, 24, 30, 36, 42, 48 und 55 dienen je Kontinent zur Orientierung; alle normalen Länder bleiben für gezielte Nachhilfe direkt spielbar. Level allein erobert kein Land.
 
 Die **Zitadelle der Meisterschaft** ist das 31. Gebiet und öffnet sich erst, wenn Level 60 erreicht ist und alle 30 Länder sicher beherrscht werden. Sie enthält neun zusätzliche schwierigere Aufgaben: je drei Analysis, Geometrie und Stochastik, darunter Optimierung, Ebenenspiegelung, Bayes und die Bestimmung eines Ablehnungsbereichs. Mindestens **8 von 9** richtigen Erstantworten in einer abgeschlossenen Zitadellenrunde erobern dieses letzte Gebiet. Die Runde gibt keine zusätzlichen XP und zählt nicht als Ersatz für die Grundlagen-Kompetenznachweise. Sofortfeedback und Ergebnisbericht funktionieren wie in den anderen Modi. Die abgeschlossene Runde wird mit dem Lernstand exportiert und importiert.
+
+## Phase A: Entwicklung und Spielstände in der Beta
+
+Die Entwicklung erfolgt lokal auf **`develop`**. **`main` bleibt die freigegebene Schülerversion.** Die Änderungen aus Phase A sind bis zu einem ausdrücklich freigegebenen Commit und einer späteren Veröffentlichung nur im Arbeitsstand vorhanden. Ein Commit auf `develop` allein veröffentlicht nichts. Ein Push, ein Merge nach `main` und eine Veröffentlichung benötigen jeweils die entsprechende Freigabe.
+
+GitHub Pages bleibt auf der bestehenden Veröffentlichung eingerichtet. Am 15. November 2026 wurde lesend bestätigt, dass die Umgebung `github-pages` aktive benutzerdefinierte Branch-Regeln hat und ausschließlich den Branch `main` zulässt. Der erfolgreiche Pages-Lauf veröffentlicht Commit `72a7ae9def7b0618640886a15c37d552d7609d45` von `main`. Es wurde keine Pages-Einstellung geändert und kein Deployment angestoßen. Die Website lautet **https://uhoenig.github.io/mathe-abi/** (kleingeschriebener Pfad).
+
+Vor einem Branch-Wechsel offene Änderungen auf `develop` nach Freigabe committen oder anderweitig sichern: Uncommittete Arbeitsdateien sind nicht automatisch zwischen Branches isoliert. Für die Anwendung wird weiterhin keine neue Software oder Laufzeitbibliothek benötigt.
+
+### Speicherung und Versionsregeln
+
+Der vorhandene Schlüssel **`mathequest.v1`** und das Datenformat `version: 1` bleiben erhalten. Zusätzlich gibt es **`progressVersion: 1`**. Bereits vorhandene Stände ohne dieses Feld gehören zum unveränderten Altbestand und werden als Fortschrittsversion 1 gelesen. Beim nächsten regulären Speichern oder Exportieren wird das Feld ergänzt; Antworten, Bewertungen und laufende Trainings bleiben erhalten.
+
+Bei künftigen inkompatiblen Änderungen an Aufgaben-IDs, Bedeutung/Reihenfolge von Antwortoptionen, Lösungsschlüsseln oder XP-Regeln muss `PROGRESS_VERSION` in `app.js` bewusst erhöht werden. Reine Layoutänderungen benötigen keine Erhöhung. Diese Beta-Lösung erkennt ausdrücklich versionierte Inkompatibilitäten; sie erkennt inhaltliche Änderungen nicht automatisch und enthält keine komplexen Migrationen.
+
+Automatisch gespeichert werden Trainingsstart, Antwort, Fragenposition, Abschluss und mündliche Bewertung. Import und Reset schreiben erst nach Bestätigung. Ein laufendes Training hat eine stabile Kennung, die beim Abschluss übernommen wird. XP werden weiterhin ausschließlich aus den abgeschlossenen Antworten berechnet; Fragen und XP-Regeln wurden nicht geändert.
+
+### Fehler und Wiederherstellung
+
+- **Inkompatibler oder beschädigter gespeicherter Stand:** Die normale Bearbeitung wird gesperrt. Der unveränderte Rohstand kann heruntergeladen werden. Ein passender JSON-Import oder ein bestätigter Reset ist möglich; es wird nichts automatisch gelöscht.
+- **Speicher nicht verfügbar oder voll:** Ein sofort sichtbarer Hinweis erklärt, dass Änderungen nur im Arbeitsspeicher dieser Sitzung vorliegen. Nicht neu laden oder schließen, bevor der Sitzungsstand exportiert oder „Speichern erneut versuchen“ erfolgreich war.
+- **Import/Reset schlägt beim Schreiben fehl:** Der bisherige Speicher- und Sitzungsstand bleibt erhalten, der Bestätigungsdialog bleibt geöffnet, es erscheint keine Erfolgsmeldung. Nach Beheben des Fehlers kann erneut bestätigt werden.
+- **Ein anderer Tab ändert oder löscht den Stand:** Weitere automatische Schreibvorgänge werden blockiert. Beide Stände können separat gesichert werden; es gibt keine automatische Zusammenführung. Pro Gerät am besten nur einen aktiven Lern-Tab verwenden.
+- **5.000 abgeschlossene Einheiten:** Weitere Trainings werden vor Überschreiten der bestehenden Ladegrenze blockiert. Vor einem bestätigten Reset den vollständigen Stand exportieren.
+
+JSON-Exporte enthalten `progressVersion`. Inkompatible Importdateien ersetzen keinen vorhandenen Stand. Der Download „Gespeicherten Rohstand sichern“ erhält auch beschädigte Inhalte unverändert; er dient der Sicherung für eine spätere Prüfung.
+
+### Speicherprüfungen ausführen
+
+Zusätzlich zur Inhaltsprüfung und zur bestehenden Browser-Suite gibt es:
+
+```sh
+node tests/storage.cjs
+```
+
+Es gelten dieselben optionalen Playwright-/Chromium-Voraussetzungen und `MQ_BROWSER` wie bei `tests/browser.cjs`. Die Speicher-Suite stellt die lokalen Dateien direkt in isolierten Browserkontexten bereit, benötigt keinen laufenden Webserver, schreibt keine Testartefakte und berührt keinen echten Lernstand. Sie prüft zwölf Fallgruppen einschließlich Speicherfehlern, Versionskonflikten, Reset und wiederholter Abgabe.
+
+Die vollständigen Ergebnisse und die Grenzen der Prüfung stehen in `QA.md`. Eine echte iPad-Safari-Abnahme wird durch Chromium-Tests weiterhin nicht ersetzt.
