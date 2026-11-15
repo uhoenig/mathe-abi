@@ -92,3 +92,26 @@ Damit ist die aktive Pages-Umgebung weiterhin auf `main` beschränkt. Es wurde w
 ### Bewusste Grenzen
 
 Keine automatischen inhaltlichen Migrationen, kein Backend und kein Geräte-Merge. `PROGRESS_VERSION` muss bei inkompatiblen Aufgaben-/Regeländerungen bewusst erhöht werden. Browserdaten können weiterhin außerhalb der Anwendung gelöscht werden; JSON-Sicherungen bleiben wichtig. Die Tests liefen in Chromium, nicht auf einem echten iPad. Die Änderungen wurden noch nicht auf `main` übernommen und stehen der Schülerin deshalb noch nicht zur Verfügung.
+
+## iPad-Optimierung auf develop
+
+Geändert wurden Kartenbedienung, Tablet-Navigation und Touch-Darstellung. Es wurden keine Fragen, Lösungen, XP-/Kompetenzregeln oder Speicher-Versionen geändert. Die folgenden Prüfungen wurden vor Commit und Push durchgeführt. Eine Veröffentlichung auf main ist nicht Bestandteil dieser Anpassung.
+
+Erfolgreich geprüft:
+
+| Prüfung | Ergebnis |
+| --- | --- |
+| `node tests/ipad.cjs` | Neun Fenstergrößen für Hochformat, Querformat und schmale Ansichten: 768×1024, 820×1180, 834×1194, 1024×768, 1180×820, 1194×834, 744×1133, 520×1024 und 390×844 |
+| Kartenlesbarkeit und Touch-Ziele | Levelschrift mindestens ca. 13 px; Kartenländer mindestens ca. 64×55 px; geprüfte Menü-, Quiz- und Tab-Elemente mindestens 44×44 px |
+| Kartenauswahl | Scrollposition und tatsächliche SVG-/Scrollcontainer-Knoten bleiben bei Klick und Tastaturauswahl erhalten |
+| Länderliste | Alle 31 Gebiete wählbar; Auswahl, Informationsfeld und Kartenmarkierung synchron; Zentrierung und Auswahl nach Größenwechsel geprüft |
+| Navigation | Öffnen/Schließen, passender zugänglicher Buttonname, Escape mit Fokus-Rückgabe, Schließen nach Seitenwechsel und Klick außerhalb |
+| Quiz und Speicherung | Sofortfeedback, Navigation, gespeicherte Antwort nach Neuladen und unveränderte `progressVersion: 1` bestätigt |
+| Hauptansichten | Alle sieben Ansichten im Tablet-Hochformat ohne horizontalen Seitenüberlauf oder JavaScript-Fehler |
+| `node tests/storage.cjs` | Alle zwölf Speicher-Fallgruppen weiterhin erfolgreich |
+| `node tests/browser.cjs` | Vollständige bestehende Anwendungstests weiterhin erfolgreich, einschließlich Smartphone, JSON und Offline-Dateistart |
+| `python3 -B tests/content.py` | Inhalts-, Rechen-, Struktur- und Ressourcenprüfungen erfolgreich |
+
+Die neuen iPad-Tests liefen mit Touch-Unterstützung in einem isolierten Brave-/Chromium-Browser. Playwright-WebKit ist in dieser Umgebung nicht installiert; es wurde nichts dafür nachinstalliert. Die erzeugten Tablet-Screenshots wurden visuell kontrolliert. Diese Prüfung ist keine echte iPad-Safari-Abnahme.
+
+Vor einer Freigabe auf dem echten iPad kurz prüfen: Karte seitlich verschieben und ein Land antippen; Länderliste und Zentrierung bedienen; Hoch-/Querformat wechseln; Menü bedienen; Quizantwort geben, Seite neu laden und den JSON-Export über die Dateien-App speichern. Für diesen UI-Stand ist kein Spielstandreset vorgesehen.

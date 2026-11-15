@@ -146,3 +146,27 @@ node tests/storage.cjs
 Es gelten dieselben optionalen Playwright-/Chromium-Voraussetzungen und `MQ_BROWSER` wie bei `tests/browser.cjs`. Die Speicher-Suite stellt die lokalen Dateien direkt in isolierten Browserkontexten bereit, benötigt keinen laufenden Webserver, schreibt keine Testartefakte und berührt keinen echten Lernstand. Sie prüft zwölf Fallgruppen einschließlich Speicherfehlern, Versionskonflikten, Reset und wiederholter Abgabe.
 
 Die vollständigen Ergebnisse und die Grenzen der Prüfung stehen in `QA.md`. Eine echte iPad-Safari-Abnahme wird durch Chromium-Tests weiterhin nicht ersetzt.
+
+## iPad-Bedienung und lokale Lernstände bei GitHub Pages
+
+Die Pages-Seite lädt die Programmdateien über das Internet. Antworten, laufendes Training und Fortschritt werden anschließend automatisch im Browser auf dem jeweiligen Gerät gespeichert. Beim erneuten Öffnen desselben Links im selben Browser werden sie wieder gelesen. Dafür sind weder ein Download noch ein Import erforderlich. Die Anzeige „Lernstand lokal“ beschreibt diese Speicherung; sie verspricht keinen Offline-Start der veröffentlichten Website.
+
+Der Betreiber erhält keine automatische Ansicht der Antworten. Für die Besprechung exportiert die Schülerin ihren vollständigen Lernstand als JSON und schickt diese Datei an die Lehrkraft, die sie importiert. Der Export ist außerdem eine Sicherung bei Gerätewechsel oder gelöschten Browserdaten. Safari nach Möglichkeit ohne privaten Modus verwenden; Browser-Speicher ist kein dauerhaft garantiertes Backup.
+
+Die iPad-Ansicht enthält folgende Verbesserungen:
+
+- Größere Kartenbeschriftung: Die Levelangaben werden mit mindestens etwa 13 Bildschirm-Pixeln dargestellt. Die Karte lässt sich bei knapper Breite seitlich verschieben.
+- Direkte Länderliste mit allen 30 Ländern und der Zitadelle. Die Auswahl aktualisiert die Informationen unter der Karte und bringt das Land in den sichtbaren Kartenbereich. „Zur Auswahl auf der Karte“ richtet den Ausschnitt erneut aus.
+- Bei einem Klick auf ein Kartenland bleiben SVG, Scrollcontainer und horizontale Position bestehen. Es wird nur die Auswahl und das Informationsfeld aktualisiert.
+- Einklappbare Navigation bis 1.200 Pixel Breite sowie für Geräte mit primärer Touch-Eingabe. Der Menübutton zeigt den Zustand an; Escape und ein Klick außerhalb schließen die Navigation.
+- Menübutton, Quiznavigation, Fragennummern und Fachgebiet-Tabs haben mindestens 44 Pixel große Touch-Flächen. Antwortbuttons bleiben groß; Suchfelder und Auswahlfelder verwenden auf kleineren bzw. Touch-Geräten 16-Pixel-Schrift.
+
+Zusätzliche Layout- und Bedienungsprüfungen:
+
+```sh
+node tests/ipad.cjs
+```
+
+Die Suite nutzt wie die anderen Browsertests Playwright und einen vorhandenen Browser. Sie benötigt keinen lokalen Webserver und schreibt nur ignorierte Prüf-Screenshots in `tests/`. Wenn Playwright-WebKit bereits vorhanden ist, wird zusätzlich damit getestet. Andernfalls meldet der Test die fehlende WebKit-Prüfung ausdrücklich. Ein echter iPad-Safari-Test bleibt vor der Freigabe sinnvoll.
+
+Die Anpassung betrifft nur Darstellung und Bedienung. Fragen, XP-Regeln, Speicherformat und `progressVersion` bleiben unverändert. Ein Spielstandreset ist dafür nicht erforderlich.
