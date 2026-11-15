@@ -1,0 +1,31 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const scope={Intl,Date};vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname,'../review.js'),'utf8'),scope);const R=scope.MQ_REVIEW;
+const DAY=86400000,MIN=60000,t=Date.parse('2026-11-15T12:00:00Z');
+const qs=Array.from({length:18},(_,i)=>({id:'Q'+i,domain:['analysis','geometry','probability'][i%3]})),key=Object.fromEntries(qs.map(q=>[q.id,{correct:1}]));
+const session=(time,answers=[1],ids=['Q0'],guessed)=>({id:String(time),date:new Date(time).toISOString(),ids,answers,...(guessed?{guessed}:{}),mode:'review'});
+const build=(sessions=[],now=t)=>R.build(sessions,qs,key,now);
+let plan=build();assert.equal(plan.unseen.length,18);assert.equal(plan.remainingNew,5);assert.deepEqual([...plan.queue()],['Q0','Q1','Q2','Q3','Q4']);assert.ok(plan.queue('geometry').every(id=>qs.find(q=>q.id===id).domain==='geometry'));
+console.log('OK Neue Karten, gemischte Warteschlange und Fachstapel');
+let history=[],time=t;for(const days of R.INTERVALS){history.push(session(time));plan=build(history,time);assert.equal(plan.cards.Q0.dueAt,time+days*DAY);time+=days*DAY;}
+assert.equal(build(history,time).due[0].id,'Q0');assert.equal(build(history,time-1).due.length,0);
+console.log('OK Richtige Antworten: Intervalle 1/3/7/14/30/60/90 Tage und exakte Fälligkeit');
+plan=build([session(t),session(t+MIN)]);assert.equal(plan.cards.Q0.dueAt,t+DAY);assert.equal(plan.cards.Q0.step,0);
+console.log('OK Frühes Extraüben verlängert das laufende Intervall nicht');
+for(const [answer,delay] of [[-1,5],[0,10]]){plan=build([session(t,[answer])],t);assert.equal(plan.cards.Q0.dueAt,t+delay*MIN);assert.equal(plan.cards.Q0.step,-1);assert.equal(build([session(t,[answer])],t+delay*MIN).due.length,1);}
+plan=build([session(t,[1],['Q0'],[true])]);assert.equal(plan.cards.Q0.dueAt,t+10*MIN);assert.equal(plan.cards.Q0.guessed,1);assert.equal(plan.cards.Q0.step,-1);
+console.log('OK Weiß nicht, falsche und geratene Antworten bekommen kurze getrennte Termine');
+plan=build([session(t,[-1]),session(t+5*MIN)]);assert.equal(plan.cards.Q0.dueAt,t+5*MIN+DAY);assert.equal(plan.cards.Q0.unknown,1);
+console.log('OK Nach einem Lernfehler beginnt richtiges Wiederholen wieder mit einem Tag');
+plan=build([session(t,[null,1],['Q0','Q1'])]);assert.equal(plan.cards.Q0.firstAt,null);assert.equal(plan.introducedToday,1);
+console.log('OK Übersprungene Fragen werden nicht als gelernt eingeplant');
+const five=session(t,[1,1,1,1,1],qs.slice(0,5).map(q=>q.id));plan=build([five]);assert.equal(plan.remainingNew,0);assert.equal(plan.queue().length,0);assert.equal(build([five],t+DAY).remainingNew,5);assert.equal(build([five],t+DAY).queue().length,5);
+const berlinMidnight=Date.parse('2026-11-15T23:00:00Z');assert.equal(build([session(berlinMidnight-MIN)],berlinMidnight).remainingNew,5);
+console.log('OK Tageslimit gilt stapelübergreifend und wechselt um Mitternacht in Berlin');
+const dueHistory=[session(t,[-1,0],['Q10','Q11'])];plan=build(dueHistory,t+10*MIN);assert.deepEqual([...plan.queue().slice(0,2)],['Q10','Q11']);assert.ok(plan.queue().length<=5);
+console.log('OK Fällige Aufgaben kommen vor neuen Aufgaben, maximal fünf pro Runde');
+const reverse=[session(t+DAY,[0]),session(t)];assert.equal(build(reverse,t+DAY).cards.Q0.dueAt,t+DAY+10*MIN);
+console.log('OK Importierte Historie wird nach Zeit sortiert; Fehler setzt lange Intervalle zurück');
+const imported=JSON.parse(JSON.stringify(dueHistory));assert.equal(JSON.stringify(build(imported,t+10*MIN).cards),JSON.stringify(plan.cards));
+console.log('OK Planung ist nach JSON-Roundtrip identisch');
+console.log('Alle Wiederholungsplan-Prüfungen bestanden.');

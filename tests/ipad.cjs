@@ -6,13 +6,13 @@ let playwright;
 try{playwright=require('playwright');}
 catch{playwright=require('/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules/playwright');}
 const root=path.resolve(__dirname,'..'),url='https://mathequest.test/Mathe-Abi/';
-const allowed=new Set(['index.html','style.css','app.js','questions.js','final-questions.js','solutions.js','assets/favicon.svg','assets/quest.svg']);
+const allowed=new Set(['index.html','theme.js','theme.css','style.css','app.js','review.js','questions.js','final-questions.js','solutions.js','assets/favicon.svg','assets/quest.svg']);
 async function run(browserType,options,engine){
  const browser=await browserType.launch(options),context=await browser.newContext({hasTouch:true,viewport:{width:768,height:1024}}),errors=[];
  await context.route('**/*',route=>{const file=new URL(route.request().url()).pathname.replace('/Mathe-Abi/','')||'index.html';if(!allowed.has(file))return route.abort();return route.fulfill({body:fs.readFileSync(path.join(root,file)),contentType:file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':file.endsWith('.svg')?'image/svg+xml':'text/html'});});
  const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
  try{
-  await page.goto(url);await page.locator('.world-map').waitFor();
+  await page.goto(url+'#world');await page.locator('.world-map').waitFor();
   assert.equal(await page.locator('#country-choice option').count(),31);
   for(const [width,height] of [[768,1024],[820,1180],[834,1194],[1024,768],[1180,820],[1194,834],[744,1133],[520,1024],[390,844]]){
    await page.setViewportSize({width,height});
@@ -50,7 +50,7 @@ async function run(browserType,options,engine){
   console.log(`OK ${engine}: Direktauswahl, Zentrierung und Orientierung erhalten das ausgewählte Land`);
   await page.locator('#menu-button').click();assert.equal(await page.locator('#menu-button').getAttribute('aria-expanded'),'true');assert.equal(await page.locator('#menu-button').getAttribute('aria-label'),'Menü schließen');
   await page.keyboard.press('Escape');assert.equal(await page.locator('#menu-button').getAttribute('aria-expanded'),'false');assert.ok(await page.locator('#menu-button').evaluate(el=>el===document.activeElement));
-  await page.locator('#menu-button').click();await page.locator('[data-nav="training"]').click();await page.getByRole('heading',{name:'Dein Training. Dein Tempo.'}).waitFor();assert.equal(await page.locator('#menu-button').getAttribute('aria-expanded'),'false');
+  await page.locator('#menu-button').click();await page.locator('[data-nav="dashboard"]').click();await page.getByRole('heading',{name:'Heute lernen'}).waitFor();assert.equal(await page.locator('#menu-button').getAttribute('aria-expanded'),'false');
   await page.locator('#menu-button').click();await page.locator('.topbar-right .avatar').click();assert.equal(await page.locator('#menu-button').getAttribute('aria-expanded'),'false');
   await page.goto(url+'#skills');
   const tabs=await page.locator('.filter-tabs button').evaluateAll(els=>els.map(el=>({w:el.offsetWidth,h:el.offsetHeight})));assert.ok(tabs.every(r=>r.w>=44&&r.h>=44));
@@ -58,7 +58,7 @@ async function run(browserType,options,engine){
   const targets=await page.locator('.answer-option,.quiz-nav .btn,.question-dots button').evaluateAll(els=>els.map(el=>({w:el.offsetWidth,h:el.offsetHeight})));assert.ok(targets.every(r=>r.w>=44&&r.h>=44));
   await page.locator('[data-answer="0"]').click();await page.locator('.answer-feedback').waitFor();
   await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:path.join(root,`tests/ipad-${engine}-quiz.png`),animations:'disabled'});
-  const draft=await page.evaluate(()=>JSON.parse(localStorage.getItem('mathequest.v1')));assert.equal(draft.progressVersion,1);assert.equal(draft.active.answers[0],0);
+  const draft=await page.evaluate(()=>JSON.parse(localStorage.getItem('mathequest.v1')));assert.equal(draft.progressVersion,2);assert.equal(draft.active.answers[0],0);
   await page.reload();await page.locator('.answer-feedback').waitFor();assert.equal(await page.locator('[data-answer="0"]').getAttribute('aria-pressed'),'true');
   await page.locator('[data-action="quiz-next"]').click();await page.locator('[data-action="quiz-prev"]').click();await page.locator('.answer-feedback').waitFor();
   console.log(`OK ${engine}: Menü, Escape, Touch-Ziele ab 44 px, Sofortfeedback und Spielstand-Wiederherstellung`);
