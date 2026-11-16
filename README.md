@@ -1,14 +1,14 @@
 # MatheQuest
 
-MatheQuest ist eine browserbasierte Mathematik-Lernanwendung zur Vorbereitung auf das Abitur mit Schwerpunkt auf der mündlichen Prüfung. Das Projekt befindet sich in der Beta-Phase.
+MatheQuest 2.0 ist ein minimalistischer Lerntrainer für Analysis und analytische Geometrie zur Vorbereitung auf das mündliche Mathematik-Abitur. Das Projekt befindet sich in der Beta-Phase.
 
 ## Funktionen
 
-- 150 Basisaufgaben aus Analysis, Geometrie und Stochastik sowie neun anspruchsvollere Abschlussaufgaben.
-- Direkte Rückmeldung mit richtiger Lösung und kurzer Erklärung; zusätzliche Antwort „Weiß nicht“.
-- Drei Lernstapel mit zeitlich geplanten Wiederholungen und kurzen Übungsrunden.
-- Freie Themenwahl, Diagnose und Auswertung des Lernfortschritts.
-- Weltkarte, Level und XP als spielerische Begleitung.
+- Zehn aufeinander aufbauende Decks mit 106 vorhandenen Aufgaben aus Analysis und analytischer Geometrie.
+- Antwort auswählen und bestätigen, anschließend Lösung und Erklärung; zusätzliche Auswahl „Weiß nicht“.
+- Deckübergreifende Wiederholungen, kurze tägliche Runden und ein einstellbares Tageslimit neuer Fragen.
+- Freies Training nach offenem Deck, Fachgebiet und Unterthema, ohne Änderung der Wiederholungstermine.
+- Reduzierte Deck-Journey: 80 % verschiedener Fragen einmal richtig öffnen dauerhaft das nächste Deck.
 - Lösungswege und Anregungen zum mündlichen Erklären.
 - Helle und dunkle Darstellung sowie anpassbare Ansichten für unterschiedliche Bildschirmgrößen.
 
@@ -24,7 +24,7 @@ Alternativ den vollständigen Projektordner herunterladen und `index.html` in ei
 
 Der Lernstand wird automatisch im `localStorage` des verwendeten Browsers gespeichert. Derselbe Browser kann ihn beim erneuten Öffnen der gleichen Website wiederherstellen. Ein Geräte- oder Browserwechsel übernimmt den Stand nicht automatisch.
 
-Unter **Einstellungen & Daten** lässt sich der vollständige Lernstand als JSON exportieren und importieren. Ein Import ersetzt den bisherigen Stand erst nach Prüfung und Bestätigung. Regelmäßige Exporte dienen als Sicherung: Gelöschte Browserdaten oder privates Surfen können zum Verlust des lokalen Lernstands führen.
+Unter **Einstellungen & Daten** lässt sich der vollständige Lernstand als JSON exportieren und importieren. Ein Import ersetzt den bisherigen Stand erst nach Prüfung und Bestätigung. Ältere Spielstände benötigen eine bestätigte Übernahme; Original-Backups und alte Entwürfe bleiben dabei erhalten. Regelmäßige Exporte dienen als Sicherung: Gelöschte Browserdaten oder privates Surfen können zum Verlust des lokalen Lernstands führen.
 
 Es gibt keine automatische Synchronisierung oder Übermittlung von Lernständen an den Betreiber.
 
@@ -32,7 +32,7 @@ Es gibt keine automatische Synchronisierung oder Übermittlung von Lernständen 
 
 Die Anwendung verwendet HTML, CSS und Vanilla JavaScript ohne erforderlichen Build-Schritt oder eigenes Backend. `develop` dient der Entwicklung; GitHub Pages veröffentlicht `main`.
 
-MatheQuest ist ein Lernprototyp. Aufgaben, Bedienung und Wiederholungsplanung können sich ändern. Die Multiple-Choice-Ergebnisse ersetzen weder einen mündlichen Verständnisnachweis noch eine vollständige Prüfungsvorbereitung.
+Der Starterpool ist noch kleiner und leichter als die langfristig geplanten etwa 500 Aufgaben. Die [Deckbelegung und Architekturentscheidungen](DECKS.md) dokumentieren Umfang und Grenzen. Stochastik bleibt erhalten, ist aber derzeit inaktiv. Die Multiple-Choice-Ergebnisse ersetzen weder einen mündlichen Verständnisnachweis noch eine vollständige Prüfungsvorbereitung.
 
 ## Datenschutz-Hinweis
 
