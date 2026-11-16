@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101017">
-  <meta name="description" content="Deine lokale Lernreise zum mündlichen Mathematik-Abitur. 150 Aufgaben, 90 Teilkompetenzen und dein eigener Skill-Tree.">
-  <title>MatheQuest · Dein Weg zum Mathe-Abitur</title>
+  <meta name="description" content="Deine lokale Lernreise zum mündlichen Mathematik-Abitur. Zehn Decks für Analysis und analytische Geometrie. Lernen und zeitlich geplant wiederholen.">
+  <title>MatheQuest · Mathematik in kleinen Schritten</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <script src="theme.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="trainer.css">
   <script src="questions.js" defer></script>
   <script src="final-questions.js" defer></script>
+  <script src="journey.js" defer></script>
   <script src="review.js" defer></script>
   <script src="app.js" defer></script>
 </head>
@@ -41,7 +43,7 @@
     <a href="#dashboard" class="brand" aria-label="MatheQuest Startseite"><img src="assets/favicon.svg" alt="" width="35" height="40"><span>Mathe<span class="brand-light">Quest</span><small>DEIN WISSEN. DEIN ABENTEUER.</small></span></a>
     <nav aria-label="Hauptnavigation">
       <a href="#dashboard" data-nav="dashboard"><svg><use href="#i-zap"/></svg>Heute</a>
-      <a href="#world" data-nav="world"><svg><use href="#i-tree"/></svg>Weltkarte</a>
+      <a href="#decks" data-nav="decks"><svg><use href="#i-tree"/></svg>Decks</a>
       <a href="#progress" data-nav="progress"><svg><use href="#i-chart"/></svg>Fortschritt</a>
     </nav>
     <div class="sidebar-bottom">
@@ -50,7 +52,7 @@
     </div>
   </aside>
   <div class="app-shell">
-    <header class="topbar"><div class="breadcrumb"><button class="icon-btn mobile-menu" id="menu-button" aria-label="Menü öffnen" aria-controls="sidebar" aria-expanded="false"><svg><use href="#i-menu"/></svg></button><span>Dein Lernraum</span><svg><use href="#i-chevron"/></svg><strong id="page-label">Dashboard</strong></div><div class="topbar-right"><label class="theme-control" for="theme-choice"><span class="visually-hidden">Darstellung</span><select id="theme-choice" data-theme-choice><option value="system">System</option><option value="light">Hell</option><option value="dark">Dunkel</option></select></label><span class="offline"><span class="live-dot"></span> Lernstand lokal</span><span class="topbar-divider"></span><span class="header-level" id="header-level">Level 1</span><span class="avatar small">L</span></div></header>
+    <header class="topbar"><div class="breadcrumb"><button class="icon-btn mobile-menu" id="menu-button" aria-label="Menü öffnen" aria-controls="sidebar" aria-expanded="false"><svg><use href="#i-menu"/></svg></button><span>Dein Lernraum</span><svg><use href="#i-chevron"/></svg><strong id="page-label">Dashboard</strong></div><div class="topbar-right"><label class="theme-control" for="theme-choice"><span class="visually-hidden">Darstellung</span><select id="theme-choice" data-theme-choice><option value="system">System</option><option value="light">Hell</option><option value="dark">Dunkel</option></select></label><span class="offline"><span class="live-dot"></span> Lernstand lokal</span><span class="topbar-divider"></span><span class="header-level" id="header-level">0 XP</span></div></header>
     <main id="main" tabindex="-1"></main>
     <footer><span>MatheQuest <span class="muted">· Schritt für Schritt zum Abitur.</span></span><span><span class="live-dot"></span> Dein Fortschritt bleibt auf diesem Gerät.</span></footer>
   </div>
