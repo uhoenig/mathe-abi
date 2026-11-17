@@ -28,6 +28,11 @@ for q in questions:
  assert type(a['correct']) is int and 0<=a['correct']<=2
  assert len(a['steps'])>=2 and len(a['background'])>100
  assert a['explanation'] and a['oral'] and a['misconception']
+revised=json.loads((ROOT/'tools/solution_steps.json').read_text())
+assert set(revised)==set(solutions)
+for qid,steps in revised.items():
+ assert len(steps)>=3 and len(steps)==len(set(steps)),qid
+ assert solutions[qid]['steps']==steps,qid
 # Alle 150 Lösungsschlüssel gegen die ursprüngliche fachliche Redaktion prüfen.
 for prefix,bank in [('A',source.A),('G',source.G),('P',source.S)]:
  for i,rows in enumerate(bank):
@@ -113,3 +118,14 @@ assert (F(1,100)*F(99,100))/(F(1,100)*F(99,100)+F(99,100)*F(5,100))==F(1,6)
 assert sum(F(math.comb(10,k))*F(1,5)**k*F(4,5)**(10-k) for k in range(2,11))==1-F(4,5)**10-10*F(1,5)*F(4,5)**9
 assert F(11,1024)<F(5,100)<F(56,1024)
 print('OK: 9 schwierigere Abschlussaufgaben und deren Rechenwege unabhängig überprüft.')
+
+# LaTeX-Umsetzung muss die Struktur der Mathematik erhalten, nicht nur parsebar sein.
+from math_text import parts as math_parts
+tex=lambda text:' '.join(value for kind,value in math_parts(text) if kind=='math')
+assert tex('P(A ∩ B)/P(B)')==r'\frac{P\left(A \cap  B\right)}{P\left(B\right)}'
+assert tex('x/(x + 1)²')==r'\frac{x}{\left(x + 1\right)^{2}}'
+assert r'\int _{-1}^{1}' in tex('∫₋₁¹ (1 − x²) dx')
+assert tex('(uv)′')==r"\left(uv\right)'"
+print('OK: LaTeX erhält Funktionsargumente in Brüchen, Nennerpotenzen, Ableitungen und negative Integralgrenzen.')
+
+assert math_parts('Leite f(x) = x/(x + 1) für x ≠ −1 ab.')[-1]==['text',' ab.']

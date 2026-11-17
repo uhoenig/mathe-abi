@@ -341,6 +341,13 @@ def build():
     for q in questions:
         assert len(set(q['options']))==3
         assert 0<=solutions[q['id']]['correct']<3
+    # Redaktionelle, jugendgerechte Lösungswege zentral pflegen; alle Karten abdecken.
+    revised=json.loads((ROOT/'tools'/'solution_steps.json').read_text())
+    expected={q['id'] for q in questions} | {f'F{n:03}' for n in range(1,len(FINAL_ROWS)+1)}
+    assert set(revised)==expected
+    for qid,solution in solutions.items():
+        solution['steps']=revised[qid]
+        solution['explanation']=' '.join(revised[qid])
     dump=lambda obj:json.dumps(obj,ensure_ascii=False,indent=2)
     (ROOT/'questions.js').write_text('// Öffentliche Aufgaben und Kompetenzstruktur. Keine Lösungen.\nwindow.MQ_DOMAINS = '+dump(domains)+';\nwindow.MQ_QUESTIONS = '+dump(questions)+';\n')
     final=[]
@@ -348,9 +355,11 @@ def build():
         qid=f'F{n:03}';sid=f'{domain}-{area:02}'
         options=[answer,bad1,bad2];rotation=n%3;options=options[rotation:]+options[:rotation]
         final.append(dict(id=qid,domain=domain,skill=sid,subskill=f'{sid}-{sub}',difficulty=3,prompt=prompt,options=options))
-        steps=work.split('|')
+        steps=revised[qid]
         solutions[qid]=dict(correct=options.index(answer),explanation=' '.join(steps),steps=steps,background=BACKGROUNDS[domain][area-1],misconception=mistake,oral=oral)
     (ROOT/'final-questions.js').write_text('// Neun zusätzliche Level-60-Aufgaben; keine Lösungsschlüssel.\nwindow.MQ_FINAL_QUESTIONS = '+dump(final)+';\n')
     (ROOT/'solutions.js').write_text('// Separater Lösungsschlüssel. Wird für Sofortfeedback nach einer Antwort bzw. im freigegebenen Lernmodus geladen.\n// Lokal keine echte Zugriffssicherung: diese Datei bleibt einsehbar.\nwindow.MQ_SOLUTIONS = '+dump(solutions)+';\n')
+    from math_text import build as build_math
+    build_math()
     print('Erstellt: 3 Gebiete, 30 Bereiche, 90 Teilkompetenzen, 150 Einstiegsaufgaben + 9 Level-60-Aufgaben mit Lösungen.')
 if __name__=='__main__': build()

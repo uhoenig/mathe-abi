@@ -25,9 +25,9 @@ function plan(learning,decks,now=Date.now(),config=root.MQ_JOURNEY.CONFIG){
  const ids=decks.filter(d=>learning.unlockedDecks.includes(d.id)).flatMap(d=>d.questionIds),today=learning.daily[dayKey(now)]||{newIds:[],answered:0,sessions:[]};
  const due=ids.filter(id=>learning.reviews[id]?.dueAt&&Date.parse(learning.reviews[id].dueAt)<=now).sort((a,b)=>Date.parse(learning.reviews[a].dueAt)-Date.parse(learning.reviews[b].dueAt));
  const later=ids.filter(id=>learning.reviews[id]?.dueAt&&Date.parse(learning.reviews[id].dueAt)>now).sort((a,b)=>Date.parse(learning.reviews[a].dueAt)-Date.parse(learning.reviews[b].dueAt));
- const current=decks.find(d=>d.id===learning.currentDeck),remainingNew=Math.max(0,learning.newPerDay-today.newIds.length);
- const newIds=(current?.questionIds||[]).filter(id=>!learning.reviews[id]).slice(0,remainingNew);
- return {due,later,newIds,remainingNew,today,queue:[...due,...newIds].slice(0,config.batchSize),nextDue:later.length?learning.reviews[later[0]].dueAt:null};
+ const current=decks.find(d=>d.id===learning.currentDeck);
+ const newIds=(current?.questionIds||[]).filter(id=>!learning.reviews[id]);
+ return {due,later,newIds,today,queue:[...due,...newIds],nextDue:later.length?learning.reviews[later[0]].dueAt:null};
 }
 function migrate(sessions,solutions,allowed){let learning=root.MQ_JOURNEY.fresh();for(const s of [...sessions].sort((a,b)=>Date.parse(a.date)-Date.parse(b.date)))learning=apply(learning,{...s,mode:'daily'},solutions,allowed);return learning;}
 root.MQ_REVIEW=Object.freeze({dayKey,apply,plan,migrate});
