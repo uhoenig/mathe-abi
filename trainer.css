@@ -9,3 +9,7 @@ body{font-size:15px}.app-shell main{max-width:1280px;margin:0 auto;padding:36px 
 @media print{.daily-card,.journey-station{background:white;color:#111}.quiet-note,.report-hero p{color:#333}.report-next{display:none}.report-rewards{display:none}.report-question{break-inside:avoid}.report-details .disclosure-body{display:block}}
 
 .journey-station{padding:17px}.journey-station h2{min-height:0;margin:11px 0 7px}.journey-station>p{min-height:0;margin-bottom:13px}.journey-station .progress-track{margin-bottom:13px}
+
+/* Stets erreichbarer Einstieg, auch in der fokussierten Lernansicht. */
+.home-link{display:inline-flex;align-items:center;min-height:44px;color:var(--text-soft);font-size:14px;white-space:nowrap}.home-link:hover{color:var(--link);text-decoration:underline}
+@media(max-width:680px){.breadcrumb>#page-label{display:none}.topbar .breadcrumb{gap:8px}.home-link{font-size:13px}.is-learning .topbar .breadcrumb{flex:none}}
