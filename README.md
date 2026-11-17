@@ -6,8 +6,9 @@ MatheQuest 2.0 ist ein minimalistischer Lerntrainer für Analysis und analytisch
 
 - Zehn aufeinander aufbauende Decks mit 106 vorhandenen Aufgaben aus Analysis und analytischer Geometrie.
 - Antwort anklicken und sofort Lösung und Erklärung sehen; zusätzliche Auswahl „Weiß nicht“.
-- Deckübergreifende Wiederholungen, kurze tägliche Runden und ein einstellbares Tageslimit neuer Fragen.
-- Freies Training nach offenem Deck, Fachgebiet und Unterthema, ohne Änderung der Wiederholungstermine.
+- Deckübergreifende Wiederholungen und neue Fragen ohne Tages- oder Rundenlimit; jederzeit weiterüben.
+- LaTeX-Darstellung von Formeln mit lokal eingebundenem KaTeX, auch offline.
+- Themenkarten für Analysis und analytische Geometrie mit Schwierigkeitsstufen und sichtbarer Freischaltung.
 - Reduzierte Deck-Journey: 80 % verschiedener Fragen einmal richtig öffnen dauerhaft das nächste Deck.
 - Lösungswege und Anregungen zum mündlichen Erklären.
 - Helle und dunkle Darstellung sowie anpassbare Ansichten für unterschiedliche Bildschirmgrößen.

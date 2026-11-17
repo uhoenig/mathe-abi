@@ -15,11 +15,14 @@ assert.equal(learning.reviews[ids[0]].attempts,6);assert.equal(learning.reviews[
 console.log('OK Gespeicherte Intervalle 1/3/7/14/30/60, Versuche, richtige Antworten und Wiederholungsstufe');
 learning=R.apply(learning,record([ids[0]],[-1],'lapse','daily',new Date(time).toISOString()),key,J.questionIds);assert.equal(learning.reviews[ids[0]].step,-1);assert.equal(Date.parse(learning.reviews[ids[0]].dueAt),time+DAY);const copy=JSON.stringify(learning);assert.equal(JSON.stringify(R.apply(learning,record([ids[0]],[key[ids[0]].correct],'free','free'),key,J.questionIds)),copy);
 console.log('OK Fehler/Weiß nicht verkürzt auf morgen; freies Training verändert keinen Lernplan');
-let cross=J.fresh();cross.unlockedDecks=[1,2,3,4];cross.currentDeck=4;cross=R.apply(cross,record(['A001','G006'],[key.A001.correct,key.G006.correct],'past','daily',new Date(t-DAY).toISOString()),key,J.questionIds);let plan=R.plan(cross,J.decks,t);assert.deepEqual([...plan.due],['A001','G006']);assert.deepEqual([...plan.queue.slice(0,2)],['A001','G006']);assert.ok(plan.queue.slice(2).every(id=>J.deckFor[id]===4));assert.equal(plan.queue.length,10);
+let cross=J.fresh();cross.unlockedDecks=[1,2,3,4];cross.currentDeck=4;cross=R.apply(cross,record(['A001','G006'],[key.A001.correct,key.G006.correct],'past','daily',new Date(t-DAY).toISOString()),key,J.questionIds);let plan=R.plan(cross,J.decks,t);assert.deepEqual([...plan.due],['A001','G006']);assert.deepEqual([...plan.queue.slice(0,2)],['A001','G006']);assert.ok(plan.queue.slice(2).every(id=>J.deckFor[id]===4));assert.equal(plan.queue.length,12);
 console.log('OK Gemeinsame fällige Warteschlange aus mehreren Decks vor neuen Fragen des aktuellen Decks');
-let daily=J.fresh();daily=R.apply(daily,record(ids,ids.map(id=>key[id].correct),'daily','daily',new Date(t).toISOString()),key,J.questionIds);daily.unlockedDecks=[1,2];daily.currentDeck=2;assert.equal(R.plan(daily,J.decks,t).newIds.length,0);assert.equal(R.plan(daily,J.decks,t+DAY).newIds.length,10);const midnight=Date.parse('2026-11-16T23:00:00Z');assert.notEqual(R.dayKey(midnight-1),R.dayKey(midnight));
+let daily=J.fresh();daily.newPerDay=10;daily=R.apply(daily,record(ids,ids.map(id=>key[id].correct),'daily','daily',new Date(t).toISOString()),key,J.questionIds);daily.unlockedDecks=[1,2];daily.currentDeck=2;assert.equal(R.plan(daily,J.decks,t).newIds.length,10);assert.equal(R.plan(daily,J.decks,t+DAY).newIds.length,10);const midnight=Date.parse('2026-11-16T23:00:00Z');assert.notEqual(R.dayKey(midnight-1),R.dayKey(midnight));
 assert.equal(JSON.stringify(R.apply(daily,record(ids,ids.map(id=>key[id].correct),'daily','daily',new Date(t).toISOString()),key,J.questionIds)),JSON.stringify(daily));
-console.log('OK Tageslimit, Berliner Tageswechsel und idempotente Zeitplan-Aktualisierung');
+console.log('OK Unbegrenzte neue Fragen, Berliner Tageswechsel und idempotente Zeitplan-Aktualisierung');
 assert.equal(JSON.stringify(R.plan(JSON.parse(JSON.stringify(cross)),J.decks,t)),JSON.stringify(plan));
 console.log('OK Exportierbarer Snapshot liefert identische Termine und Warteschlange nach Wiederherstellung');
+assert.equal(J.fresh().newPerDay,null);
+const full=J.fresh();full.unlockedDecks=[1,2,3,4];for(const id of J.questionIds.slice(0,40))full.reviews[id]={dueAt:new Date(t-DAY).toISOString()};assert.equal(R.plan(full,J.decks,t).queue.length,40);
+console.log('OK Alle 40 fälligen Fragen ohne Rundenlimit; alte Tageslimits werden ignoriert');
 console.log('Alle Deck- und Wiederholungsprüfungen bestanden.');

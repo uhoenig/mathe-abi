@@ -1,14 +1,14 @@
 /* Stabile Deckbelegung. Fragen und Lösungsschlüssel bleiben in ihren bisherigen Dateien. */
 (function(root){
 'use strict';
-const CONFIG=Object.freeze({deckVersion:1,intervalDays:Object.freeze([1,3,7,14,30,60]),lapseDays:1,batchSize:10,newPerDay:10});
+const CONFIG=Object.freeze({deckVersion:1,intervalDays:Object.freeze([1,3,7,14,30,60]),lapseDays:1});
 const names=['Grundlagen','Funktionen & Vektoren','Regeln anwenden','Verfahren verstehen','Ableitung & Winkel','Verfahren kombinieren','Zusammenhänge','Integral & Ebene','Modelle & Schnittpunkte','Prüfungsausblick'];
-const levels=['Sehr leicht','Leicht','Leicht','Leicht–mittel','Mittel','Mittel','Verständnis · Starterpool','Vertiefung · Starterpool','Transfer · Starterpool','Prüfungsnaher Starterpool'];
+const levels=['Sehr leicht','Leicht','Leicht','Leicht–mittel','Mittel','Mittel','Mittel','Mittel','Mittel','Mittel–schwer'];
 const range=(prefix,start,end)=>Array.from({length:end-start+1},(_,i)=>prefix+String(start+i).padStart(3,'0'));
 const decks=names.map((name,i)=>Object.freeze({id:i+1,name,level:levels[i],format:'multiple-choice',targetCount:50,questionIds:Object.freeze([...range('A',i*5+1,i*5+5),...range('G',i*5+1,i*5+5),...(i===9?range('F',1,6):[])])}));
 const questionIds=Object.freeze(decks.flatMap(d=>d.questionIds));
 const deckFor=Object.freeze(Object.fromEntries(decks.flatMap(d=>d.questionIds.map(id=>[id,d.id]))));
-function fresh(){return {deckVersion:CONFIG.deckVersion,unlockedDecks:[1],currentDeck:1,newPerDay:CONFIG.newPerDay,reviews:{},daily:{}};}
+function fresh(){return {deckVersion:CONFIG.deckVersion,unlockedDecks:[1],currentDeck:1,newPerDay:null,reviews:{},daily:{}};}
 function progress(sessions,solutions,manifest=decks){
  const correct=new Set();for(const s of sessions)for(let i=0;i<s.ids.length;i++)if(s.answers[i]!==null&&s.answers[i]===solutions[s.ids[i]]?.correct)correct.add(s.ids[i]);
  return manifest.map(d=>({id:d.id,total:d.questionIds.length,correct:d.questionIds.filter(id=>correct.has(id)).length,required:Math.ceil(d.questionIds.length*.8),complete:d.questionIds.length>0&&d.questionIds.filter(id=>correct.has(id)).length>=Math.ceil(d.questionIds.length*.8)}));
