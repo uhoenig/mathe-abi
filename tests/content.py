@@ -15,7 +15,7 @@ qmap={q['id']:q for q in questions}
 assert len(domains)==3 and sum(len(d['skills']) for d in domains)==30
 assert sum(len(s['subskills']) for d in domains for s in d['skills'])==90
 assert len(questions)==len(qmap)==150
-assert len(solutions)==159
+assert len(solutions)==555
 assert set(Counter(q['domain'] for q in questions).values())=={50}
 assert set(Counter(q['skill'] for q in questions).values())=={5}
 assert len({q['subskill'] for q in questions})==90
@@ -29,7 +29,7 @@ for q in questions:
  assert len(a['steps'])>=2 and len(a['background'])>100
  assert a['explanation'] and a['oral'] and a['misconception']
 revised=json.loads((ROOT/'tools/solution_steps.json').read_text())
-assert set(revised)==set(solutions)
+assert set(revised)<=set(solutions)
 for qid,steps in revised.items():
  assert len(steps)>=3 and len(steps)==len(set(steps)),qid
  assert solutions[qid]['steps']==steps,qid

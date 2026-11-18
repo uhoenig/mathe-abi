@@ -358,6 +358,9 @@ def build():
         steps=revised[qid]
         solutions[qid]=dict(correct=options.index(answer),explanation=' '.join(steps),steps=steps,background=BACKGROUNDS[domain][area-1],misconception=mistake,oral=oral)
     (ROOT/'final-questions.js').write_text('// Neun zusätzliche Level-60-Aufgaben; keine Lösungsschlüssel.\nwindow.MQ_FINAL_QUESTIONS = '+dump(final)+';\n')
+    from build_expansion import build_expansion
+    _,extra_solutions,_,_=build_expansion()
+    solutions.update(extra_solutions)
     (ROOT/'solutions.js').write_text('// Separater Lösungsschlüssel. Wird für Sofortfeedback nach einer Antwort bzw. im freigegebenen Lernmodus geladen.\n// Lokal keine echte Zugriffssicherung: diese Datei bleibt einsehbar.\nwindow.MQ_SOLUTIONS = '+dump(solutions)+';\n')
     from math_text import build as build_math
     build_math()

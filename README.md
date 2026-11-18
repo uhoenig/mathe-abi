@@ -4,12 +4,12 @@ MatheQuest 2.0 ist ein minimalistischer Lerntrainer für Analysis und analytisch
 
 ## Funktionen
 
-- Zehn aufeinander aufbauende Decks mit 106 vorhandenen Aufgaben aus Analysis und analytischer Geometrie.
+- Zehn aufeinander aufbauende Decks mit 502 Aufgaben aus Analysis und analytischer Geometrie.
 - Antwort anklicken und sofort Lösung und Erklärung sehen; zusätzliche Auswahl „Weiß nicht“.
 - Deckübergreifende Wiederholungen und neue Fragen ohne Tages- oder Rundenlimit; jederzeit weiterüben.
 - LaTeX-Darstellung von Formeln mit lokal eingebundenem KaTeX, auch offline.
 - Themenkarten für Analysis und analytische Geometrie mit Schwierigkeitsstufen und sichtbarer Freischaltung.
-- Reduzierte Deck-Journey: 80 % verschiedener Fragen einmal richtig öffnen dauerhaft das nächste Deck.
+- Kompetenzbasierte Deckfreischaltung: je ein Grundnachweis pro Pflichtkompetenz öffnet dauerhaft das nächste Deck. Mittlere und schwere Varianten sind Vertiefung.
 - Lösungswege und Anregungen zum mündlichen Erklären.
 - Helle und dunkle Darstellung sowie anpassbare Ansichten für unterschiedliche Bildschirmgrößen.
 
@@ -33,7 +33,7 @@ Es gibt keine automatische Synchronisierung oder Übermittlung von Lernständen 
 
 Die Anwendung verwendet HTML, CSS und Vanilla JavaScript ohne erforderlichen Build-Schritt oder eigenes Backend. `develop` dient der Entwicklung; GitHub Pages veröffentlicht `main`.
 
-Der Starterpool ist noch kleiner und leichter als die langfristig geplanten etwa 500 Aufgaben. Die [Deckbelegung und Architekturentscheidungen](DECKS.md) dokumentieren Umfang und Grenzen. Stochastik bleibt erhalten, ist aber derzeit inaktiv. Die Multiple-Choice-Ergebnisse ersetzen weder einen mündlichen Verständnisnachweis noch eine vollständige Prüfungsvorbereitung.
+Der Pool umfasst 502 aktive Aufgaben und 66 Kompetenzen. Die [Deckbelegung](DECKS.md), der [Ausbaubericht](COVERAGE.md) und die [fachliche Nachprüfliste](MANUAL_REVIEW.md) dokumentieren Umfang, Prüfstatus und Grenzen. Stochastik bleibt erhalten, ist aber derzeit inaktiv. Die Multiple-Choice-Ergebnisse ersetzen weder einen mündlichen Verständnisnachweis noch eine vollständige Prüfungsvorbereitung.
 
 ## Datenschutz-Hinweis
 
