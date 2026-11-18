@@ -1,0 +1,3 @@
+# Nur Entwicklung und mathematische Qualitätssicherung; keine App-Abhängigkeiten.
+sympy==1.14.0
+mpmath==1.3.0

@@ -1918,5 +1918,4578 @@ window.MQ_SOLUTIONS = {
     "background": "Ein Hypothesentest prüft eine Nullhypothese anhand eines zuvor festgelegten Ablehnungsbereichs. Ein Fehler 1. Art verwirft eine wahre H₀, ein Fehler 2. Art verwirft eine falsche H₀ nicht. Das Signifikanzniveau begrenzt die Wahrscheinlichkeit des Fehlers 1. Art unter H₀; Nichtverwerfen beweist H₀ nicht.",
     "misconception": "Den Ablehnungsbereich wählen, ohne seine gesamte Wahrscheinlichkeit unter H₀ zu berechnen.",
     "oral": "Warum wird das vorgegebene Signifikanzniveau bei einer diskreten Verteilung oft nicht genau ausgeschöpft?"
+  },
+  "A101": {
+    "correct": 1,
+    "explanation": "Bringe beide Brüche auf den gemeinsamen Nenner 6. Erweitere den ersten Zähler mit 2; die Zähler werden anschließend addiert. Damit erhältst du \\(\\frac{1}{2}\\).",
+    "steps": [
+      "Bringe beide Brüche auf den gemeinsamen Nenner 6.",
+      "Erweitere den ersten Zähler mit 2; die Zähler werden anschließend addiert.",
+      "Damit erhältst du \\(\\frac{1}{2}\\)."
+    ],
+    "background": "Brüche addieren, kürzen und Terme unter Beachtung des Definitionsbereichs umformen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A103": {
+    "correct": 2,
+    "explanation": "Zerlege die Differenz von Quadraten in \\(\\left(x - 3\\right) \\left(x + 3\\right)\\). Kürze nur den gemeinsamen Faktor \\(x + 3\\), nicht einzelne Summanden. Damit erhältst du \\(x - 3\\).",
+    "steps": [
+      "Zerlege die Differenz von Quadraten in \\(\\left(x - 3\\right) \\left(x + 3\\right)\\).",
+      "Kürze nur den gemeinsamen Faktor \\(x + 3\\), nicht einzelne Summanden.",
+      "Damit erhältst du \\(x - 3\\)."
+    ],
+    "background": "Brüche addieren, kürzen und Terme unter Beachtung des Definitionsbereichs umformen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A105": {
+    "correct": 0,
+    "explanation": "Der ursprüngliche Nenner wird bei dieser Stelle 0. Durch 0 darfst du nicht teilen. Die Gleichheit mit der gekürzten Form gilt nur auf dem ursprünglichen Definitionsbereich.",
+    "steps": [
+      "Der ursprüngliche Nenner wird bei dieser Stelle 0. Durch 0 darfst du nicht teilen.",
+      "Die Gleichheit mit der gekürzten Form gilt nur auf dem ursprünglichen Definitionsbereich."
+    ],
+    "background": "Brüche addieren, kürzen und Terme unter Beachtung des Definitionsbereichs umformen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A107": {
+    "correct": 0,
+    "explanation": "Bei gleicher Basis addierst du beim Multiplizieren die Exponenten. Der negative Exponent bedeutet einen Kehrwert; hier rechnest du 3 − 2. Damit erhältst du \\(x\\).",
+    "steps": [
+      "Bei gleicher Basis addierst du beim Multiplizieren die Exponenten.",
+      "Der negative Exponent bedeutet einen Kehrwert; hier rechnest du 3 − 2.",
+      "Damit erhältst du \\(x\\)."
+    ],
+    "background": "Potenzgesetze einschließlich negativer Exponenten sicher anwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A109": {
+    "correct": 1,
+    "explanation": "Eine Potenz wird potenziert: Die Exponenten werden multipliziert. Das Minus bleibt erhalten: -3 · 2 = -6. Damit erhältst du \\(\\frac{1}{x^{6}}\\).",
+    "steps": [
+      "Eine Potenz wird potenziert: Die Exponenten werden multipliziert.",
+      "Das Minus bleibt erhalten: -3 · 2 = -6.",
+      "Damit erhältst du \\(\\frac{1}{x^{6}}\\)."
+    ],
+    "background": "Potenzgesetze einschließlich negativer Exponenten sicher anwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A111": {
+    "correct": 2,
+    "explanation": "Fasse zuerst im Zähler die x-Potenzen zusammen. Teilen durch x hoch −1 ist Multiplizieren mit x; der Zahlenfaktor bleibt im Nenner. Damit erhältst du \\(\\frac{x^{2}}{2}\\).",
+    "steps": [
+      "Fasse zuerst im Zähler die x-Potenzen zusammen.",
+      "Teilen durch x hoch −1 ist Multiplizieren mit x; der Zahlenfaktor bleibt im Nenner.",
+      "Damit erhältst du \\(\\frac{x^{2}}{2}\\)."
+    ],
+    "background": "Potenzgesetze einschließlich negativer Exponenten sicher anwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A113": {
+    "correct": 2,
+    "explanation": "Die Quadratwurzel ist per Definition nichtnegativ. Gesucht ist die Zahl, deren Quadrat 9 ergibt. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die Quadratwurzel ist per Definition nichtnegativ.",
+      "Gesucht ist die Zahl, deren Quadrat 9 ergibt.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Wurzeln und gebrochene Exponenten umformen und Einschränkungen beachten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A115": {
+    "correct": 0,
+    "explanation": "Schreibe die Wurzel als Potenz: \\(\\sqrt{x} = \\sqrt{x}\\). Beim Multiplizieren gleicher Basen werden die Exponenten addiert. Damit erhältst du \\(x^{\\frac{5}{2}}\\).",
+    "steps": [
+      "Schreibe die Wurzel als Potenz: \\(\\sqrt{x} = \\sqrt{x}\\).",
+      "Beim Multiplizieren gleicher Basen werden die Exponenten addiert.",
+      "Damit erhältst du \\(x^{\\frac{5}{2}}\\)."
+    ],
+    "background": "Wurzeln und gebrochene Exponenten umformen und Einschränkungen beachten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A117": {
+    "correct": 1,
+    "explanation": "Die Quadratwurzel liefert nie einen negativen Wert. Für x unterhalb von 2 ist x − 2 negativ und muss sein Vorzeichen wechseln; oberhalb bleibt es stehen.",
+    "steps": [
+      "Die Quadratwurzel liefert nie einen negativen Wert.",
+      "Für x unterhalb von 2 ist x − 2 negativ und muss sein Vorzeichen wechseln; oberhalb bleibt es stehen."
+    ],
+    "background": "Wurzeln und gebrochene Exponenten umformen und Einschränkungen beachten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A119": {
+    "correct": 1,
+    "explanation": "Natürlicher Logarithmus und Exponentialfunktion sind Umkehrfunktionen. Der Logarithmus fragt nach dem Exponenten zur Basis e. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Natürlicher Logarithmus und Exponentialfunktion sind Umkehrfunktionen.",
+      "Der Logarithmus fragt nach dem Exponenten zur Basis e.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Logarithmengesetze und Exponentialgleichungen mit positiven Argumenten nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A121": {
+    "correct": 2,
+    "explanation": "Für positive Argumente gilt ln(x hoch n) = n ln(x). Ziehe anschließend einmal ln(x) ab; die Koeffizienten werden zusammengefasst. Damit erhältst du \\(2 \\ln{\\left(x \\right)}\\).",
+    "steps": [
+      "Für positive Argumente gilt ln(x hoch n) = n ln(x).",
+      "Ziehe anschließend einmal ln(x) ab; die Koeffizienten werden zusammengefasst.",
+      "Damit erhältst du \\(2 \\ln{\\left(x \\right)}\\)."
+    ],
+    "background": "Logarithmengesetze und Exponentialgleichungen mit positiven Argumenten nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A123": {
+    "correct": 0,
+    "explanation": "Die Logarithmusregel betrifft Produkte: ln(ab) = ln(a) + ln(b). Eine Summe im Argument darfst du nicht auf diese Weise zerlegen; Einsetzen eines positiven Werts liefert ein Gegenbeispiel.",
+    "steps": [
+      "Die Logarithmusregel betrifft Produkte: ln(ab) = ln(a) + ln(b).",
+      "Eine Summe im Argument darfst du nicht auf diese Weise zerlegen; Einsetzen eines positiven Werts liefert ein Gegenbeispiel."
+    ],
+    "background": "Logarithmengesetze und Exponentialgleichungen mit positiven Argumenten nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A125": {
+    "correct": 0,
+    "explanation": "Addiere 6 auf beiden Seiten. Teile danach beide Seiten durch 3. Damit erhältst du \\(5\\).",
+    "steps": [
+      "Addiere 6 auf beiden Seiten.",
+      "Teile danach beide Seiten durch 3.",
+      "Damit erhältst du \\(5\\)."
+    ],
+    "background": "Lineare, quadratische und biquadratische Gleichungen lösen und Lösungen prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A127": {
+    "correct": 1,
+    "explanation": "Bringe die Konstante auf die rechte Seite: x² = 9. Sowohl 3 als auch -3 ergeben beim Quadrieren die geforderte Zahl.",
+    "steps": [
+      "Bringe die Konstante auf die rechte Seite: x² = 9.",
+      "Sowohl 3 als auch -3 ergeben beim Quadrieren die geforderte Zahl."
+    ],
+    "background": "Lineare, quadratische und biquadratische Gleichungen lösen und Lösungen prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A129": {
+    "correct": 2,
+    "explanation": "Die linke Seite ist für alle zulässigen x nichtnegativ, rechts steht eine negative Zahl. Schon vor dem Rechnen ist klar, dass die Gleichung keine Lösung hat. Quadrieren könnte eine Scheinlösung erzeugen.",
+    "steps": [
+      "Die linke Seite ist für alle zulässigen x nichtnegativ, rechts steht eine negative Zahl.",
+      "Schon vor dem Rechnen ist klar, dass die Gleichung keine Lösung hat. Quadrieren könnte eine Scheinlösung erzeugen."
+    ],
+    "background": "Lineare, quadratische und biquadratische Gleichungen lösen und Lösungen prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A131": {
+    "correct": 2,
+    "explanation": "Ein Nenner darf nicht 0 werden. Genau x = 3 ist ausgeschlossen; negative Nenner sind sonst durchaus erlaubt.",
+    "steps": [
+      "Ein Nenner darf nicht 0 werden.",
+      "Genau x = 3 ist ausgeschlossen; negative Nenner sind sonst durchaus erlaubt."
+    ],
+    "background": "Zulässige Eingaben und mögliche Ausgaben von Funktionen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A133": {
+    "correct": 0,
+    "explanation": "Das Argument des reellen Logarithmus muss strikt positiv sein. Löse x − 3 > 0. Der Randwert gehört nicht dazu, und alle kleineren Werte fallen ebenfalls weg.",
+    "steps": [
+      "Das Argument des reellen Logarithmus muss strikt positiv sein.",
+      "Löse x − 3 > 0. Der Randwert gehört nicht dazu, und alle kleineren Werte fallen ebenfalls weg."
+    ],
+    "background": "Zulässige Eingaben und mögliche Ausgaben von Funktionen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A135": {
+    "correct": 1,
+    "explanation": "Das Quadrat ist nie negativ und wird bei x = 3 gleich 0. Durch die Addition wird der kleinste Wert 2. Jeder größere Wert ist erreichbar.",
+    "steps": [
+      "Das Quadrat ist nie negativ und wird bei x = 3 gleich 0.",
+      "Durch die Addition wird der kleinste Wert 2. Jeder größere Wert ist erreichbar."
+    ],
+    "background": "Zulässige Eingaben und mögliche Ausgaben von Funktionen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A137": {
+    "correct": 1,
+    "explanation": "Setze 2 für jede Stelle x ein. Multipliziere zuerst und ziehe anschließend die Konstante ab. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Setze 2 für jede Stelle x ein.",
+      "Multipliziere zuerst und ziehe anschließend die Konstante ab.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Lineare, quadratische, polynomiale und Potenzfunktionen erkennen und auswerten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A139": {
+    "correct": 2,
+    "explanation": "Eine gerade Potenz ändert ihren Wert bei x und −x nicht. Der Potenzteil ist nichtnegativ; der kleinste Funktionswert ist −3.",
+    "steps": [
+      "Eine gerade Potenz ändert ihren Wert bei x und −x nicht.",
+      "Der Potenzteil ist nichtnegativ; der kleinste Funktionswert ist −3."
+    ],
+    "background": "Lineare, quadratische, polynomiale und Potenzfunktionen erkennen und auswerten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A141": {
+    "correct": 0,
+    "explanation": "Die Ableitung lautet 3x² − 3 und ist nicht konstant. Eine Gerade hätte dagegen dieselbe Steigung an jeder Stelle; ein lineares Modell kann höchstens lokal angenähert passen.",
+    "steps": [
+      "Die Ableitung lautet 3x² − 3 und ist nicht konstant.",
+      "Eine Gerade hätte dagegen dieselbe Steigung an jeder Stelle; ein lineares Modell kann höchstens lokal angenähert passen."
+    ],
+    "background": "Lineare, quadratische, polynomiale und Potenzfunktionen erkennen und auswerten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A143": {
+    "correct": 0,
+    "explanation": "Orientiere dich am Einheitskreis. Sinus ist die y-Koordinate, Kosinus die x-Koordinate des zugehörigen Kreispunkts. Damit erhältst du \\(1\\).",
+    "steps": [
+      "Orientiere dich am Einheitskreis.",
+      "Sinus ist die y-Koordinate, Kosinus die x-Koordinate des zugehörigen Kreispunkts.",
+      "Damit erhältst du \\(1\\)."
+    ],
+    "background": "Bogenmaß, Periodizität und grundlegende Eigenschaften trigonometrischer Funktionen nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A145": {
+    "correct": 1,
+    "explanation": "Sinus wiederholt seine Werte nach einer Änderung des Arguments um 2π. Für n x muss deshalb n T = 2π gelten. Löse nach T auf. Damit erhältst du \\(\\frac{2 \\pi}{3}\\).",
+    "steps": [
+      "Sinus wiederholt seine Werte nach einer Änderung des Arguments um 2π.",
+      "Für n x muss deshalb n T = 2π gelten. Löse nach T auf.",
+      "Damit erhältst du \\(\\frac{2 \\pi}{3}\\)."
+    ],
+    "background": "Bogenmaß, Periodizität und grundlegende Eigenschaften trigonometrischer Funktionen nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A147": {
+    "correct": 2,
+    "explanation": "Der Faktor 2 vor dem Kosinus skaliert die Höhe. Der Faktor 3 im Argument verändert die Periodenlänge. Kein addierter Wert außerhalb der Funktion bedeutet keine vertikale Verschiebung.",
+    "steps": [
+      "Der Faktor 2 vor dem Kosinus skaliert die Höhe. Der Faktor 3 im Argument verändert die Periodenlänge.",
+      "Kein addierter Wert außerhalb der Funktion bedeutet keine vertikale Verschiebung."
+    ],
+    "background": "Bogenmaß, Periodizität und grundlegende Eigenschaften trigonometrischer Funktionen nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A149": {
+    "correct": 2,
+    "explanation": "Die Zahl wird erst nach dem Funktionswert addiert. Jeder y-Wert wird um 3 größer; der x-Wert bleibt derselbe.",
+    "steps": [
+      "Die Zahl wird erst nach dem Funktionswert addiert.",
+      "Jeder y-Wert wird um 3 größer; der x-Wert bleibt derselbe."
+    ],
+    "background": "Verschiebungen, Spiegelungen und Streckungen erklären und kombinieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A151": {
+    "correct": 0,
+    "explanation": "x − 2 im Inneren verschiebt den Graphen nach rechts. Das äußere Minus wechselt anschließend alle y-Vorzeichen und spiegelt an der x-Achse.",
+    "steps": [
+      "x − 2 im Inneren verschiebt den Graphen nach rechts.",
+      "Das äußere Minus wechselt anschließend alle y-Vorzeichen und spiegelt an der x-Achse."
+    ],
+    "background": "Verschiebungen, Spiegelungen und Streckungen erklären und kombinieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A153": {
+    "correct": 1,
+    "explanation": "Um den alten Funktionswert bei x = 3 zu erreichen, muss die neue Stelle 5 sein. Dann wird der alte y-Wert verdoppelt und 1 addiert. Die Reihenfolge folgt der Funktionsvorschrift.",
+    "steps": [
+      "Um den alten Funktionswert bei x = 3 zu erreichen, muss die neue Stelle 5 sein.",
+      "Dann wird der alte y-Wert verdoppelt und 1 addiert. Die Reihenfolge folgt der Funktionsvorschrift."
+    ],
+    "background": "Verschiebungen, Spiegelungen und Streckungen erklären und kombinieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A155": {
+    "correct": 1,
+    "explanation": "Ein Produkt ist genau dann 0, wenn mindestens ein Faktor 0 ist. Prüfe also x = 0 und x − 3 = 0 getrennt. Nicht vorher durch x teilen, sonst verlierst du eine Lösung.",
+    "steps": [
+      "Ein Produkt ist genau dann 0, wenn mindestens ein Faktor 0 ist.",
+      "Prüfe also x = 0 und x − 3 = 0 getrennt. Nicht vorher durch x teilen, sonst verlierst du eine Lösung."
+    ],
+    "background": "Nullstellen, Symmetrien und einfache Asymptoten bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A157": {
+    "correct": 2,
+    "explanation": "Für sehr große Beträge von x bestimmen die höchsten Potenzen den Grenzwert. Zähler und Nenner haben denselben Grad. Der Quotient der führenden Koeffizienten ist 3.",
+    "steps": [
+      "Für sehr große Beträge von x bestimmen die höchsten Potenzen den Grenzwert.",
+      "Zähler und Nenner haben denselben Grad. Der Quotient der führenden Koeffizienten ist 3."
+    ],
+    "background": "Nullstellen, Symmetrien und einfache Asymptoten bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A159": {
+    "correct": 0,
+    "explanation": "Der Faktor (x − 2)² hat eine gerade Vielfachheit und bleibt beidseits nichtnegativ. Der andere Faktor ist an der Stelle positiv und ungleich 0. Deshalb bleibt das Vorzeichen in ihrer Umgebung gleich.",
+    "steps": [
+      "Der Faktor (x − 2)² hat eine gerade Vielfachheit und bleibt beidseits nichtnegativ.",
+      "Der andere Faktor ist an der Stelle positiv und ungleich 0. Deshalb bleibt das Vorzeichen in ihrer Umgebung gleich."
+    ],
+    "background": "Nullstellen, Symmetrien und einfache Asymptoten bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A161": {
+    "correct": 0,
+    "explanation": "Bilde die Differenz der Funktionswerte und teile durch die Differenz der x-Werte. Der Nenner ist 2, nicht der größere x-Wert. Damit erhältst du \\(8\\).",
+    "steps": [
+      "Bilde die Differenz der Funktionswerte und teile durch die Differenz der x-Werte.",
+      "Der Nenner ist 2, nicht der größere x-Wert.",
+      "Damit erhältst du \\(8\\)."
+    ],
+    "background": "Mittlere und lokale Änderungsrate unterscheiden und Differenzenquotienten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A163": {
+    "correct": 1,
+    "explanation": "Die momentane Geschwindigkeit ist die Ableitung der Position. Es gilt s′(t) = 4t. Setze erst danach den Zeitpunkt ein. Damit erhältst du \\(12\\).",
+    "steps": [
+      "Die momentane Geschwindigkeit ist die Ableitung der Position.",
+      "Es gilt s′(t) = 4t. Setze erst danach den Zeitpunkt ein.",
+      "Damit erhältst du \\(12\\)."
+    ],
+    "background": "Mittlere und lokale Änderungsrate unterscheiden und Differenzenquotienten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A165": {
+    "correct": 2,
+    "explanation": "Der ursprüngliche Quotient ist bei h = 0 nicht definiert, der Grenzwert kann aber existieren. Nach dem Kürzen für h ≠ 0 kannst du den Grenzwert ablesen; das unterscheidet Differential- und Differenzenquotient.",
+    "steps": [
+      "Der ursprüngliche Quotient ist bei h = 0 nicht definiert, der Grenzwert kann aber existieren.",
+      "Nach dem Kürzen für h ≠ 0 kannst du den Grenzwert ablesen; das unterscheidet Differential- und Differenzenquotient."
+    ],
+    "background": "Mittlere und lokale Änderungsrate unterscheiden und Differenzenquotienten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A167": {
+    "correct": 2,
+    "explanation": "Nutze Potenzregel und Faktorregel. Der Exponent kommt nach vorn und wird danach um 1 kleiner. Damit erhältst du \\(6 x\\).",
+    "steps": [
+      "Nutze Potenzregel und Faktorregel.",
+      "Der Exponent kommt nach vorn und wird danach um 1 kleiner.",
+      "Damit erhältst du \\(6 x\\)."
+    ],
+    "background": "Polynome ableiten und die Wirkung konstanter Faktoren erklären. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A169": {
+    "correct": 0,
+    "explanation": "Leite die Summanden einzeln ab. Die Konstante 7 hat Ableitung 0; feste Faktoren bleiben stehen. Damit erhältst du \\(9 x^{2} - 2\\).",
+    "steps": [
+      "Leite die Summanden einzeln ab.",
+      "Die Konstante 7 hat Ableitung 0; feste Faktoren bleiben stehen.",
+      "Damit erhältst du \\(9 x^{2} - 2\\)."
+    ],
+    "background": "Polynome ableiten und die Wirkung konstanter Faktoren erklären. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A171": {
+    "correct": 1,
+    "explanation": "Du kannst zuerst die Klammer ausmultiplizieren. Die Ableitung von x² − 4x + 4 ist 2x − 4. Damit erhältst du \\(2 x - 4\\).",
+    "steps": [
+      "Du kannst zuerst die Klammer ausmultiplizieren.",
+      "Die Ableitung von x² − 4x + 4 ist 2x − 4.",
+      "Damit erhältst du \\(2 x - 4\\)."
+    ],
+    "background": "Polynome ableiten und die Wirkung konstanter Faktoren erklären. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A173": {
+    "correct": 1,
+    "explanation": "Schreibe die Wurzel als x hoch 1/2. Die Potenzregel liefert (1/2)x hoch −1/2; die Ableitung gilt nur für x > 0. Damit erhältst du \\(\\frac{1}{2 \\sqrt{x}}\\).",
+    "steps": [
+      "Schreibe die Wurzel als x hoch 1/2.",
+      "Die Potenzregel liefert (1/2)x hoch −1/2; die Ableitung gilt nur für x > 0.",
+      "Damit erhältst du \\(\\frac{1}{2 \\sqrt{x}}\\)."
+    ],
+    "background": "Wurzel- und reziproke Potenzfunktionen auf ihrem Differenzierbarkeitsbereich ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A175": {
+    "correct": 2,
+    "explanation": "Wende die Potenzregel auch beim negativen Exponenten an. Das Minuszeichen des Exponenten wird Teil des Vorfaktors. Damit erhältst du \\(- \\frac{3}{x^{4}}\\).",
+    "steps": [
+      "Wende die Potenzregel auch beim negativen Exponenten an.",
+      "Das Minuszeichen des Exponenten wird Teil des Vorfaktors.",
+      "Damit erhältst du \\(- \\frac{3}{x^{4}}\\)."
+    ],
+    "background": "Wurzel- und reziproke Potenzfunktionen auf ihrem Differenzierbarkeitsbereich ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A177": {
+    "correct": 0,
+    "explanation": "Vereinfache vor dem Ableiten: gleiche Basis, Exponenten subtrahieren. Der Ausdruck ist x hoch (1/2 − 2). Darauf passt direkt die Potenzregel. Damit erhältst du \\(- \\frac{3}{2 x^{\\frac{5}{2}}}\\).",
+    "steps": [
+      "Vereinfache vor dem Ableiten: gleiche Basis, Exponenten subtrahieren.",
+      "Der Ausdruck ist x hoch (1/2 − 2). Darauf passt direkt die Potenzregel.",
+      "Damit erhältst du \\(- \\frac{3}{2 x^{\\frac{5}{2}}}\\)."
+    ],
+    "background": "Wurzel- und reziproke Potenzfunktionen auf ihrem Differenzierbarkeitsbereich ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A179": {
+    "correct": 0,
+    "explanation": "Nutze die Produktregel u′v + uv′. Für u = x gilt u′ = 1, für v = exp(3x) gilt v′ = 3exp(3x). Damit erhältst du \\(\\left(3 x + 1\\right) e^{3 x}\\).",
+    "steps": [
+      "Nutze die Produktregel u′v + uv′.",
+      "Für u = x gilt u′ = 1, für v = exp(3x) gilt v′ = 3exp(3x).",
+      "Damit erhältst du \\(\\left(3 x + 1\\right) e^{3 x}\\)."
+    ],
+    "background": "Produkte von Funktionen mit der Produktregel ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A181": {
+    "correct": 1,
+    "explanation": "Auch eine verschobene lineare Funktion ist ein eigener Faktor. Leite jeden Faktor in genau einem Summanden ab; addiere beide Produkte. Damit erhältst du \\(3 x^{2} + 4 x + 3\\).",
+    "steps": [
+      "Auch eine verschobene lineare Funktion ist ein eigener Faktor.",
+      "Leite jeden Faktor in genau einem Summanden ab; addiere beide Produkte.",
+      "Damit erhältst du \\(3 x^{2} + 4 x + 3\\)."
+    ],
+    "background": "Produkte von Funktionen mit der Produktregel ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A183": {
+    "correct": 2,
+    "explanation": "Du brauchst Produktregel und die Ableitung des Logarithmus. Die Ableitungen der Faktoren sind 2x und 1/(x + 2). Damit erhältst du \\(\\frac{x \\left(x + 2 \\left(x + 2\\right) \\ln{\\left(x + 2 \\right)}\\right)}{x + 2}\\).",
+    "steps": [
+      "Du brauchst Produktregel und die Ableitung des Logarithmus.",
+      "Die Ableitungen der Faktoren sind 2x und 1/(x + 2).",
+      "Damit erhältst du \\(\\frac{x \\left(x + 2 \\left(x + 2\\right) \\ln{\\left(x + 2 \\right)}\\right)}{x + 2}\\)."
+    ],
+    "background": "Produkte von Funktionen mit der Produktregel ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A185": {
+    "correct": 2,
+    "explanation": "Nutze die Quotientenregel (u′v − uv′)/v². Im Zähler bleibt (x + 3) − x = 3. Damit erhältst du \\(\\frac{3}{\\left(x + 3\\right)^{2}}\\).",
+    "steps": [
+      "Nutze die Quotientenregel (u′v − uv′)/v².",
+      "Im Zähler bleibt (x + 3) − x = 3.",
+      "Damit erhältst du \\(\\frac{3}{\\left(x + 3\\right)^{2}}\\)."
+    ],
+    "background": "Quotienten unter Ausschluss von Nennernullstellen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A187": {
+    "correct": 0,
+    "explanation": "Der Nenner ist für x > 0 nicht 0. Im Zähler steht 2x(x + 3) − (x² + 2), darunter das Quadrat des Nenners. Damit erhältst du \\(\\frac{- x^{2} + 2 x \\left(x + 3\\right) - 2}{\\left(x + 3\\right)^{2}}\\).",
+    "steps": [
+      "Der Nenner ist für x > 0 nicht 0.",
+      "Im Zähler steht 2x(x + 3) − (x² + 2), darunter das Quadrat des Nenners.",
+      "Damit erhältst du \\(\\frac{- x^{2} + 2 x \\left(x + 3\\right) - 2}{\\left(x + 3\\right)^{2}}\\)."
+    ],
+    "background": "Quotienten unter Ausschluss von Nennernullstellen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A189": {
+    "correct": 1,
+    "explanation": "Verknüpfe Quotientenregel und (ln x)′ = 1/x. Achte auf das Minus vor ln(x) im Zähler und auf das Nennerquadrat. Damit erhältst du \\(\\frac{- x \\ln{\\left(x \\right)} + x + 2}{x \\left(x + 2\\right)^{2}}\\).",
+    "steps": [
+      "Verknüpfe Quotientenregel und (ln x)′ = 1/x.",
+      "Achte auf das Minus vor ln(x) im Zähler und auf das Nennerquadrat.",
+      "Damit erhältst du \\(\\frac{- x \\ln{\\left(x \\right)} + x + 2}{x \\left(x + 2\\right)^{2}}\\)."
+    ],
+    "background": "Quotienten unter Ausschluss von Nennernullstellen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A191": {
+    "correct": 1,
+    "explanation": "Nutze äußere Ableitung mal innere Ableitung. Die äußere dritte Potenz liefert 3(innerer Term)²; innen ist die Ableitung 3. Damit erhältst du \\(9 \\left(3 x + 1\\right)^{2}\\).",
+    "steps": [
+      "Nutze äußere Ableitung mal innere Ableitung.",
+      "Die äußere dritte Potenz liefert 3(innerer Term)²; innen ist die Ableitung 3.",
+      "Damit erhältst du \\(9 \\left(3 x + 1\\right)^{2}\\)."
+    ],
+    "background": "Innere und äußere Funktion erkennen und verkettete Funktionen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A193": {
+    "correct": 2,
+    "explanation": "Die äußere Funktion ist eine Wurzel. Nach der äußeren Ableitung musst du mit der inneren Ableitung 6x multiplizieren. Damit erhältst du \\(\\frac{3 x}{\\sqrt{3 x^{2} + 1}}\\).",
+    "steps": [
+      "Die äußere Funktion ist eine Wurzel.",
+      "Nach der äußeren Ableitung musst du mit der inneren Ableitung 6x multiplizieren.",
+      "Damit erhältst du \\(\\frac{3 x}{\\sqrt{3 x^{2} + 1}}\\)."
+    ],
+    "background": "Innere und äußere Funktion erkennen und verkettete Funktionen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A195": {
+    "correct": 0,
+    "explanation": "Es liegen drei Schichten vor: Sinus, dritte Potenz, quadratischer Term. Multipliziere cos(inneres Argument), 3(x² + 2)² und 2x. Damit erhältst du \\(6 x \\left(x^{2} + 2\\right)^{2} \\cos{\\left(\\left(x^{2} + 2\\right)^{3} \\right)}\\).",
+    "steps": [
+      "Es liegen drei Schichten vor: Sinus, dritte Potenz, quadratischer Term.",
+      "Multipliziere cos(inneres Argument), 3(x² + 2)² und 2x.",
+      "Damit erhältst du \\(6 x \\left(x^{2} + 2\\right)^{2} \\cos{\\left(\\left(x^{2} + 2\\right)^{3} \\right)}\\)."
+    ],
+    "background": "Innere und äußere Funktion erkennen und verkettete Funktionen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A197": {
+    "correct": 0,
+    "explanation": "Die e-Funktion bleibt beim Ableiten erhalten. Der lineare Exponent bringt über die Kettenregel den zusätzlichen Faktor 3. Damit erhältst du \\(3 e^{3 x}\\).",
+    "steps": [
+      "Die e-Funktion bleibt beim Ableiten erhalten.",
+      "Der lineare Exponent bringt über die Kettenregel den zusätzlichen Faktor 3.",
+      "Damit erhältst du \\(3 e^{3 x}\\)."
+    ],
+    "background": "Exponentialfunktionen einschließlich linearer Verkettungen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A199": {
+    "correct": 1,
+    "explanation": "Nutze Faktorregel und Kettenregel. Die innere Ableitung des negativen Exponenten ist −3, daher wird die Ableitung negativ. Damit erhältst du \\(- 6 e^{- 3 x}\\).",
+    "steps": [
+      "Nutze Faktorregel und Kettenregel.",
+      "Die innere Ableitung des negativen Exponenten ist −3, daher wird die Ableitung negativ.",
+      "Damit erhältst du \\(- 6 e^{- 3 x}\\)."
+    ],
+    "background": "Exponentialfunktionen einschließlich linearer Verkettungen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A201": {
+    "correct": 2,
+    "explanation": "Leite auch den nichtlinearen Exponenten ab. Die e-Funktion wird mit 2x multipliziert; eine additive Konstante im Exponenten hat Ableitung 0. Damit erhältst du \\(2 x e^{x^{2} + 2}\\).",
+    "steps": [
+      "Leite auch den nichtlinearen Exponenten ab.",
+      "Die e-Funktion wird mit 2x multipliziert; eine additive Konstante im Exponenten hat Ableitung 0.",
+      "Damit erhältst du \\(2 x e^{x^{2} + 2}\\)."
+    ],
+    "background": "Exponentialfunktionen einschließlich linearer Verkettungen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A203": {
+    "correct": 2,
+    "explanation": "Die Ableitung von ln(u) ist u′/u. Innen steht x + 2 mit Ableitung 1. Damit erhältst du \\(\\frac{1}{x + 2}\\).",
+    "steps": [
+      "Die Ableitung von ln(u) ist u′/u.",
+      "Innen steht x + 2 mit Ableitung 1.",
+      "Damit erhältst du \\(\\frac{1}{x + 2}\\)."
+    ],
+    "background": "ln-Funktionen ableiten und positive Argumente sicherstellen. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A205": {
+    "correct": 0,
+    "explanation": "Nutze die Kettenregel beim natürlichen Logarithmus. Teile die innere Ableitung 6x durch das ursprüngliche positive Argument. Damit erhältst du \\(\\frac{6 x}{3 x^{2} + 1}\\).",
+    "steps": [
+      "Nutze die Kettenregel beim natürlichen Logarithmus.",
+      "Teile die innere Ableitung 6x durch das ursprüngliche positive Argument.",
+      "Damit erhältst du \\(\\frac{6 x}{3 x^{2} + 1}\\)."
+    ],
+    "background": "ln-Funktionen ableiten und positive Argumente sicherstellen. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A207": {
+    "correct": 1,
+    "explanation": "Schreibe den Term als x hoch −2 mal ln(x). Die Produktregel ergibt einen Summanden mit ln(x) und einen mit der Ableitung 1/x. Damit erhältst du \\(\\frac{1 - 2 \\ln{\\left(x \\right)}}{x^{3}}\\).",
+    "steps": [
+      "Schreibe den Term als x hoch −2 mal ln(x).",
+      "Die Produktregel ergibt einen Summanden mit ln(x) und einen mit der Ableitung 1/x.",
+      "Damit erhältst du \\(\\frac{1 - 2 \\ln{\\left(x \\right)}}{x^{3}}\\)."
+    ],
+    "background": "ln-Funktionen ableiten und positive Argumente sicherstellen. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A209": {
+    "correct": 1,
+    "explanation": "Nutze (sin u)′ = cos(u) · u′ im Bogenmaß. Die innere lineare Funktion hat die Ableitung 3. Damit erhältst du \\(3 \\cos{\\left(3 x \\right)}\\).",
+    "steps": [
+      "Nutze (sin u)′ = cos(u) · u′ im Bogenmaß.",
+      "Die innere lineare Funktion hat die Ableitung 3.",
+      "Damit erhältst du \\(3 \\cos{\\left(3 x \\right)}\\)."
+    ],
+    "background": "Sinus- und Kosinusfunktionen im Bogenmaß ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A211": {
+    "correct": 2,
+    "explanation": "Kosinus wird beim Ableiten zu negativem Sinus. Die Kettenregel ergänzt den Faktor 3. Damit erhältst du \\(- 3 \\sin{\\left(3 x + 2 \\right)}\\).",
+    "steps": [
+      "Kosinus wird beim Ableiten zu negativem Sinus.",
+      "Die Kettenregel ergänzt den Faktor 3.",
+      "Damit erhältst du \\(- 3 \\sin{\\left(3 x + 2 \\right)}\\)."
+    ],
+    "background": "Sinus- und Kosinusfunktionen im Bogenmaß ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A213": {
+    "correct": 0,
+    "explanation": "Die äußere Funktion ist eine Potenz, innen steht sin(x). Leite die Potenz ab und multipliziere mit cos(x). Damit erhältst du \\(\\sin{\\left(2 x \\right)}\\).",
+    "steps": [
+      "Die äußere Funktion ist eine Potenz, innen steht sin(x).",
+      "Leite die Potenz ab und multipliziere mit cos(x).",
+      "Damit erhältst du \\(\\sin{\\left(2 x \\right)}\\)."
+    ],
+    "background": "Sinus- und Kosinusfunktionen im Bogenmaß ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A215": {
+    "correct": 0,
+    "explanation": "Zunächst Produktregel, im zweiten Faktor zusätzlich Kettenregel. Ein Summand entsteht aus der Ableitung von x, einer aus der Ableitung des Sinus. Damit erhältst du \\(3 x \\cos{\\left(3 x \\right)} + \\sin{\\left(3 x \\right)}\\).",
+    "steps": [
+      "Zunächst Produktregel, im zweiten Faktor zusätzlich Kettenregel.",
+      "Ein Summand entsteht aus der Ableitung von x, einer aus der Ableitung des Sinus.",
+      "Damit erhältst du \\(3 x \\cos{\\left(3 x \\right)} + \\sin{\\left(3 x \\right)}\\)."
+    ],
+    "background": "Mehrere Ableitungsregeln in verschachtelten Ausdrücken gezielt kombinieren. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A217": {
+    "correct": 1,
+    "explanation": "Die beiden Faktoren sind x + 2 und exp(x²). Beim zweiten Faktor liefert die Kettenregel 2x exp(x²). Damit erhältst du \\(\\left(2 x \\left(x + 2\\right) + 1\\right) e^{x^{2}}\\).",
+    "steps": [
+      "Die beiden Faktoren sind x + 2 und exp(x²).",
+      "Beim zweiten Faktor liefert die Kettenregel 2x exp(x²).",
+      "Damit erhältst du \\(\\left(2 x \\left(x + 2\\right) + 1\\right) e^{x^{2}}\\)."
+    ],
+    "background": "Mehrere Ableitungsregeln in verschachtelten Ausdrücken gezielt kombinieren. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A219": {
+    "correct": 2,
+    "explanation": "Nutze Produktregel mit x hoch −1/2 und die Logarithmusableitung. Die Ableitung des Wurzel-Kehrwerts ist negativ; der andere Summand enthält 1/(x + 2). Damit erhältst du \\(\\frac{x - \\frac{\\left(x + 2\\right) \\ln{\\left(x + 2 \\right)}}{2}}{x^{\\frac{3}{2}} \\left(x + 2\\right)}\\).",
+    "steps": [
+      "Nutze Produktregel mit x hoch −1/2 und die Logarithmusableitung.",
+      "Die Ableitung des Wurzel-Kehrwerts ist negativ; der andere Summand enthält 1/(x + 2).",
+      "Damit erhältst du \\(\\frac{x - \\frac{\\left(x + 2\\right) \\ln{\\left(x + 2 \\right)}}{2}}{x^{\\frac{3}{2}} \\left(x + 2\\right)}\\)."
+    ],
+    "background": "Mehrere Ableitungsregeln in verschachtelten Ausdrücken gezielt kombinieren. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A221": {
+    "correct": 2,
+    "explanation": "Die Tangentensteigung ist der Wert der ersten Ableitung an der Stelle. Bei f′(x) = 2x setzt du 3 ein. Damit erhältst du \\(6\\).",
+    "steps": [
+      "Die Tangentensteigung ist der Wert der ersten Ableitung an der Stelle.",
+      "Bei f′(x) = 2x setzt du 3 ein.",
+      "Damit erhältst du \\(6\\)."
+    ],
+    "background": "Tangenten- und Normalengleichungen aufstellen und Sonderfälle erkennen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A223": {
+    "correct": 0,
+    "explanation": "Die Tangentensteigung ist 4. Sie ist nicht 0. Bei senkrechten Geraden ist das Produkt der Steigungen −1. Nimm deshalb den negativen Kehrwert. Damit erhältst du \\(- \\frac{1}{4}\\).",
+    "steps": [
+      "Die Tangentensteigung ist 4. Sie ist nicht 0.",
+      "Bei senkrechten Geraden ist das Produkt der Steigungen −1. Nimm deshalb den negativen Kehrwert.",
+      "Damit erhältst du \\(- \\frac{1}{4}\\)."
+    ],
+    "background": "Tangenten- und Normalengleichungen aufstellen und Sonderfälle erkennen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A225": {
+    "correct": 1,
+    "explanation": "Die Tangente im Scheitel ist waagerecht. Ihre Normale ist daher senkrecht. Eine senkrechte Gerade kann nicht als y = mx + b mit endlicher Steigung dargestellt werden; sie hat die Gleichung x = 3.",
+    "steps": [
+      "Die Tangente im Scheitel ist waagerecht. Ihre Normale ist daher senkrecht.",
+      "Eine senkrechte Gerade kann nicht als y = mx + b mit endlicher Steigung dargestellt werden; sie hat die Gleichung x = 3."
+    ],
+    "background": "Tangenten- und Normalengleichungen aufstellen und Sonderfälle erkennen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A227": {
+    "correct": 1,
+    "explanation": "Eine überall negative Ableitung bedeutet fallende Funktionswerte, wenn x größer wird. Das Vorzeichen der Ableitung legt nicht das Vorzeichen der Funktion selbst fest.",
+    "steps": [
+      "Eine überall negative Ableitung bedeutet fallende Funktionswerte, wenn x größer wird.",
+      "Das Vorzeichen der Ableitung legt nicht das Vorzeichen der Funktion selbst fest."
+    ],
+    "background": "Steigen und Fallen über Ableitungszeichen begründen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A229": {
+    "correct": 2,
+    "explanation": "Es gilt f′(x) = 2(x − 3). Die Ableitung ist genau rechts von 3 positiv. Links davon ist sie negativ.",
+    "steps": [
+      "Es gilt f′(x) = 2(x − 3).",
+      "Die Ableitung ist genau rechts von 3 positiv. Links davon ist sie negativ."
+    ],
+    "background": "Steigen und Fallen über Ableitungszeichen begründen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A231": {
+    "correct": 0,
+    "explanation": "Die Ableitung ist überall nichtnegativ und nur an einer einzelnen Stelle 0. Zum Beispiel hat (x − 3)³/3 genau diese Ableitung und steigt trotz waagerechter Tangente streng an.",
+    "steps": [
+      "Die Ableitung ist überall nichtnegativ und nur an einer einzelnen Stelle 0.",
+      "Zum Beispiel hat (x − 3)³/3 genau diese Ableitung und steigt trotz waagerechter Tangente streng an."
+    ],
+    "background": "Steigen und Fallen über Ableitungszeichen begründen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A233": {
+    "correct": 0,
+    "explanation": "Die erste Ableitung 0 bedeutet eine waagerechte Tangente. Die positive zweite Ableitung macht daraus einen Tiefpunkt; ohne die zweite Bedingung wäre das noch nicht sicher.",
+    "steps": [
+      "Die erste Ableitung 0 bedeutet eine waagerechte Tangente.",
+      "Die positive zweite Ableitung macht daraus einen Tiefpunkt; ohne die zweite Bedingung wäre das noch nicht sicher."
+    ],
+    "background": "Stationäre Stellen prüfen und lokale sowie globale Extrema unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A235": {
+    "correct": 1,
+    "explanation": "Setze die Ableitung 2x − 6 gleich 0. Die zweite Ableitung ist 2 > 0; die nach oben geöffnete Parabel hat dort ihr Minimum. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Setze die Ableitung 2x − 6 gleich 0.",
+      "Die zweite Ableitung ist 2 > 0; die nach oben geöffnete Parabel hat dort ihr Minimum.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Stationäre Stellen prüfen und lokale sowie globale Extrema unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A237": {
+    "correct": 2,
+    "explanation": "x³ steigt auf dem ganzen Intervall. Eine stationäre Stelle allein ist kein Extremnachweis. Das kleinste und das größte Ergebnis auf dem abgeschlossenen Intervall liegen hier an den beiden Rändern.",
+    "steps": [
+      "x³ steigt auf dem ganzen Intervall. Eine stationäre Stelle allein ist kein Extremnachweis.",
+      "Das kleinste und das größte Ergebnis auf dem abgeschlossenen Intervall liegen hier an den beiden Rändern."
+    ],
+    "background": "Stationäre Stellen prüfen und lokale sowie globale Extrema unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A239": {
+    "correct": 2,
+    "explanation": "Die zweite Ableitung ist positiv. Die Steigung der Funktion nimmt daher zu. Eine positive konstante zweite Ableitung passt zum Beispiel zu einer nach oben geöffneten Parabel.",
+    "steps": [
+      "Die zweite Ableitung ist positiv. Die Steigung der Funktion nimmt daher zu.",
+      "Eine positive konstante zweite Ableitung passt zum Beispiel zu einer nach oben geöffneten Parabel."
+    ],
+    "background": "Krümmungswechsel mit zweiter und dritter Ableitung untersuchen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A241": {
+    "correct": 0,
+    "explanation": "Die zweite Ableitung ist 6(x − 3). Sie ist bei 3 gleich 0. Links und rechts wechselt sie das Vorzeichen; damit ist der Krümmungswechsel nachgewiesen. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die zweite Ableitung ist 6(x − 3). Sie ist bei 3 gleich 0.",
+      "Links und rechts wechselt sie das Vorzeichen; damit ist der Krümmungswechsel nachgewiesen.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Krümmungswechsel mit zweiter und dritter Ableitung untersuchen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A243": {
+    "correct": 1,
+    "explanation": "Die zweite Ableitung ist 12(x − 3)² und daher auf beiden Seiten nichtnegativ. Eine Nullstelle von f″ ist nur ein Kandidat. Der notwendige Krümmungswechsel fehlt hier.",
+    "steps": [
+      "Die zweite Ableitung ist 12(x − 3)² und daher auf beiden Seiten nichtnegativ.",
+      "Eine Nullstelle von f″ ist nur ein Kandidat. Der notwendige Krümmungswechsel fehlt hier."
+    ],
+    "background": "Krümmungswechsel mit zweiter und dritter Ableitung untersuchen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A245": {
+    "correct": 1,
+    "explanation": "Ein addierter Parameter verschiebt den Graphen nur vertikal. Die Ableitungen 2x und 2 bleiben gleich; die Scheitelhöhe ist jetzt 3.",
+    "steps": [
+      "Ein addierter Parameter verschiebt den Graphen nur vertikal.",
+      "Die Ableitungen 2x und 2 bleiben gleich; die Scheitelhöhe ist jetzt 3."
+    ],
+    "background": "Graphen, Funktionsscharen und abschnittsweise Funktionen durch mehrere Kriterien beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A247": {
+    "correct": 2,
+    "explanation": "Links nähert sich der Funktionswert 3, rechts ist der Grenzwert 5. Gleiche Steigungen genügen nicht für Stetigkeit. Ohne Stetigkeit kann der Übergang auch nicht differenzierbar sein.",
+    "steps": [
+      "Links nähert sich der Funktionswert 3, rechts ist der Grenzwert 5.",
+      "Gleiche Steigungen genügen nicht für Stetigkeit. Ohne Stetigkeit kann der Übergang auch nicht differenzierbar sein."
+    ],
+    "background": "Graphen, Funktionsscharen und abschnittsweise Funktionen durch mehrere Kriterien beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A249": {
+    "correct": 0,
+    "explanation": "Aus 3x² − a = 0 folgt x = ±√(a/3), also zwei verschiedene Stellen. Die zweite Ableitung 6x ist an beiden Stellen nicht 0 und bestätigt einen Hoch- und einen Tiefpunkt.",
+    "steps": [
+      "Aus 3x² − a = 0 folgt x = ±√(a/3), also zwei verschiedene Stellen.",
+      "Die zweite Ableitung 6x ist an beiden Stellen nicht 0 und bestätigt einen Hoch- und einen Tiefpunkt."
+    ],
+    "background": "Graphen, Funktionsscharen und abschnittsweise Funktionen durch mehrere Kriterien beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A251": {
+    "correct": 0,
+    "explanation": "Beim Integrieren einer Potenz steigt der Exponent um 1. Teile den bisherigen Koeffizienten durch den neuen Exponenten. Durch Ableiten kannst du das Ergebnis prüfen. Damit erhältst du \\(x^{3}\\).",
+    "steps": [
+      "Beim Integrieren einer Potenz steigt der Exponent um 1.",
+      "Teile den bisherigen Koeffizienten durch den neuen Exponenten. Durch Ableiten kannst du das Ergebnis prüfen.",
+      "Damit erhältst du \\(x^{3}\\)."
+    ],
+    "background": "Stammfunktionen mit elementaren Regeln bilden und durch Ableiten prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A253": {
+    "correct": 1,
+    "explanation": "Beim Ableiten von exp(nx) entsteht der Faktor n. Die Stammfunktion muss diesen Faktor durch Teilen durch n ausgleichen. Damit erhältst du \\(\\frac{e^{3 x}}{3}\\).",
+    "steps": [
+      "Beim Ableiten von exp(nx) entsteht der Faktor n.",
+      "Die Stammfunktion muss diesen Faktor durch Teilen durch n ausgleichen.",
+      "Damit erhältst du \\(\\frac{e^{3 x}}{3}\\)."
+    ],
+    "background": "Stammfunktionen mit elementaren Regeln bilden und durch Ableiten prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A255": {
+    "correct": 2,
+    "explanation": "Bei x hoch −1 greift die übliche Potenzregel für Stammfunktionen nicht, weil der neue Exponent 0 wäre. Stattdessen ist ln(x) eine Stammfunktion. Eine feste additive Zahl verschwindet beim Ableiten.",
+    "steps": [
+      "Bei x hoch −1 greift die übliche Potenzregel für Stammfunktionen nicht, weil der neue Exponent 0 wäre.",
+      "Stattdessen ist ln(x) eine Stammfunktion. Eine feste additive Zahl verschwindet beim Ableiten."
+    ],
+    "background": "Stammfunktionen mit elementaren Regeln bilden und durch Ableiten prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A257": {
+    "correct": 2,
+    "explanation": "Eine Stammfunktion von 2x ist x². Setze die obere Grenze ein und ziehe den Wert an der unteren Grenze ab. Damit erhältst du \\(9\\).",
+    "steps": [
+      "Eine Stammfunktion von 2x ist x².",
+      "Setze die obere Grenze ein und ziehe den Wert an der unteren Grenze ab.",
+      "Damit erhältst du \\(9\\)."
+    ],
+    "background": "Integrale mit Grenzen und den Zusammenhang zwischen Integral und Ableitung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A259": {
+    "correct": 0,
+    "explanation": "Nach dem Hauptsatz der Differential- und Integralrechnung hebt Ableiten die Integration mit variabler oberer Grenze auf. Die feste untere Grenze beeinflusst die Konstante der Integralfunktion, nicht ihre Ableitung.",
+    "steps": [
+      "Nach dem Hauptsatz der Differential- und Integralrechnung hebt Ableiten die Integration mit variabler oberer Grenze auf.",
+      "Die feste untere Grenze beeinflusst die Konstante der Integralfunktion, nicht ihre Ableitung."
+    ],
+    "background": "Integrale mit Grenzen und den Zusammenhang zwischen Integral und Ableitung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A261": {
+    "correct": 1,
+    "explanation": "Jeder Querschnitt ist ein Kreis mit Radius 2. Seine Fläche ist π mal Radius zum Quadrat. Integriere diese konstante Kreisfläche über die Länge 3. Damit erhältst du \\(12 \\pi\\).",
+    "steps": [
+      "Jeder Querschnitt ist ein Kreis mit Radius 2. Seine Fläche ist π mal Radius zum Quadrat.",
+      "Integriere diese konstante Kreisfläche über die Länge 3.",
+      "Damit erhältst du \\(12 \\pi\\)."
+    ],
+    "background": "Integrale mit Grenzen und den Zusammenhang zwischen Integral und Ableitung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A263": {
+    "correct": 1,
+    "explanation": "Das bestimmte Integral zählt Flächen unterhalb der x-Achse negativ. Rechne Höhe mal Breite: −2 · 3 = -6. Der geometrische Flächeninhalt wäre dagegen positiv.",
+    "steps": [
+      "Das bestimmte Integral zählt Flächen unterhalb der x-Achse negativ.",
+      "Rechne Höhe mal Breite: −2 · 3 = -6. Der geometrische Flächeninhalt wäre dagegen positiv."
+    ],
+    "background": "Vorzeichenbehaftete Integrale von geometrischen Flächen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A265": {
+    "correct": 2,
+    "explanation": "Links der 0 liegt der Graph unter der x-Achse. Für eine geometrische Fläche zählst du beide Teile positiv. Jedes der zwei Dreiecke hat Grundseite und Höhe 3. Addiere zweimal die halbe Grundseite mal Höhe. Damit erhältst du \\(9\\).",
+    "steps": [
+      "Links der 0 liegt der Graph unter der x-Achse. Für eine geometrische Fläche zählst du beide Teile positiv.",
+      "Jedes der zwei Dreiecke hat Grundseite und Höhe 3. Addiere zweimal die halbe Grundseite mal Höhe.",
+      "Damit erhältst du \\(9\\)."
+    ],
+    "background": "Vorzeichenbehaftete Integrale von geometrischen Flächen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A267": {
+    "correct": 0,
+    "explanation": "Ein Integral ist eine vorzeichenbehaftete Gesamtbilanz. Zum Beispiel hat f(x) = x auf diesem symmetrischen Intervall Integral 0, aber zwei nicht verschwindende Flächenteile.",
+    "steps": [
+      "Ein Integral ist eine vorzeichenbehaftete Gesamtbilanz.",
+      "Zum Beispiel hat f(x) = x auf diesem symmetrischen Intervall Integral 0, aber zwei nicht verschwindende Flächenteile."
+    ],
+    "background": "Vorzeichenbehaftete Integrale von geometrischen Flächen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A269": {
+    "correct": 0,
+    "explanation": "Auf dem ganzen Intervall liegt f über g. Integriere daher f − g = 3 − x zwischen den angegebenen Grenzen. Damit erhältst du \\(\\frac{9}{2}\\).",
+    "steps": [
+      "Auf dem ganzen Intervall liegt f über g.",
+      "Integriere daher f − g = 3 − x zwischen den angegebenen Grenzen.",
+      "Damit erhältst du \\(\\frac{9}{2}\\)."
+    ],
+    "background": "Schnittgrenzen und obere minus untere Funktion zur Flächenberechnung nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A271": {
+    "correct": 1,
+    "explanation": "Die Schnittgleichung x = x²/3 liefert 0 und 3. Dazwischen ist x größer als x²/3. Integriere obere minus untere Funktion. Damit erhältst du \\(\\frac{3}{2}\\).",
+    "steps": [
+      "Die Schnittgleichung x = x²/3 liefert 0 und 3.",
+      "Dazwischen ist x größer als x²/3. Integriere obere minus untere Funktion.",
+      "Damit erhältst du \\(\\frac{3}{2}\\)."
+    ],
+    "background": "Schnittgrenzen und obere minus untere Funktion zur Flächenberechnung nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A273": {
+    "correct": 2,
+    "explanation": "f − g kann an einem Schnittpunkt das Vorzeichen wechseln. Dann heben sich Teilflächen im Integral auf. Für einen geometrischen Flächeninhalt darf kein Teil negativ gezählt werden.",
+    "steps": [
+      "f − g kann an einem Schnittpunkt das Vorzeichen wechseln. Dann heben sich Teilflächen im Integral auf.",
+      "Für einen geometrischen Flächeninhalt darf kein Teil negativ gezählt werden."
+    ],
+    "background": "Schnittgrenzen und obere minus untere Funktion zur Flächenberechnung nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A275": {
+    "correct": 2,
+    "explanation": "Eine Verlust-Rate erhält ein negatives Vorzeichen. Multipliziere Rate und Zeit. Liter pro Minute mal Minuten ergibt Liter. Damit erhältst du \\(-6\\).",
+    "steps": [
+      "Eine Verlust-Rate erhält ein negatives Vorzeichen.",
+      "Multipliziere Rate und Zeit. Liter pro Minute mal Minuten ergibt Liter.",
+      "Damit erhältst du \\(-6\\)."
+    ],
+    "background": "Bestandsänderungen aus Raten berechnen und Einheiten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A277": {
+    "correct": 0,
+    "explanation": "Der Bestand ist Anfangsbestand plus Integral der Rate von 0 bis 3. Eine Stammfunktion von 2t ist 2/2 · t². Vergiss die anfänglichen 10 Liter nicht. Damit erhältst du \\(19\\).",
+    "steps": [
+      "Der Bestand ist Anfangsbestand plus Integral der Rate von 0 bis 3.",
+      "Eine Stammfunktion von 2t ist 2/2 · t². Vergiss die anfänglichen 10 Liter nicht.",
+      "Damit erhältst du \\(19\\)."
+    ],
+    "background": "Bestandsänderungen aus Raten berechnen und Einheiten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A279": {
+    "correct": 1,
+    "explanation": "Positive Rate bedeutet positive Bestandsänderung, also weiter steigenden Bestand. Erst eine negative Rate würde den Bestand sinken lassen; die Abnahme der Rate beschreibt hier nur die sinkende Steigung.",
+    "steps": [
+      "Positive Rate bedeutet positive Bestandsänderung, also weiter steigenden Bestand.",
+      "Erst eine negative Rate würde den Bestand sinken lassen; die Abnahme der Rate beschreibt hier nur die sinkende Steigung."
+    ],
+    "background": "Bestandsänderungen aus Raten berechnen und Einheiten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A281": {
+    "correct": 1,
+    "explanation": "Der alte Bestand entspricht 100 %. Addiere den Zuwachs und schreibe die Prozentzahl als Dezimalzahl oder Bruch. Damit erhältst du \\(\\frac{11}{10}\\).",
+    "steps": [
+      "Der alte Bestand entspricht 100 %.",
+      "Addiere den Zuwachs und schreibe die Prozentzahl als Dezimalzahl oder Bruch.",
+      "Damit erhältst du \\(\\frac{11}{10}\\)."
+    ],
+    "background": "Exponentielle Modelle, Wachstumsraten und Halbwertszeiten einsetzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A283": {
+    "correct": 2,
+    "explanation": "Die Hälfte des Anfangsbestands bedeutet exp(−2t) = 1/2. Logarithmiere und teile durch −2. Die Halbwertszeit muss positiv sein. Damit erhältst du \\(\\frac{\\ln{\\left(2 \\right)}}{2}\\).",
+    "steps": [
+      "Die Hälfte des Anfangsbestands bedeutet exp(−2t) = 1/2.",
+      "Logarithmiere und teile durch −2. Die Halbwertszeit muss positiv sein.",
+      "Damit erhältst du \\(\\frac{\\ln{\\left(2 \\right)}}{2}\\)."
+    ],
+    "background": "Exponentielle Modelle, Wachstumsraten und Halbwertszeiten einsetzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A285": {
+    "correct": 0,
+    "explanation": "Die Ableitung ist 0,2 · B(t), also proportional zum aktuellen Bestand. Eine feste absolute Zunahme würde zu einem linearen Modell führen. Die Rate zu Beginn darf nicht auf alle Zeiten übertragen werden.",
+    "steps": [
+      "Die Ableitung ist 0,2 · B(t), also proportional zum aktuellen Bestand.",
+      "Eine feste absolute Zunahme würde zu einem linearen Modell führen. Die Rate zu Beginn darf nicht auf alle Zeiten übertragen werden."
+    ],
+    "background": "Exponentielle Modelle, Wachstumsraten und Halbwertszeiten einsetzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A287": {
+    "correct": 0,
+    "explanation": "Der Umfang ist 2x + 2y. Setze die vorgegebene Zahl ein. Teile durch 2 und löse danach nach y auf. Damit erhältst du \\(6 - x\\).",
+    "steps": [
+      "Der Umfang ist 2x + 2y. Setze die vorgegebene Zahl ein.",
+      "Teile durch 2 und löse danach nach y auf.",
+      "Damit erhältst du \\(6 - x\\)."
+    ],
+    "background": "Zielfunktion und Nebenbedingungen aufstellen, Kandidaten und Randwerte prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A289": {
+    "correct": 1,
+    "explanation": "Mit y = 6 − x lautet die Fläche x(6 − x). Die Ableitung 6 − 2x wird bei x = 3 null; die zweite Ableitung ist negativ. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Mit y = 6 − x lautet die Fläche x(6 − x).",
+      "Die Ableitung 6 − 2x wird bei x = 3 null; die zweite Ableitung ist negativ.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Zielfunktion und Nebenbedingungen aufstellen, Kandidaten und Randwerte prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A291": {
+    "correct": 2,
+    "explanation": "Eine Ableitungsnullstelle ist zunächst nur ein Kandidat und könnte ein Minimum oder eine Sattelstelle sein. Selbst ein lokales Maximum kann niedriger sein als ein Randwert. Vergleiche alle zulässigen Kandidaten.",
+    "steps": [
+      "Eine Ableitungsnullstelle ist zunächst nur ein Kandidat und könnte ein Minimum oder eine Sattelstelle sein.",
+      "Selbst ein lokales Maximum kann niedriger sein als ein Randwert. Vergleiche alle zulässigen Kandidaten."
+    ],
+    "background": "Zielfunktion und Nebenbedingungen aufstellen, Kandidaten und Randwerte prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A293": {
+    "correct": 2,
+    "explanation": "Der Grundpreis fällt genau einmal an. Addiere den Preis von vier Fahrten dazu; multipliziere den Grundpreis nicht mit der Fahrtenzahl. Damit erhältst du \\(11\\).",
+    "steps": [
+      "Der Grundpreis fällt genau einmal an.",
+      "Addiere den Preis von vier Fahrten dazu; multipliziere den Grundpreis nicht mit der Fahrtenzahl.",
+      "Damit erhältst du \\(11\\)."
+    ],
+    "background": "Modelle aus Angaben bilden und Ergebnisse, Einheiten und Modellgrenzen beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A295": {
+    "correct": 0,
+    "explanation": "Negative Personenzahlen sind in diesem Sachkontext nicht sinnvoll. Eine rechnerisch mögliche Ausgabe ist nicht automatisch eine sinnvolle reale Aussage; das Modell oder seine Anwendung kann ungeeignet sein.",
+    "steps": [
+      "Negative Personenzahlen sind in diesem Sachkontext nicht sinnvoll.",
+      "Eine rechnerisch mögliche Ausgabe ist nicht automatisch eine sinnvolle reale Aussage; das Modell oder seine Anwendung kann ungeeignet sein."
+    ],
+    "background": "Modelle aus Angaben bilden und Ergebnisse, Einheiten und Modellgrenzen beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A297": {
+    "correct": 1,
+    "explanation": "Die Formel kann zwar einen Wert liefern, sie wurde aber nur im angegebenen Bereich mit Daten verglichen. Außerhalb davon können andere Prozesse oder Modellgrenzen auftreten. Rechenbarkeit ist kein Gültigkeitsbeweis.",
+    "steps": [
+      "Die Formel kann zwar einen Wert liefern, sie wurde aber nur im angegebenen Bereich mit Daten verglichen.",
+      "Außerhalb davon können andere Prozesse oder Modellgrenzen auftreten. Rechenbarkeit ist kein Gültigkeitsbeweis."
+    ],
+    "background": "Modelle aus Angaben bilden und Ergebnisse, Einheiten und Modellgrenzen beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A102": {
+    "correct": 0,
+    "explanation": "Bringe beide Brüche auf den gemeinsamen Nenner 8. Erweitere den ersten Zähler mit 2; die Zähler werden anschließend addiert. Damit erhältst du \\(\\frac{3}{8}\\).",
+    "steps": [
+      "Bringe beide Brüche auf den gemeinsamen Nenner 8.",
+      "Erweitere den ersten Zähler mit 2; die Zähler werden anschließend addiert.",
+      "Damit erhältst du \\(\\frac{3}{8}\\)."
+    ],
+    "background": "Brüche addieren, kürzen und Terme unter Beachtung des Definitionsbereichs umformen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A104": {
+    "correct": 1,
+    "explanation": "Zerlege die Differenz von Quadraten in \\(\\left(x - 4\\right) \\left(x + 4\\right)\\). Kürze nur den gemeinsamen Faktor \\(x + 4\\), nicht einzelne Summanden. Damit erhältst du \\(x - 4\\).",
+    "steps": [
+      "Zerlege die Differenz von Quadraten in \\(\\left(x - 4\\right) \\left(x + 4\\right)\\).",
+      "Kürze nur den gemeinsamen Faktor \\(x + 4\\), nicht einzelne Summanden.",
+      "Damit erhältst du \\(x - 4\\)."
+    ],
+    "background": "Brüche addieren, kürzen und Terme unter Beachtung des Definitionsbereichs umformen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A106": {
+    "correct": 2,
+    "explanation": "Der ursprüngliche Nenner wird bei dieser Stelle 0. Durch 0 darfst du nicht teilen. Die Gleichheit mit der gekürzten Form gilt nur auf dem ursprünglichen Definitionsbereich.",
+    "steps": [
+      "Der ursprüngliche Nenner wird bei dieser Stelle 0. Durch 0 darfst du nicht teilen.",
+      "Die Gleichheit mit der gekürzten Form gilt nur auf dem ursprünglichen Definitionsbereich."
+    ],
+    "background": "Brüche addieren, kürzen und Terme unter Beachtung des Definitionsbereichs umformen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A108": {
+    "correct": 2,
+    "explanation": "Bei gleicher Basis addierst du beim Multiplizieren die Exponenten. Der negative Exponent bedeutet einen Kehrwert; hier rechnest du 4 − 3. Damit erhältst du \\(x\\).",
+    "steps": [
+      "Bei gleicher Basis addierst du beim Multiplizieren die Exponenten.",
+      "Der negative Exponent bedeutet einen Kehrwert; hier rechnest du 4 − 3.",
+      "Damit erhältst du \\(x\\)."
+    ],
+    "background": "Potenzgesetze einschließlich negativer Exponenten sicher anwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A110": {
+    "correct": 0,
+    "explanation": "Eine Potenz wird potenziert: Die Exponenten werden multipliziert. Das Minus bleibt erhalten: -4 · 2 = -8. Damit erhältst du \\(\\frac{1}{x^{8}}\\).",
+    "steps": [
+      "Eine Potenz wird potenziert: Die Exponenten werden multipliziert.",
+      "Das Minus bleibt erhalten: -4 · 2 = -8.",
+      "Damit erhältst du \\(\\frac{1}{x^{8}}\\)."
+    ],
+    "background": "Potenzgesetze einschließlich negativer Exponenten sicher anwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A112": {
+    "correct": 1,
+    "explanation": "Fasse zuerst im Zähler die x-Potenzen zusammen. Teilen durch x hoch −1 ist Multiplizieren mit x; der Zahlenfaktor bleibt im Nenner. Damit erhältst du \\(\\frac{x^{2}}{3}\\).",
+    "steps": [
+      "Fasse zuerst im Zähler die x-Potenzen zusammen.",
+      "Teilen durch x hoch −1 ist Multiplizieren mit x; der Zahlenfaktor bleibt im Nenner.",
+      "Damit erhältst du \\(\\frac{x^{2}}{3}\\)."
+    ],
+    "background": "Potenzgesetze einschließlich negativer Exponenten sicher anwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A114": {
+    "correct": 1,
+    "explanation": "Die Quadratwurzel ist per Definition nichtnegativ. Gesucht ist die Zahl, deren Quadrat 16 ergibt. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Die Quadratwurzel ist per Definition nichtnegativ.",
+      "Gesucht ist die Zahl, deren Quadrat 16 ergibt.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Wurzeln und gebrochene Exponenten umformen und Einschränkungen beachten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A116": {
+    "correct": 2,
+    "explanation": "Schreibe die Wurzel als Potenz: \\(\\sqrt{x} = \\sqrt{x}\\). Beim Multiplizieren gleicher Basen werden die Exponenten addiert. Damit erhältst du \\(x^{\\frac{7}{2}}\\).",
+    "steps": [
+      "Schreibe die Wurzel als Potenz: \\(\\sqrt{x} = \\sqrt{x}\\).",
+      "Beim Multiplizieren gleicher Basen werden die Exponenten addiert.",
+      "Damit erhältst du \\(x^{\\frac{7}{2}}\\)."
+    ],
+    "background": "Wurzeln und gebrochene Exponenten umformen und Einschränkungen beachten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A118": {
+    "correct": 0,
+    "explanation": "Die Quadratwurzel liefert nie einen negativen Wert. Für x unterhalb von 3 ist x − 3 negativ und muss sein Vorzeichen wechseln; oberhalb bleibt es stehen.",
+    "steps": [
+      "Die Quadratwurzel liefert nie einen negativen Wert.",
+      "Für x unterhalb von 3 ist x − 3 negativ und muss sein Vorzeichen wechseln; oberhalb bleibt es stehen."
+    ],
+    "background": "Wurzeln und gebrochene Exponenten umformen und Einschränkungen beachten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A120": {
+    "correct": 0,
+    "explanation": "Natürlicher Logarithmus und Exponentialfunktion sind Umkehrfunktionen. Der Logarithmus fragt nach dem Exponenten zur Basis e. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Natürlicher Logarithmus und Exponentialfunktion sind Umkehrfunktionen.",
+      "Der Logarithmus fragt nach dem Exponenten zur Basis e.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Logarithmengesetze und Exponentialgleichungen mit positiven Argumenten nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A122": {
+    "correct": 1,
+    "explanation": "Für positive Argumente gilt ln(x hoch n) = n ln(x). Ziehe anschließend einmal ln(x) ab; die Koeffizienten werden zusammengefasst. Damit erhältst du \\(3 \\ln{\\left(x \\right)}\\).",
+    "steps": [
+      "Für positive Argumente gilt ln(x hoch n) = n ln(x).",
+      "Ziehe anschließend einmal ln(x) ab; die Koeffizienten werden zusammengefasst.",
+      "Damit erhältst du \\(3 \\ln{\\left(x \\right)}\\)."
+    ],
+    "background": "Logarithmengesetze und Exponentialgleichungen mit positiven Argumenten nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A124": {
+    "correct": 2,
+    "explanation": "Die Logarithmusregel betrifft Produkte: ln(ab) = ln(a) + ln(b). Eine Summe im Argument darfst du nicht auf diese Weise zerlegen; Einsetzen eines positiven Werts liefert ein Gegenbeispiel.",
+    "steps": [
+      "Die Logarithmusregel betrifft Produkte: ln(ab) = ln(a) + ln(b).",
+      "Eine Summe im Argument darfst du nicht auf diese Weise zerlegen; Einsetzen eines positiven Werts liefert ein Gegenbeispiel."
+    ],
+    "background": "Logarithmengesetze und Exponentialgleichungen mit positiven Argumenten nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A126": {
+    "correct": 2,
+    "explanation": "Addiere 9 auf beiden Seiten. Teile danach beide Seiten durch 3. Damit erhältst du \\(7\\).",
+    "steps": [
+      "Addiere 9 auf beiden Seiten.",
+      "Teile danach beide Seiten durch 3.",
+      "Damit erhältst du \\(7\\)."
+    ],
+    "background": "Lineare, quadratische und biquadratische Gleichungen lösen und Lösungen prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A128": {
+    "correct": 0,
+    "explanation": "Bringe die Konstante auf die rechte Seite: x² = 16. Sowohl 4 als auch -4 ergeben beim Quadrieren die geforderte Zahl.",
+    "steps": [
+      "Bringe die Konstante auf die rechte Seite: x² = 16.",
+      "Sowohl 4 als auch -4 ergeben beim Quadrieren die geforderte Zahl."
+    ],
+    "background": "Lineare, quadratische und biquadratische Gleichungen lösen und Lösungen prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A130": {
+    "correct": 1,
+    "explanation": "Setze z = x². Dann lautet die quadratische Gleichung z² − 5z + 4 = 0 mit Lösungen z = 1 und z = 4. Jeder positive z-Wert liefert zwei x-Werte. Prüfe x = ±1 und x = ±2 in der ursprünglichen Gleichung.",
+    "steps": [
+      "Setze z = x². Dann lautet die quadratische Gleichung z² − 5z + 4 = 0 mit Lösungen z = 1 und z = 4.",
+      "Jeder positive z-Wert liefert zwei x-Werte. Prüfe x = ±1 und x = ±2 in der ursprünglichen Gleichung."
+    ],
+    "background": "Lineare, quadratische und biquadratische Gleichungen lösen und Lösungen prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A132": {
+    "correct": 1,
+    "explanation": "Ein Nenner darf nicht 0 werden. Genau x = 4 ist ausgeschlossen; negative Nenner sind sonst durchaus erlaubt.",
+    "steps": [
+      "Ein Nenner darf nicht 0 werden.",
+      "Genau x = 4 ist ausgeschlossen; negative Nenner sind sonst durchaus erlaubt."
+    ],
+    "background": "Zulässige Eingaben und mögliche Ausgaben von Funktionen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A134": {
+    "correct": 2,
+    "explanation": "Das Argument des reellen Logarithmus muss strikt positiv sein. Löse x − 4 > 0. Der Randwert gehört nicht dazu, und alle kleineren Werte fallen ebenfalls weg.",
+    "steps": [
+      "Das Argument des reellen Logarithmus muss strikt positiv sein.",
+      "Löse x − 4 > 0. Der Randwert gehört nicht dazu, und alle kleineren Werte fallen ebenfalls weg."
+    ],
+    "background": "Zulässige Eingaben und mögliche Ausgaben von Funktionen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A136": {
+    "correct": 0,
+    "explanation": "Das Quadrat ist nie negativ und wird bei x = 4 gleich 0. Durch die Addition wird der kleinste Wert 3. Jeder größere Wert ist erreichbar.",
+    "steps": [
+      "Das Quadrat ist nie negativ und wird bei x = 4 gleich 0.",
+      "Durch die Addition wird der kleinste Wert 3. Jeder größere Wert ist erreichbar."
+    ],
+    "background": "Zulässige Eingaben und mögliche Ausgaben von Funktionen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A138": {
+    "correct": 0,
+    "explanation": "Setze 2 für jede Stelle x ein. Multipliziere zuerst und ziehe anschließend die Konstante ab. Damit erhältst du \\(5\\).",
+    "steps": [
+      "Setze 2 für jede Stelle x ein.",
+      "Multipliziere zuerst und ziehe anschließend die Konstante ab.",
+      "Damit erhältst du \\(5\\)."
+    ],
+    "background": "Lineare, quadratische, polynomiale und Potenzfunktionen erkennen und auswerten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A140": {
+    "correct": 1,
+    "explanation": "Eine gerade Potenz ändert ihren Wert bei x und −x nicht. Der Potenzteil ist nichtnegativ; der kleinste Funktionswert ist −4.",
+    "steps": [
+      "Eine gerade Potenz ändert ihren Wert bei x und −x nicht.",
+      "Der Potenzteil ist nichtnegativ; der kleinste Funktionswert ist −4."
+    ],
+    "background": "Lineare, quadratische, polynomiale und Potenzfunktionen erkennen und auswerten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A142": {
+    "correct": 2,
+    "explanation": "Die Ableitung lautet 3x² − 4 und ist nicht konstant. Eine Gerade hätte dagegen dieselbe Steigung an jeder Stelle; ein lineares Modell kann höchstens lokal angenähert passen.",
+    "steps": [
+      "Die Ableitung lautet 3x² − 4 und ist nicht konstant.",
+      "Eine Gerade hätte dagegen dieselbe Steigung an jeder Stelle; ein lineares Modell kann höchstens lokal angenähert passen."
+    ],
+    "background": "Lineare, quadratische, polynomiale und Potenzfunktionen erkennen und auswerten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A144": {
+    "correct": 2,
+    "explanation": "Orientiere dich am Einheitskreis. Sinus ist die y-Koordinate, Kosinus die x-Koordinate des zugehörigen Kreispunkts. Damit erhältst du \\(-1\\).",
+    "steps": [
+      "Orientiere dich am Einheitskreis.",
+      "Sinus ist die y-Koordinate, Kosinus die x-Koordinate des zugehörigen Kreispunkts.",
+      "Damit erhältst du \\(-1\\)."
+    ],
+    "background": "Bogenmaß, Periodizität und grundlegende Eigenschaften trigonometrischer Funktionen nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A146": {
+    "correct": 0,
+    "explanation": "Sinus wiederholt seine Werte nach einer Änderung des Arguments um 2π. Für n x muss deshalb n T = 2π gelten. Löse nach T auf. Damit erhältst du \\(\\frac{\\pi}{2}\\).",
+    "steps": [
+      "Sinus wiederholt seine Werte nach einer Änderung des Arguments um 2π.",
+      "Für n x muss deshalb n T = 2π gelten. Löse nach T auf.",
+      "Damit erhältst du \\(\\frac{\\pi}{2}\\)."
+    ],
+    "background": "Bogenmaß, Periodizität und grundlegende Eigenschaften trigonometrischer Funktionen nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A148": {
+    "correct": 1,
+    "explanation": "Der Faktor 3 vor dem Kosinus skaliert die Höhe. Der Faktor 4 im Argument verändert die Periodenlänge. Kein addierter Wert außerhalb der Funktion bedeutet keine vertikale Verschiebung.",
+    "steps": [
+      "Der Faktor 3 vor dem Kosinus skaliert die Höhe. Der Faktor 4 im Argument verändert die Periodenlänge.",
+      "Kein addierter Wert außerhalb der Funktion bedeutet keine vertikale Verschiebung."
+    ],
+    "background": "Bogenmaß, Periodizität und grundlegende Eigenschaften trigonometrischer Funktionen nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A150": {
+    "correct": 1,
+    "explanation": "Die Zahl wird erst nach dem Funktionswert addiert. Jeder y-Wert wird um 4 größer; der x-Wert bleibt derselbe.",
+    "steps": [
+      "Die Zahl wird erst nach dem Funktionswert addiert.",
+      "Jeder y-Wert wird um 4 größer; der x-Wert bleibt derselbe."
+    ],
+    "background": "Verschiebungen, Spiegelungen und Streckungen erklären und kombinieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A152": {
+    "correct": 2,
+    "explanation": "x − 3 im Inneren verschiebt den Graphen nach rechts. Das äußere Minus wechselt anschließend alle y-Vorzeichen und spiegelt an der x-Achse.",
+    "steps": [
+      "x − 3 im Inneren verschiebt den Graphen nach rechts.",
+      "Das äußere Minus wechselt anschließend alle y-Vorzeichen und spiegelt an der x-Achse."
+    ],
+    "background": "Verschiebungen, Spiegelungen und Streckungen erklären und kombinieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A154": {
+    "correct": 0,
+    "explanation": "Um den alten Funktionswert bei x = 4 zu erreichen, muss die neue Stelle 7 sein. Dann wird der alte y-Wert verdoppelt und 1 addiert. Die Reihenfolge folgt der Funktionsvorschrift.",
+    "steps": [
+      "Um den alten Funktionswert bei x = 4 zu erreichen, muss die neue Stelle 7 sein.",
+      "Dann wird der alte y-Wert verdoppelt und 1 addiert. Die Reihenfolge folgt der Funktionsvorschrift."
+    ],
+    "background": "Verschiebungen, Spiegelungen und Streckungen erklären und kombinieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A156": {
+    "correct": 0,
+    "explanation": "Ein Produkt ist genau dann 0, wenn mindestens ein Faktor 0 ist. Prüfe also x = 0 und x − 4 = 0 getrennt. Nicht vorher durch x teilen, sonst verlierst du eine Lösung.",
+    "steps": [
+      "Ein Produkt ist genau dann 0, wenn mindestens ein Faktor 0 ist.",
+      "Prüfe also x = 0 und x − 4 = 0 getrennt. Nicht vorher durch x teilen, sonst verlierst du eine Lösung."
+    ],
+    "background": "Nullstellen, Symmetrien und einfache Asymptoten bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A158": {
+    "correct": 1,
+    "explanation": "Für sehr große Beträge von x bestimmen die höchsten Potenzen den Grenzwert. Zähler und Nenner haben denselben Grad. Der Quotient der führenden Koeffizienten ist 4.",
+    "steps": [
+      "Für sehr große Beträge von x bestimmen die höchsten Potenzen den Grenzwert.",
+      "Zähler und Nenner haben denselben Grad. Der Quotient der führenden Koeffizienten ist 4."
+    ],
+    "background": "Nullstellen, Symmetrien und einfache Asymptoten bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A160": {
+    "correct": 2,
+    "explanation": "Der Faktor (x − 3)² hat eine gerade Vielfachheit und bleibt beidseits nichtnegativ. Der andere Faktor ist an der Stelle positiv und ungleich 0. Deshalb bleibt das Vorzeichen in ihrer Umgebung gleich.",
+    "steps": [
+      "Der Faktor (x − 3)² hat eine gerade Vielfachheit und bleibt beidseits nichtnegativ.",
+      "Der andere Faktor ist an der Stelle positiv und ungleich 0. Deshalb bleibt das Vorzeichen in ihrer Umgebung gleich."
+    ],
+    "background": "Nullstellen, Symmetrien und einfache Asymptoten bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A162": {
+    "correct": 2,
+    "explanation": "Bilde die Differenz der Funktionswerte und teile durch die Differenz der x-Werte. Der Nenner ist 3, nicht der größere x-Wert. Damit erhältst du \\(11\\).",
+    "steps": [
+      "Bilde die Differenz der Funktionswerte und teile durch die Differenz der x-Werte.",
+      "Der Nenner ist 3, nicht der größere x-Wert.",
+      "Damit erhältst du \\(11\\)."
+    ],
+    "background": "Mittlere und lokale Änderungsrate unterscheiden und Differenzenquotienten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A164": {
+    "correct": 0,
+    "explanation": "Die momentane Geschwindigkeit ist die Ableitung der Position. Es gilt s′(t) = 6t. Setze erst danach den Zeitpunkt ein. Damit erhältst du \\(24\\).",
+    "steps": [
+      "Die momentane Geschwindigkeit ist die Ableitung der Position.",
+      "Es gilt s′(t) = 6t. Setze erst danach den Zeitpunkt ein.",
+      "Damit erhältst du \\(24\\)."
+    ],
+    "background": "Mittlere und lokale Änderungsrate unterscheiden und Differenzenquotienten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A166": {
+    "correct": 1,
+    "explanation": "Der ursprüngliche Quotient ist bei h = 0 nicht definiert, der Grenzwert kann aber existieren. Nach dem Kürzen für h ≠ 0 kannst du den Grenzwert ablesen; das unterscheidet Differential- und Differenzenquotient.",
+    "steps": [
+      "Der ursprüngliche Quotient ist bei h = 0 nicht definiert, der Grenzwert kann aber existieren.",
+      "Nach dem Kürzen für h ≠ 0 kannst du den Grenzwert ablesen; das unterscheidet Differential- und Differenzenquotient."
+    ],
+    "background": "Mittlere und lokale Änderungsrate unterscheiden und Differenzenquotienten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A168": {
+    "correct": 1,
+    "explanation": "Nutze Potenzregel und Faktorregel. Der Exponent kommt nach vorn und wird danach um 1 kleiner. Damit erhältst du \\(12 x^{2}\\).",
+    "steps": [
+      "Nutze Potenzregel und Faktorregel.",
+      "Der Exponent kommt nach vorn und wird danach um 1 kleiner.",
+      "Damit erhältst du \\(12 x^{2}\\)."
+    ],
+    "background": "Polynome ableiten und die Wirkung konstanter Faktoren erklären. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A170": {
+    "correct": 2,
+    "explanation": "Leite die Summanden einzeln ab. Die Konstante 7 hat Ableitung 0; feste Faktoren bleiben stehen. Damit erhältst du \\(12 x^{2} - 3\\).",
+    "steps": [
+      "Leite die Summanden einzeln ab.",
+      "Die Konstante 7 hat Ableitung 0; feste Faktoren bleiben stehen.",
+      "Damit erhältst du \\(12 x^{2} - 3\\)."
+    ],
+    "background": "Polynome ableiten und die Wirkung konstanter Faktoren erklären. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A172": {
+    "correct": 0,
+    "explanation": "Du kannst zuerst die Klammer ausmultiplizieren. Die Ableitung von x² − 6x + 9 ist 2x − 6. Damit erhältst du \\(2 x - 6\\).",
+    "steps": [
+      "Du kannst zuerst die Klammer ausmultiplizieren.",
+      "Die Ableitung von x² − 6x + 9 ist 2x − 6.",
+      "Damit erhältst du \\(2 x - 6\\)."
+    ],
+    "background": "Polynome ableiten und die Wirkung konstanter Faktoren erklären. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A174": {
+    "correct": 0,
+    "explanation": "Schreibe die dritte Wurzel als Potenz. Beim Ableiten wird aus dem Exponenten 1/3 der Exponent −2/3. Damit erhältst du \\(\\frac{1}{3 x^{\\frac{2}{3}}}\\).",
+    "steps": [
+      "Schreibe die dritte Wurzel als Potenz.",
+      "Beim Ableiten wird aus dem Exponenten 1/3 der Exponent −2/3.",
+      "Damit erhältst du \\(\\frac{1}{3 x^{\\frac{2}{3}}}\\)."
+    ],
+    "background": "Wurzel- und reziproke Potenzfunktionen auf ihrem Differenzierbarkeitsbereich ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A176": {
+    "correct": 1,
+    "explanation": "Wende die Potenzregel auch beim negativen Exponenten an. Das Minuszeichen des Exponenten wird Teil des Vorfaktors. Damit erhältst du \\(- \\frac{4}{x^{5}}\\).",
+    "steps": [
+      "Wende die Potenzregel auch beim negativen Exponenten an.",
+      "Das Minuszeichen des Exponenten wird Teil des Vorfaktors.",
+      "Damit erhältst du \\(- \\frac{4}{x^{5}}\\)."
+    ],
+    "background": "Wurzel- und reziproke Potenzfunktionen auf ihrem Differenzierbarkeitsbereich ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A178": {
+    "correct": 2,
+    "explanation": "Vereinfache vor dem Ableiten: gleiche Basis, Exponenten subtrahieren. Der Ausdruck ist x hoch (1/2 − 3). Darauf passt direkt die Potenzregel. Damit erhältst du \\(- \\frac{5}{2 x^{\\frac{7}{2}}}\\).",
+    "steps": [
+      "Vereinfache vor dem Ableiten: gleiche Basis, Exponenten subtrahieren.",
+      "Der Ausdruck ist x hoch (1/2 − 3). Darauf passt direkt die Potenzregel.",
+      "Damit erhältst du \\(- \\frac{5}{2 x^{\\frac{7}{2}}}\\)."
+    ],
+    "background": "Wurzel- und reziproke Potenzfunktionen auf ihrem Differenzierbarkeitsbereich ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A180": {
+    "correct": 2,
+    "explanation": "Nutze die Produktregel u′v + uv′. Für u = x gilt u′ = 1, für v = exp(4x) gilt v′ = 4exp(4x). Damit erhältst du \\(\\left(4 x + 1\\right) e^{4 x}\\).",
+    "steps": [
+      "Nutze die Produktregel u′v + uv′.",
+      "Für u = x gilt u′ = 1, für v = exp(4x) gilt v′ = 4exp(4x).",
+      "Damit erhältst du \\(\\left(4 x + 1\\right) e^{4 x}\\)."
+    ],
+    "background": "Produkte von Funktionen mit der Produktregel ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A182": {
+    "correct": 0,
+    "explanation": "Auch eine verschobene lineare Funktion ist ein eigener Faktor. Leite jeden Faktor in genau einem Summanden ab; addiere beide Produkte. Damit erhältst du \\(3 x^{2} + 6 x + 4\\).",
+    "steps": [
+      "Auch eine verschobene lineare Funktion ist ein eigener Faktor.",
+      "Leite jeden Faktor in genau einem Summanden ab; addiere beide Produkte.",
+      "Damit erhältst du \\(3 x^{2} + 6 x + 4\\)."
+    ],
+    "background": "Produkte von Funktionen mit der Produktregel ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A184": {
+    "correct": 1,
+    "explanation": "Du brauchst Produktregel und die Ableitung des Logarithmus. Die Ableitungen der Faktoren sind 2x und 1/(x + 3). Damit erhältst du \\(\\frac{x \\left(x + 2 \\left(x + 3\\right) \\ln{\\left(x + 3 \\right)}\\right)}{x + 3}\\).",
+    "steps": [
+      "Du brauchst Produktregel und die Ableitung des Logarithmus.",
+      "Die Ableitungen der Faktoren sind 2x und 1/(x + 3).",
+      "Damit erhältst du \\(\\frac{x \\left(x + 2 \\left(x + 3\\right) \\ln{\\left(x + 3 \\right)}\\right)}{x + 3}\\)."
+    ],
+    "background": "Produkte von Funktionen mit der Produktregel ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A186": {
+    "correct": 1,
+    "explanation": "Nutze die Quotientenregel (u′v − uv′)/v². Im Zähler bleibt (x + 4) − x = 4. Damit erhältst du \\(\\frac{4}{\\left(x + 4\\right)^{2}}\\).",
+    "steps": [
+      "Nutze die Quotientenregel (u′v − uv′)/v².",
+      "Im Zähler bleibt (x + 4) − x = 4.",
+      "Damit erhältst du \\(\\frac{4}{\\left(x + 4\\right)^{2}}\\)."
+    ],
+    "background": "Quotienten unter Ausschluss von Nennernullstellen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A188": {
+    "correct": 2,
+    "explanation": "Der Nenner ist für x > 0 nicht 0. Im Zähler steht 2x(x + 4) − (x² + 3), darunter das Quadrat des Nenners. Damit erhältst du \\(\\frac{- x^{2} + 2 x \\left(x + 4\\right) - 3}{\\left(x + 4\\right)^{2}}\\).",
+    "steps": [
+      "Der Nenner ist für x > 0 nicht 0.",
+      "Im Zähler steht 2x(x + 4) − (x² + 3), darunter das Quadrat des Nenners.",
+      "Damit erhältst du \\(\\frac{- x^{2} + 2 x \\left(x + 4\\right) - 3}{\\left(x + 4\\right)^{2}}\\)."
+    ],
+    "background": "Quotienten unter Ausschluss von Nennernullstellen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A190": {
+    "correct": 0,
+    "explanation": "Verknüpfe Quotientenregel und (ln x)′ = 1/x. Achte auf das Minus vor ln(x) im Zähler und auf das Nennerquadrat. Damit erhältst du \\(\\frac{- x \\ln{\\left(x \\right)} + x + 3}{x \\left(x + 3\\right)^{2}}\\).",
+    "steps": [
+      "Verknüpfe Quotientenregel und (ln x)′ = 1/x.",
+      "Achte auf das Minus vor ln(x) im Zähler und auf das Nennerquadrat.",
+      "Damit erhältst du \\(\\frac{- x \\ln{\\left(x \\right)} + x + 3}{x \\left(x + 3\\right)^{2}}\\)."
+    ],
+    "background": "Quotienten unter Ausschluss von Nennernullstellen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A192": {
+    "correct": 0,
+    "explanation": "Nutze äußere Ableitung mal innere Ableitung. Die äußere dritte Potenz liefert 3(innerer Term)²; innen ist die Ableitung 4. Damit erhältst du \\(12 \\left(4 x + 1\\right)^{2}\\).",
+    "steps": [
+      "Nutze äußere Ableitung mal innere Ableitung.",
+      "Die äußere dritte Potenz liefert 3(innerer Term)²; innen ist die Ableitung 4.",
+      "Damit erhältst du \\(12 \\left(4 x + 1\\right)^{2}\\)."
+    ],
+    "background": "Innere und äußere Funktion erkennen und verkettete Funktionen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A194": {
+    "correct": 1,
+    "explanation": "Die äußere Funktion ist eine Wurzel. Nach der äußeren Ableitung musst du mit der inneren Ableitung 8x multiplizieren. Damit erhältst du \\(\\frac{4 x}{\\sqrt{4 x^{2} + 1}}\\).",
+    "steps": [
+      "Die äußere Funktion ist eine Wurzel.",
+      "Nach der äußeren Ableitung musst du mit der inneren Ableitung 8x multiplizieren.",
+      "Damit erhältst du \\(\\frac{4 x}{\\sqrt{4 x^{2} + 1}}\\)."
+    ],
+    "background": "Innere und äußere Funktion erkennen und verkettete Funktionen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A196": {
+    "correct": 2,
+    "explanation": "Es liegen drei Schichten vor: Sinus, dritte Potenz, quadratischer Term. Multipliziere cos(inneres Argument), 3(x² + 3)² und 2x. Damit erhältst du \\(6 x \\left(x^{2} + 3\\right)^{2} \\cos{\\left(\\left(x^{2} + 3\\right)^{3} \\right)}\\).",
+    "steps": [
+      "Es liegen drei Schichten vor: Sinus, dritte Potenz, quadratischer Term.",
+      "Multipliziere cos(inneres Argument), 3(x² + 3)² und 2x.",
+      "Damit erhältst du \\(6 x \\left(x^{2} + 3\\right)^{2} \\cos{\\left(\\left(x^{2} + 3\\right)^{3} \\right)}\\)."
+    ],
+    "background": "Innere und äußere Funktion erkennen und verkettete Funktionen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A198": {
+    "correct": 2,
+    "explanation": "Die e-Funktion bleibt beim Ableiten erhalten. Der lineare Exponent bringt über die Kettenregel den zusätzlichen Faktor 4. Damit erhältst du \\(4 e^{4 x}\\).",
+    "steps": [
+      "Die e-Funktion bleibt beim Ableiten erhalten.",
+      "Der lineare Exponent bringt über die Kettenregel den zusätzlichen Faktor 4.",
+      "Damit erhältst du \\(4 e^{4 x}\\)."
+    ],
+    "background": "Exponentialfunktionen einschließlich linearer Verkettungen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A200": {
+    "correct": 0,
+    "explanation": "Nutze Faktorregel und Kettenregel. Die innere Ableitung des negativen Exponenten ist −4, daher wird die Ableitung negativ. Damit erhältst du \\(- 12 e^{- 4 x}\\).",
+    "steps": [
+      "Nutze Faktorregel und Kettenregel.",
+      "Die innere Ableitung des negativen Exponenten ist −4, daher wird die Ableitung negativ.",
+      "Damit erhältst du \\(- 12 e^{- 4 x}\\)."
+    ],
+    "background": "Exponentialfunktionen einschließlich linearer Verkettungen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A202": {
+    "correct": 1,
+    "explanation": "Leite auch den nichtlinearen Exponenten ab. Die e-Funktion wird mit 2x multipliziert; eine additive Konstante im Exponenten hat Ableitung 0. Damit erhältst du \\(2 x e^{x^{2} + 3}\\).",
+    "steps": [
+      "Leite auch den nichtlinearen Exponenten ab.",
+      "Die e-Funktion wird mit 2x multipliziert; eine additive Konstante im Exponenten hat Ableitung 0.",
+      "Damit erhältst du \\(2 x e^{x^{2} + 3}\\)."
+    ],
+    "background": "Exponentialfunktionen einschließlich linearer Verkettungen ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A204": {
+    "correct": 1,
+    "explanation": "Die Ableitung von ln(u) ist u′/u. Innen steht x + 3 mit Ableitung 1. Damit erhältst du \\(\\frac{1}{x + 3}\\).",
+    "steps": [
+      "Die Ableitung von ln(u) ist u′/u.",
+      "Innen steht x + 3 mit Ableitung 1.",
+      "Damit erhältst du \\(\\frac{1}{x + 3}\\)."
+    ],
+    "background": "ln-Funktionen ableiten und positive Argumente sicherstellen. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A206": {
+    "correct": 2,
+    "explanation": "Nutze die Kettenregel beim natürlichen Logarithmus. Teile die innere Ableitung 8x durch das ursprüngliche positive Argument. Damit erhältst du \\(\\frac{8 x}{4 x^{2} + 1}\\).",
+    "steps": [
+      "Nutze die Kettenregel beim natürlichen Logarithmus.",
+      "Teile die innere Ableitung 8x durch das ursprüngliche positive Argument.",
+      "Damit erhältst du \\(\\frac{8 x}{4 x^{2} + 1}\\)."
+    ],
+    "background": "ln-Funktionen ableiten und positive Argumente sicherstellen. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A208": {
+    "correct": 0,
+    "explanation": "Schreibe den Term als x hoch −3 mal ln(x). Die Produktregel ergibt einen Summanden mit ln(x) und einen mit der Ableitung 1/x. Damit erhältst du \\(\\frac{1 - 3 \\ln{\\left(x \\right)}}{x^{4}}\\).",
+    "steps": [
+      "Schreibe den Term als x hoch −3 mal ln(x).",
+      "Die Produktregel ergibt einen Summanden mit ln(x) und einen mit der Ableitung 1/x.",
+      "Damit erhältst du \\(\\frac{1 - 3 \\ln{\\left(x \\right)}}{x^{4}}\\)."
+    ],
+    "background": "ln-Funktionen ableiten und positive Argumente sicherstellen. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A210": {
+    "correct": 0,
+    "explanation": "Nutze (sin u)′ = cos(u) · u′ im Bogenmaß. Die innere lineare Funktion hat die Ableitung 4. Damit erhältst du \\(4 \\cos{\\left(4 x \\right)}\\).",
+    "steps": [
+      "Nutze (sin u)′ = cos(u) · u′ im Bogenmaß.",
+      "Die innere lineare Funktion hat die Ableitung 4.",
+      "Damit erhältst du \\(4 \\cos{\\left(4 x \\right)}\\)."
+    ],
+    "background": "Sinus- und Kosinusfunktionen im Bogenmaß ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A212": {
+    "correct": 1,
+    "explanation": "Kosinus wird beim Ableiten zu negativem Sinus. Die Kettenregel ergänzt den Faktor 4. Damit erhältst du \\(- 4 \\sin{\\left(4 x + 3 \\right)}\\).",
+    "steps": [
+      "Kosinus wird beim Ableiten zu negativem Sinus.",
+      "Die Kettenregel ergänzt den Faktor 4.",
+      "Damit erhältst du \\(- 4 \\sin{\\left(4 x + 3 \\right)}\\)."
+    ],
+    "background": "Sinus- und Kosinusfunktionen im Bogenmaß ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A214": {
+    "correct": 2,
+    "explanation": "Die äußere Funktion ist eine Potenz, innen steht sin(x). Leite die Potenz ab und multipliziere mit cos(x). Damit erhältst du \\(3 \\sin^{2}{\\left(x \\right)} \\cos{\\left(x \\right)}\\).",
+    "steps": [
+      "Die äußere Funktion ist eine Potenz, innen steht sin(x).",
+      "Leite die Potenz ab und multipliziere mit cos(x).",
+      "Damit erhältst du \\(3 \\sin^{2}{\\left(x \\right)} \\cos{\\left(x \\right)}\\)."
+    ],
+    "background": "Sinus- und Kosinusfunktionen im Bogenmaß ableiten. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A216": {
+    "correct": 2,
+    "explanation": "Zunächst Produktregel, im zweiten Faktor zusätzlich Kettenregel. Ein Summand entsteht aus der Ableitung von x, einer aus der Ableitung des Sinus. Damit erhältst du \\(4 x \\cos{\\left(4 x \\right)} + \\sin{\\left(4 x \\right)}\\).",
+    "steps": [
+      "Zunächst Produktregel, im zweiten Faktor zusätzlich Kettenregel.",
+      "Ein Summand entsteht aus der Ableitung von x, einer aus der Ableitung des Sinus.",
+      "Damit erhältst du \\(4 x \\cos{\\left(4 x \\right)} + \\sin{\\left(4 x \\right)}\\)."
+    ],
+    "background": "Mehrere Ableitungsregeln in verschachtelten Ausdrücken gezielt kombinieren. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A218": {
+    "correct": 0,
+    "explanation": "Die beiden Faktoren sind x + 3 und exp(x²). Beim zweiten Faktor liefert die Kettenregel 2x exp(x²). Damit erhältst du \\(\\left(2 x \\left(x + 3\\right) + 1\\right) e^{x^{2}}\\).",
+    "steps": [
+      "Die beiden Faktoren sind x + 3 und exp(x²).",
+      "Beim zweiten Faktor liefert die Kettenregel 2x exp(x²).",
+      "Damit erhältst du \\(\\left(2 x \\left(x + 3\\right) + 1\\right) e^{x^{2}}\\)."
+    ],
+    "background": "Mehrere Ableitungsregeln in verschachtelten Ausdrücken gezielt kombinieren. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A220": {
+    "correct": 1,
+    "explanation": "Nutze Produktregel mit x hoch −1/2 und die Logarithmusableitung. Die Ableitung des Wurzel-Kehrwerts ist negativ; der andere Summand enthält 1/(x + 3). Damit erhältst du \\(\\frac{x - \\frac{\\left(x + 3\\right) \\ln{\\left(x + 3 \\right)}}{2}}{x^{\\frac{3}{2}} \\left(x + 3\\right)}\\).",
+    "steps": [
+      "Nutze Produktregel mit x hoch −1/2 und die Logarithmusableitung.",
+      "Die Ableitung des Wurzel-Kehrwerts ist negativ; der andere Summand enthält 1/(x + 3).",
+      "Damit erhältst du \\(\\frac{x - \\frac{\\left(x + 3\\right) \\ln{\\left(x + 3 \\right)}}{2}}{x^{\\frac{3}{2}} \\left(x + 3\\right)}\\)."
+    ],
+    "background": "Mehrere Ableitungsregeln in verschachtelten Ausdrücken gezielt kombinieren. Die Einschränkung x > 0 vermeidet ausgeschlossene oder nicht differenzierbare Stellen; trigonometrische Argumente im Bogenmaß.",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A222": {
+    "correct": 1,
+    "explanation": "Die Tangentensteigung ist der Wert der ersten Ableitung an der Stelle. Bei f′(x) = 2x setzt du 4 ein. Damit erhältst du \\(8\\).",
+    "steps": [
+      "Die Tangentensteigung ist der Wert der ersten Ableitung an der Stelle.",
+      "Bei f′(x) = 2x setzt du 4 ein.",
+      "Damit erhältst du \\(8\\)."
+    ],
+    "background": "Tangenten- und Normalengleichungen aufstellen und Sonderfälle erkennen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A224": {
+    "correct": 2,
+    "explanation": "Die Tangentensteigung ist 6. Sie ist nicht 0. Bei senkrechten Geraden ist das Produkt der Steigungen −1. Nimm deshalb den negativen Kehrwert. Damit erhältst du \\(- \\frac{1}{6}\\).",
+    "steps": [
+      "Die Tangentensteigung ist 6. Sie ist nicht 0.",
+      "Bei senkrechten Geraden ist das Produkt der Steigungen −1. Nimm deshalb den negativen Kehrwert.",
+      "Damit erhältst du \\(- \\frac{1}{6}\\)."
+    ],
+    "background": "Tangenten- und Normalengleichungen aufstellen und Sonderfälle erkennen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A226": {
+    "correct": 0,
+    "explanation": "Die Tangente im Scheitel ist waagerecht. Ihre Normale ist daher senkrecht. Eine senkrechte Gerade kann nicht als y = mx + b mit endlicher Steigung dargestellt werden; sie hat die Gleichung x = 4.",
+    "steps": [
+      "Die Tangente im Scheitel ist waagerecht. Ihre Normale ist daher senkrecht.",
+      "Eine senkrechte Gerade kann nicht als y = mx + b mit endlicher Steigung dargestellt werden; sie hat die Gleichung x = 4."
+    ],
+    "background": "Tangenten- und Normalengleichungen aufstellen und Sonderfälle erkennen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A228": {
+    "correct": 0,
+    "explanation": "Eine überall negative Ableitung bedeutet fallende Funktionswerte, wenn x größer wird. Das Vorzeichen der Ableitung legt nicht das Vorzeichen der Funktion selbst fest.",
+    "steps": [
+      "Eine überall negative Ableitung bedeutet fallende Funktionswerte, wenn x größer wird.",
+      "Das Vorzeichen der Ableitung legt nicht das Vorzeichen der Funktion selbst fest."
+    ],
+    "background": "Steigen und Fallen über Ableitungszeichen begründen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A230": {
+    "correct": 1,
+    "explanation": "Es gilt f′(x) = 2(x − 4). Die Ableitung ist genau rechts von 4 positiv. Links davon ist sie negativ.",
+    "steps": [
+      "Es gilt f′(x) = 2(x − 4).",
+      "Die Ableitung ist genau rechts von 4 positiv. Links davon ist sie negativ."
+    ],
+    "background": "Steigen und Fallen über Ableitungszeichen begründen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A232": {
+    "correct": 2,
+    "explanation": "Die Ableitung ist überall nichtnegativ und nur an einer einzelnen Stelle 0. Zum Beispiel hat (x − 4)³/3 genau diese Ableitung und steigt trotz waagerechter Tangente streng an.",
+    "steps": [
+      "Die Ableitung ist überall nichtnegativ und nur an einer einzelnen Stelle 0.",
+      "Zum Beispiel hat (x − 4)³/3 genau diese Ableitung und steigt trotz waagerechter Tangente streng an."
+    ],
+    "background": "Steigen und Fallen über Ableitungszeichen begründen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A234": {
+    "correct": 2,
+    "explanation": "Die erste Ableitung 0 bedeutet eine waagerechte Tangente. Die positive zweite Ableitung macht daraus einen Tiefpunkt; ohne die zweite Bedingung wäre das noch nicht sicher.",
+    "steps": [
+      "Die erste Ableitung 0 bedeutet eine waagerechte Tangente.",
+      "Die positive zweite Ableitung macht daraus einen Tiefpunkt; ohne die zweite Bedingung wäre das noch nicht sicher."
+    ],
+    "background": "Stationäre Stellen prüfen und lokale sowie globale Extrema unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A236": {
+    "correct": 0,
+    "explanation": "Setze die Ableitung 2x − 8 gleich 0. Die zweite Ableitung ist 2 > 0; die nach oben geöffnete Parabel hat dort ihr Minimum. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Setze die Ableitung 2x − 8 gleich 0.",
+      "Die zweite Ableitung ist 2 > 0; die nach oben geöffnete Parabel hat dort ihr Minimum.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Stationäre Stellen prüfen und lokale sowie globale Extrema unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A238": {
+    "correct": 1,
+    "explanation": "x³ steigt auf dem ganzen Intervall. Eine stationäre Stelle allein ist kein Extremnachweis. Das kleinste und das größte Ergebnis auf dem abgeschlossenen Intervall liegen hier an den beiden Rändern.",
+    "steps": [
+      "x³ steigt auf dem ganzen Intervall. Eine stationäre Stelle allein ist kein Extremnachweis.",
+      "Das kleinste und das größte Ergebnis auf dem abgeschlossenen Intervall liegen hier an den beiden Rändern."
+    ],
+    "background": "Stationäre Stellen prüfen und lokale sowie globale Extrema unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A240": {
+    "correct": 1,
+    "explanation": "Die zweite Ableitung ist positiv. Die Steigung der Funktion nimmt daher zu. Eine positive konstante zweite Ableitung passt zum Beispiel zu einer nach oben geöffneten Parabel.",
+    "steps": [
+      "Die zweite Ableitung ist positiv. Die Steigung der Funktion nimmt daher zu.",
+      "Eine positive konstante zweite Ableitung passt zum Beispiel zu einer nach oben geöffneten Parabel."
+    ],
+    "background": "Krümmungswechsel mit zweiter und dritter Ableitung untersuchen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A242": {
+    "correct": 2,
+    "explanation": "Die zweite Ableitung ist 6(x − 4). Sie ist bei 4 gleich 0. Links und rechts wechselt sie das Vorzeichen; damit ist der Krümmungswechsel nachgewiesen. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Die zweite Ableitung ist 6(x − 4). Sie ist bei 4 gleich 0.",
+      "Links und rechts wechselt sie das Vorzeichen; damit ist der Krümmungswechsel nachgewiesen.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Krümmungswechsel mit zweiter und dritter Ableitung untersuchen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A244": {
+    "correct": 0,
+    "explanation": "Die zweite Ableitung ist 12(x − 4)² und daher auf beiden Seiten nichtnegativ. Eine Nullstelle von f″ ist nur ein Kandidat. Der notwendige Krümmungswechsel fehlt hier.",
+    "steps": [
+      "Die zweite Ableitung ist 12(x − 4)² und daher auf beiden Seiten nichtnegativ.",
+      "Eine Nullstelle von f″ ist nur ein Kandidat. Der notwendige Krümmungswechsel fehlt hier."
+    ],
+    "background": "Krümmungswechsel mit zweiter und dritter Ableitung untersuchen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A246": {
+    "correct": 0,
+    "explanation": "Ein addierter Parameter verschiebt den Graphen nur vertikal. Die Ableitungen 2x und 2 bleiben gleich; die Scheitelhöhe ist jetzt 4.",
+    "steps": [
+      "Ein addierter Parameter verschiebt den Graphen nur vertikal.",
+      "Die Ableitungen 2x und 2 bleiben gleich; die Scheitelhöhe ist jetzt 4."
+    ],
+    "background": "Graphen, Funktionsscharen und abschnittsweise Funktionen durch mehrere Kriterien beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A248": {
+    "correct": 1,
+    "explanation": "Beide einseitigen Grenzwerte und der Funktionswert sind 0, also ist die Funktion stetig. Links ist die Steigung 1, rechts 2. Weil die einseitigen Ableitungen nicht übereinstimmen, gibt es einen Knick.",
+    "steps": [
+      "Beide einseitigen Grenzwerte und der Funktionswert sind 0, also ist die Funktion stetig.",
+      "Links ist die Steigung 1, rechts 2. Weil die einseitigen Ableitungen nicht übereinstimmen, gibt es einen Knick."
+    ],
+    "background": "Graphen, Funktionsscharen und abschnittsweise Funktionen durch mehrere Kriterien beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A250": {
+    "correct": 2,
+    "explanation": "Für a = 0 ist f(x) = x³ und f′(x) = 3x². Die Ableitung wird nur an 0 gleich 0. Das Vorzeichen von f′ wechselt nicht. Die Funktion ist streng steigend; es liegt ein Sattelpunkt statt eines Extrempunkts vor.",
+    "steps": [
+      "Für a = 0 ist f(x) = x³ und f′(x) = 3x². Die Ableitung wird nur an 0 gleich 0.",
+      "Das Vorzeichen von f′ wechselt nicht. Die Funktion ist streng steigend; es liegt ein Sattelpunkt statt eines Extrempunkts vor."
+    ],
+    "background": "Graphen, Funktionsscharen und abschnittsweise Funktionen durch mehrere Kriterien beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A252": {
+    "correct": 2,
+    "explanation": "Beim Integrieren einer Potenz steigt der Exponent um 1. Teile den bisherigen Koeffizienten durch den neuen Exponenten. Durch Ableiten kannst du das Ergebnis prüfen. Damit erhältst du \\(x^{4}\\).",
+    "steps": [
+      "Beim Integrieren einer Potenz steigt der Exponent um 1.",
+      "Teile den bisherigen Koeffizienten durch den neuen Exponenten. Durch Ableiten kannst du das Ergebnis prüfen.",
+      "Damit erhältst du \\(x^{4}\\)."
+    ],
+    "background": "Stammfunktionen mit elementaren Regeln bilden und durch Ableiten prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A254": {
+    "correct": 0,
+    "explanation": "Beim Ableiten von exp(nx) entsteht der Faktor n. Die Stammfunktion muss diesen Faktor durch Teilen durch n ausgleichen. Damit erhältst du \\(\\frac{e^{4 x}}{4}\\).",
+    "steps": [
+      "Beim Ableiten von exp(nx) entsteht der Faktor n.",
+      "Die Stammfunktion muss diesen Faktor durch Teilen durch n ausgleichen.",
+      "Damit erhältst du \\(\\frac{e^{4 x}}{4}\\)."
+    ],
+    "background": "Stammfunktionen mit elementaren Regeln bilden und durch Ableiten prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A256": {
+    "correct": 1,
+    "explanation": "Bei x hoch −1 greift die übliche Potenzregel für Stammfunktionen nicht, weil der neue Exponent 0 wäre. Stattdessen ist ln(x) eine Stammfunktion. Eine feste additive Zahl verschwindet beim Ableiten.",
+    "steps": [
+      "Bei x hoch −1 greift die übliche Potenzregel für Stammfunktionen nicht, weil der neue Exponent 0 wäre.",
+      "Stattdessen ist ln(x) eine Stammfunktion. Eine feste additive Zahl verschwindet beim Ableiten."
+    ],
+    "background": "Stammfunktionen mit elementaren Regeln bilden und durch Ableiten prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A258": {
+    "correct": 1,
+    "explanation": "Eine Stammfunktion von 2x ist x². Setze die obere Grenze ein und ziehe den Wert an der unteren Grenze ab. Damit erhältst du \\(16\\).",
+    "steps": [
+      "Eine Stammfunktion von 2x ist x².",
+      "Setze die obere Grenze ein und ziehe den Wert an der unteren Grenze ab.",
+      "Damit erhältst du \\(16\\)."
+    ],
+    "background": "Integrale mit Grenzen und den Zusammenhang zwischen Integral und Ableitung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A260": {
+    "correct": 2,
+    "explanation": "Integriere zuerst: Das Integral von 2x von 0 bis 4 beträgt 16. Teile durch die Intervalllänge 4 − 0 = 4. Der Mittelwert ist 4, nicht das Integral selbst.",
+    "steps": [
+      "Integriere zuerst: Das Integral von 2x von 0 bis 4 beträgt 16.",
+      "Teile durch die Intervalllänge 4 − 0 = 4. Der Mittelwert ist 4, nicht das Integral selbst."
+    ],
+    "background": "Integrale mit Grenzen und den Zusammenhang zwischen Integral und Ableitung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A262": {
+    "correct": 0,
+    "explanation": "Jeder Querschnitt ist ein Kreis mit Radius 3. Seine Fläche ist π mal Radius zum Quadrat. Integriere diese konstante Kreisfläche über die Länge 4. Damit erhältst du \\(36 \\pi\\).",
+    "steps": [
+      "Jeder Querschnitt ist ein Kreis mit Radius 3. Seine Fläche ist π mal Radius zum Quadrat.",
+      "Integriere diese konstante Kreisfläche über die Länge 4.",
+      "Damit erhältst du \\(36 \\pi\\)."
+    ],
+    "background": "Integrale mit Grenzen und den Zusammenhang zwischen Integral und Ableitung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A264": {
+    "correct": 0,
+    "explanation": "Das bestimmte Integral zählt Flächen unterhalb der x-Achse negativ. Rechne Höhe mal Breite: −2 · 4 = -8. Der geometrische Flächeninhalt wäre dagegen positiv.",
+    "steps": [
+      "Das bestimmte Integral zählt Flächen unterhalb der x-Achse negativ.",
+      "Rechne Höhe mal Breite: −2 · 4 = -8. Der geometrische Flächeninhalt wäre dagegen positiv."
+    ],
+    "background": "Vorzeichenbehaftete Integrale von geometrischen Flächen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A266": {
+    "correct": 1,
+    "explanation": "Links der 0 liegt der Graph unter der x-Achse. Für eine geometrische Fläche zählst du beide Teile positiv. Jedes der zwei Dreiecke hat Grundseite und Höhe 4. Addiere zweimal die halbe Grundseite mal Höhe. Damit erhältst du \\(16\\).",
+    "steps": [
+      "Links der 0 liegt der Graph unter der x-Achse. Für eine geometrische Fläche zählst du beide Teile positiv.",
+      "Jedes der zwei Dreiecke hat Grundseite und Höhe 4. Addiere zweimal die halbe Grundseite mal Höhe.",
+      "Damit erhältst du \\(16\\)."
+    ],
+    "background": "Vorzeichenbehaftete Integrale von geometrischen Flächen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A268": {
+    "correct": 2,
+    "explanation": "Ein Integral ist eine vorzeichenbehaftete Gesamtbilanz. Zum Beispiel hat f(x) = x auf diesem symmetrischen Intervall Integral 0, aber zwei nicht verschwindende Flächenteile.",
+    "steps": [
+      "Ein Integral ist eine vorzeichenbehaftete Gesamtbilanz.",
+      "Zum Beispiel hat f(x) = x auf diesem symmetrischen Intervall Integral 0, aber zwei nicht verschwindende Flächenteile."
+    ],
+    "background": "Vorzeichenbehaftete Integrale von geometrischen Flächen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A270": {
+    "correct": 2,
+    "explanation": "Auf dem ganzen Intervall liegt f über g. Integriere daher f − g = 4 − x zwischen den angegebenen Grenzen. Damit erhältst du \\(8\\).",
+    "steps": [
+      "Auf dem ganzen Intervall liegt f über g.",
+      "Integriere daher f − g = 4 − x zwischen den angegebenen Grenzen.",
+      "Damit erhältst du \\(8\\)."
+    ],
+    "background": "Schnittgrenzen und obere minus untere Funktion zur Flächenberechnung nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A272": {
+    "correct": 0,
+    "explanation": "Die Schnittgleichung x = x²/4 liefert 0 und 4. Dazwischen ist x größer als x²/4. Integriere obere minus untere Funktion. Damit erhältst du \\(\\frac{8}{3}\\).",
+    "steps": [
+      "Die Schnittgleichung x = x²/4 liefert 0 und 4.",
+      "Dazwischen ist x größer als x²/4. Integriere obere minus untere Funktion.",
+      "Damit erhältst du \\(\\frac{8}{3}\\)."
+    ],
+    "background": "Schnittgrenzen und obere minus untere Funktion zur Flächenberechnung nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A274": {
+    "correct": 1,
+    "explanation": "f − g kann an einem Schnittpunkt das Vorzeichen wechseln. Dann heben sich Teilflächen im Integral auf. Für einen geometrischen Flächeninhalt darf kein Teil negativ gezählt werden.",
+    "steps": [
+      "f − g kann an einem Schnittpunkt das Vorzeichen wechseln. Dann heben sich Teilflächen im Integral auf.",
+      "Für einen geometrischen Flächeninhalt darf kein Teil negativ gezählt werden."
+    ],
+    "background": "Schnittgrenzen und obere minus untere Funktion zur Flächenberechnung nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A276": {
+    "correct": 1,
+    "explanation": "Eine Verlust-Rate erhält ein negatives Vorzeichen. Multipliziere Rate und Zeit. Liter pro Minute mal Minuten ergibt Liter. Damit erhältst du \\(-12\\).",
+    "steps": [
+      "Eine Verlust-Rate erhält ein negatives Vorzeichen.",
+      "Multipliziere Rate und Zeit. Liter pro Minute mal Minuten ergibt Liter.",
+      "Damit erhältst du \\(-12\\)."
+    ],
+    "background": "Bestandsänderungen aus Raten berechnen und Einheiten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A278": {
+    "correct": 2,
+    "explanation": "Der Bestand ist Anfangsbestand plus Integral der Rate von 0 bis 4. Eine Stammfunktion von 3t ist 3/2 · t². Vergiss die anfänglichen 10 Liter nicht. Damit erhältst du \\(34\\).",
+    "steps": [
+      "Der Bestand ist Anfangsbestand plus Integral der Rate von 0 bis 4.",
+      "Eine Stammfunktion von 3t ist 3/2 · t². Vergiss die anfänglichen 10 Liter nicht.",
+      "Damit erhältst du \\(34\\)."
+    ],
+    "background": "Bestandsänderungen aus Raten berechnen und Einheiten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A280": {
+    "correct": 0,
+    "explanation": "Positive Rate bedeutet positive Bestandsänderung, also weiter steigenden Bestand. Erst eine negative Rate würde den Bestand sinken lassen; die Abnahme der Rate beschreibt hier nur die sinkende Steigung.",
+    "steps": [
+      "Positive Rate bedeutet positive Bestandsänderung, also weiter steigenden Bestand.",
+      "Erst eine negative Rate würde den Bestand sinken lassen; die Abnahme der Rate beschreibt hier nur die sinkende Steigung."
+    ],
+    "background": "Bestandsänderungen aus Raten berechnen und Einheiten interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A282": {
+    "correct": 0,
+    "explanation": "Der alte Bestand entspricht 100 %. Addiere den Zuwachs und schreibe die Prozentzahl als Dezimalzahl oder Bruch. Damit erhältst du \\(\\frac{23}{20}\\).",
+    "steps": [
+      "Der alte Bestand entspricht 100 %.",
+      "Addiere den Zuwachs und schreibe die Prozentzahl als Dezimalzahl oder Bruch.",
+      "Damit erhältst du \\(\\frac{23}{20}\\)."
+    ],
+    "background": "Exponentielle Modelle, Wachstumsraten und Halbwertszeiten einsetzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A284": {
+    "correct": 1,
+    "explanation": "Die Hälfte des Anfangsbestands bedeutet exp(−3t) = 1/2. Logarithmiere und teile durch −3. Die Halbwertszeit muss positiv sein. Damit erhältst du \\(\\frac{\\ln{\\left(2 \\right)}}{3}\\).",
+    "steps": [
+      "Die Hälfte des Anfangsbestands bedeutet exp(−3t) = 1/2.",
+      "Logarithmiere und teile durch −3. Die Halbwertszeit muss positiv sein.",
+      "Damit erhältst du \\(\\frac{\\ln{\\left(2 \\right)}}{3}\\)."
+    ],
+    "background": "Exponentielle Modelle, Wachstumsraten und Halbwertszeiten einsetzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A286": {
+    "correct": 2,
+    "explanation": "Die Ableitung ist 0,2 · B(t), also proportional zum aktuellen Bestand. Eine feste absolute Zunahme würde zu einem linearen Modell führen. Die Rate zu Beginn darf nicht auf alle Zeiten übertragen werden.",
+    "steps": [
+      "Die Ableitung ist 0,2 · B(t), also proportional zum aktuellen Bestand.",
+      "Eine feste absolute Zunahme würde zu einem linearen Modell führen. Die Rate zu Beginn darf nicht auf alle Zeiten übertragen werden."
+    ],
+    "background": "Exponentielle Modelle, Wachstumsraten und Halbwertszeiten einsetzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A288": {
+    "correct": 2,
+    "explanation": "Der Umfang ist 2x + 2y. Setze die vorgegebene Zahl ein. Teile durch 2 und löse danach nach y auf. Damit erhältst du \\(8 - x\\).",
+    "steps": [
+      "Der Umfang ist 2x + 2y. Setze die vorgegebene Zahl ein.",
+      "Teile durch 2 und löse danach nach y auf.",
+      "Damit erhältst du \\(8 - x\\)."
+    ],
+    "background": "Zielfunktion und Nebenbedingungen aufstellen, Kandidaten und Randwerte prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A290": {
+    "correct": 0,
+    "explanation": "Mit y = 8 − x lautet die Fläche x(8 − x). Die Ableitung 8 − 2x wird bei x = 4 null; die zweite Ableitung ist negativ. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Mit y = 8 − x lautet die Fläche x(8 − x).",
+      "Die Ableitung 8 − 2x wird bei x = 4 null; die zweite Ableitung ist negativ.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Zielfunktion und Nebenbedingungen aufstellen, Kandidaten und Randwerte prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A292": {
+    "correct": 1,
+    "explanation": "Eine Ableitungsnullstelle ist zunächst nur ein Kandidat und könnte ein Minimum oder eine Sattelstelle sein. Selbst ein lokales Maximum kann niedriger sein als ein Randwert. Vergleiche alle zulässigen Kandidaten.",
+    "steps": [
+      "Eine Ableitungsnullstelle ist zunächst nur ein Kandidat und könnte ein Minimum oder eine Sattelstelle sein.",
+      "Selbst ein lokales Maximum kann niedriger sein als ein Randwert. Vergleiche alle zulässigen Kandidaten."
+    ],
+    "background": "Zielfunktion und Nebenbedingungen aufstellen, Kandidaten und Randwerte prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A294": {
+    "correct": 1,
+    "explanation": "Der Grundpreis fällt genau einmal an. Addiere den Preis von vier Fahrten dazu; multipliziere den Grundpreis nicht mit der Fahrtenzahl. Damit erhältst du \\(16\\).",
+    "steps": [
+      "Der Grundpreis fällt genau einmal an.",
+      "Addiere den Preis von vier Fahrten dazu; multipliziere den Grundpreis nicht mit der Fahrtenzahl.",
+      "Damit erhältst du \\(16\\)."
+    ],
+    "background": "Modelle aus Angaben bilden und Ergebnisse, Einheiten und Modellgrenzen beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A296": {
+    "correct": 2,
+    "explanation": "Negative Personenzahlen sind in diesem Sachkontext nicht sinnvoll. Eine rechnerisch mögliche Ausgabe ist nicht automatisch eine sinnvolle reale Aussage; das Modell oder seine Anwendung kann ungeeignet sein.",
+    "steps": [
+      "Negative Personenzahlen sind in diesem Sachkontext nicht sinnvoll.",
+      "Eine rechnerisch mögliche Ausgabe ist nicht automatisch eine sinnvolle reale Aussage; das Modell oder seine Anwendung kann ungeeignet sein."
+    ],
+    "background": "Modelle aus Angaben bilden und Ergebnisse, Einheiten und Modellgrenzen beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "A298": {
+    "correct": 0,
+    "explanation": "Die Formel kann zwar einen Wert liefern, sie wurde aber nur im angegebenen Bereich mit Daten verglichen. Außerhalb davon können andere Prozesse oder Modellgrenzen auftreten. Rechenbarkeit ist kein Gültigkeitsbeweis.",
+    "steps": [
+      "Die Formel kann zwar einen Wert liefern, sie wurde aber nur im angegebenen Bereich mit Daten verglichen.",
+      "Außerhalb davon können andere Prozesse oder Modellgrenzen auftreten. Rechenbarkeit ist kein Gültigkeitsbeweis."
+    ],
+    "background": "Modelle aus Angaben bilden und Ergebnisse, Einheiten und Modellgrenzen beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G101": {
+    "correct": 1,
+    "explanation": "Die Koordinaten stehen in der Reihenfolge x, y, z. Gesucht ist die zweite Zahl einschließlich ihres Vorzeichens. Damit erhältst du \\(-2\\).",
+    "steps": [
+      "Die Koordinaten stehen in der Reihenfolge x, y, z.",
+      "Gesucht ist die zweite Zahl einschließlich ihres Vorzeichens.",
+      "Damit erhältst du \\(-2\\)."
+    ],
+    "background": "Koordinaten lesen und einfache Achsen- und Ebenenspiegelungen durchführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G103": {
+    "correct": 2,
+    "explanation": "Die xz-Ebene hat y = 0. Beim Spiegeln wechselt nur die y-Koordinate das Vorzeichen. Die anderen beiden bleiben gleich. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\2\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Die xz-Ebene hat y = 0.",
+      "Beim Spiegeln wechselt nur die y-Koordinate das Vorzeichen. Die anderen beiden bleiben gleich.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\2\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Koordinaten lesen und einfache Achsen- und Ebenenspiegelungen durchführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G105": {
+    "correct": 0,
+    "explanation": "Die Spiegelung an x = 0 wechselt nur das Vorzeichen der x-Koordinate. Addiere danach den Verschiebungsvektor. Die Reihenfolge der Operationen ist wichtig. Damit erhältst du \\(\\left[\\begin{matrix}-2\\\\2\\\\3\\end{matrix}\\right]\\).",
+    "steps": [
+      "Die Spiegelung an x = 0 wechselt nur das Vorzeichen der x-Koordinate.",
+      "Addiere danach den Verschiebungsvektor. Die Reihenfolge der Operationen ist wichtig.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}-2\\\\2\\\\3\\end{matrix}\\right]\\)."
+    ],
+    "background": "Koordinaten lesen und einfache Achsen- und Ebenenspiegelungen durchführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G107": {
+    "correct": 0,
+    "explanation": "Ein Verbindungsvektor ist Zielpunkt minus Startpunkt. Subtrahiere die drei Koordinaten jeweils an derselben Stelle. Damit erhältst du \\(\\left[\\begin{matrix}2\\\\0\\\\3\\end{matrix}\\right]\\).",
+    "steps": [
+      "Ein Verbindungsvektor ist Zielpunkt minus Startpunkt.",
+      "Subtrahiere die drei Koordinaten jeweils an derselben Stelle.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}2\\\\0\\\\3\\end{matrix}\\right]\\)."
+    ],
+    "background": "Punkte, Verbindungsvektoren und Mittelpunkte unterscheiden und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G109": {
+    "correct": 1,
+    "explanation": "Der Mittelpunkt liegt in jeder Koordinatenrichtung auf halbem Weg. Addiere die entsprechenden Koordinaten und teile jede Summe durch 2. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\1\\\\2\\end{matrix}\\right]\\).",
+    "steps": [
+      "Der Mittelpunkt liegt in jeder Koordinatenrichtung auf halbem Weg.",
+      "Addiere die entsprechenden Koordinaten und teile jede Summe durch 2.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\1\\\\2\\end{matrix}\\right]\\)."
+    ],
+    "background": "Punkte, Verbindungsvektoren und Mittelpunkte unterscheiden und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G111": {
+    "correct": 2,
+    "explanation": "Der Vektor beschreibt die Änderung vom Start zum Ziel. Deshalb gilt Ziel minus Start. A − B ist zwar ein gültiger Vektor, hat aber genau die entgegengesetzte Richtung.",
+    "steps": [
+      "Der Vektor beschreibt die Änderung vom Start zum Ziel. Deshalb gilt Ziel minus Start.",
+      "A − B ist zwar ein gültiger Vektor, hat aber genau die entgegengesetzte Richtung."
+    ],
+    "background": "Punkte, Verbindungsvektoren und Mittelpunkte unterscheiden und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G113": {
+    "correct": 2,
+    "explanation": "Addiere erste zu erster, zweite zu zweiter und dritte zu dritter Komponente. Negative Komponenten werden mit ihrem Vorzeichen addiert. Damit erhältst du \\(\\left[\\begin{matrix}4\\\\-1\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Addiere erste zu erster, zweite zu zweiter und dritte zu dritter Komponente.",
+      "Negative Komponenten werden mit ihrem Vorzeichen addiert.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}4\\\\-1\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Vektoren addieren, subtrahieren und skalar multiplizieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G115": {
+    "correct": 0,
+    "explanation": "Multipliziere zuerst jede Komponente des ersten Vektors mit 2. Ziehe dann die Komponenten des zweiten Vektors ab; der Faktor 2 gilt nicht für diesen zweiten Vektor. Damit erhältst du \\(\\left[\\begin{matrix}5\\\\0\\\\-7\\end{matrix}\\right]\\).",
+    "steps": [
+      "Multipliziere zuerst jede Komponente des ersten Vektors mit 2.",
+      "Ziehe dann die Komponenten des zweiten Vektors ab; der Faktor 2 gilt nicht für diesen zweiten Vektor.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}5\\\\0\\\\-7\\end{matrix}\\right]\\)."
+    ],
+    "background": "Vektoren addieren, subtrahieren und skalar multiplizieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G117": {
+    "correct": 1,
+    "explanation": "Der Betrag des Faktors skaliert die Länge. Das negative Vorzeichen dreht die Richtung um. Eine geometrische Länge bleibt trotzdem nichtnegativ.",
+    "steps": [
+      "Der Betrag des Faktors skaliert die Länge.",
+      "Das negative Vorzeichen dreht die Richtung um. Eine geometrische Länge bleibt trotzdem nichtnegativ."
+    ],
+    "background": "Vektoren addieren, subtrahieren und skalar multiplizieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G119": {
+    "correct": 1,
+    "explanation": "Der Vektor bewegt dich nur entlang einer Achse. Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Der Vektor bewegt dich nur entlang einer Achse.",
+      "Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G121": {
+    "correct": 2,
+    "explanation": "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0. Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel. Damit erhältst du \\(\\sqrt{13}\\).",
+    "steps": [
+      "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0.",
+      "Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel.",
+      "Damit erhältst du \\(\\sqrt{13}\\)."
+    ],
+    "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G123": {
+    "correct": 0,
+    "explanation": "Ein Einheitsvektor soll die Länge 1 haben. Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren.",
+    "steps": [
+      "Ein Einheitsvektor soll die Länge 1 haben.",
+      "Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren."
+    ],
+    "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G125": {
+    "correct": 0,
+    "explanation": "Alle Komponenten wurden mit demselben Faktor multipliziert. Damit zeigen sie in dieselbe Richtung; verschiedene Längen verhindern Kollinearität nicht.",
+    "steps": [
+      "Alle Komponenten wurden mit demselben Faktor multipliziert.",
+      "Damit zeigen sie in dieselbe Richtung; verschiedene Längen verhindern Kollinearität nicht."
+    ],
+    "background": "Kollinearität und lineare Unabhängigkeit von Vektoren prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G127": {
+    "correct": 1,
+    "explanation": "Aus der ersten Komponente folgt der gemeinsame Faktor 3. Derselbe Faktor muss auch in der zweiten Komponente gelten: a = 2 · 3. Damit erhältst du \\(6\\).",
+    "steps": [
+      "Aus der ersten Komponente folgt der gemeinsame Faktor 3.",
+      "Derselbe Faktor muss auch in der zweiten Komponente gelten: a = 2 · 3.",
+      "Damit erhältst du \\(6\\)."
+    ],
+    "background": "Kollinearität und lineare Unabhängigkeit von Vektoren prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G129": {
+    "correct": 2,
+    "explanation": "Multipliziere den ersten mit 3 und den zweiten mit 2. Ihre Summe ist genau der dritte Vektor. Allgemein können im Raum durchaus drei unabhängige Vektoren existieren.",
+    "steps": [
+      "Multipliziere den ersten mit 3 und den zweiten mit 2.",
+      "Ihre Summe ist genau der dritte Vektor. Allgemein können im Raum durchaus drei unabhängige Vektoren existieren."
+    ],
+    "background": "Kollinearität und lineare Unabhängigkeit von Vektoren prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G131": {
+    "correct": 2,
+    "explanation": "Multipliziere die passenden Komponenten. Addiere die Produkte: 3 · 1 + 1 · 2 + 0 · 2. Damit erhältst du \\(5\\).",
+    "steps": [
+      "Multipliziere die passenden Komponenten.",
+      "Addiere die Produkte: 3 · 1 + 1 · 2 + 0 · 2.",
+      "Damit erhältst du \\(5\\)."
+    ],
+    "background": "Skalarprodukte berechnen und als Projektionsmaß deuten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G133": {
+    "correct": 0,
+    "explanation": "Ein Skalarprodukt mit sich selbst ist die Summe der Komponentenquadrate. Auch die negative Komponente liefert ein positives Quadrat; das Ergebnis ist das Quadrat der Länge. Damit erhältst du \\(14\\).",
+    "steps": [
+      "Ein Skalarprodukt mit sich selbst ist die Summe der Komponentenquadrate.",
+      "Auch die negative Komponente liefert ein positives Quadrat; das Ergebnis ist das Quadrat der Länge.",
+      "Damit erhältst du \\(14\\)."
+    ],
+    "background": "Skalarprodukte berechnen und als Projektionsmaß deuten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G135": {
+    "correct": 1,
+    "explanation": "Ein negatives Skalarprodukt bedeutet einen negativen Kosinus, weil beide Längen positiv sind. Für Winkel zwischen 0° und 180° ist der Kosinus genau oberhalb von 90° negativ. Gegenläufige Vektoren mit 180° sind möglich.",
+    "steps": [
+      "Ein negatives Skalarprodukt bedeutet einen negativen Kosinus, weil beide Längen positiv sind.",
+      "Für Winkel zwischen 0° und 180° ist der Kosinus genau oberhalb von 90° negativ. Gegenläufige Vektoren mit 180° sind möglich."
+    ],
+    "background": "Skalarprodukte berechnen und als Projektionsmaß deuten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G137": {
+    "correct": 1,
+    "explanation": "Senkrechte Vektoren haben das Skalarprodukt 0. Hier steht a + 3 = 0. Löse diese Gleichung. Damit erhältst du \\(-3\\).",
+    "steps": [
+      "Senkrechte Vektoren haben das Skalarprodukt 0.",
+      "Hier steht a + 3 = 0. Löse diese Gleichung.",
+      "Damit erhältst du \\(-3\\)."
+    ],
+    "background": "Orthogonalität durch Skalarprodukte prüfen und Parameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G139": {
+    "correct": 2,
+    "explanation": "Berechne für jeden Kandidaten das Skalarprodukt. Beim Vektor mit Komponenten (2|−3|1) heben sich die beiden Produkte auf; die dritte Komponente des Ausgangsvektors ist 0.",
+    "steps": [
+      "Berechne für jeden Kandidaten das Skalarprodukt.",
+      "Beim Vektor mit Komponenten (2|−3|1) heben sich die beiden Produkte auf; die dritte Komponente des Ausgangsvektors ist 0."
+    ],
+    "background": "Orthogonalität durch Skalarprodukte prüfen und Parameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G141": {
+    "correct": 0,
+    "explanation": "In der Winkelformel steht das Produkt der Vektorlängen im Nenner. Die Länge des Nullvektors ist 0. Durch 0 darfst du nicht teilen, und der Nullvektor hat keine Richtung.",
+    "steps": [
+      "In der Winkelformel steht das Produkt der Vektorlängen im Nenner.",
+      "Die Länge des Nullvektors ist 0. Durch 0 darfst du nicht teilen, und der Nullvektor hat keine Richtung."
+    ],
+    "background": "Orthogonalität durch Skalarprodukte prüfen und Parameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G143": {
+    "correct": 0,
+    "explanation": "Das Skalarprodukt der beiden von 0 verschiedenen Vektoren ist 0. Damit sind sie orthogonal. Damit erhältst du \\(90\\).",
+    "steps": [
+      "Das Skalarprodukt der beiden von 0 verschiedenen Vektoren ist 0.",
+      "Damit sind sie orthogonal.",
+      "Damit erhältst du \\(90\\)."
+    ],
+    "background": "Winkel zwischen Vektoren mit Skalarprodukt und Beträgen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G145": {
+    "correct": 1,
+    "explanation": "Teile das Skalarprodukt durch das Produkt der Längen. Die erste Länge ist 1, die zweite √(13). Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\).",
+    "steps": [
+      "Teile das Skalarprodukt durch das Produkt der Längen.",
+      "Die erste Länge ist 1, die zweite √(13).",
+      "Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\)."
+    ],
+    "background": "Winkel zwischen Vektoren mit Skalarprodukt und Beträgen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G147": {
+    "correct": 2,
+    "explanation": "Ein negativer Faktor kehrt die Richtung eines von 0 verschiedenen Vektors um. Die beiden Pfeile sind gegenläufig. Winkel zwischen Vektoren und kleinerer Winkel zwischen Geraden sind zu unterscheiden.",
+    "steps": [
+      "Ein negativer Faktor kehrt die Richtung eines von 0 verschiedenen Vektors um.",
+      "Die beiden Pfeile sind gegenläufig. Winkel zwischen Vektoren und kleinerer Winkel zwischen Geraden sind zu unterscheiden."
+    ],
+    "background": "Winkel zwischen Vektoren mit Skalarprodukt und Beträgen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G149": {
+    "correct": 2,
+    "explanation": "Setzt du t = 0, erhältst du den Stützpunkt. Der Parameter einer ganzen Geraden darf jeden reellen Wert annehmen.",
+    "steps": [
+      "Setzt du t = 0, erhältst du den Stützpunkt.",
+      "Der Parameter einer ganzen Geraden darf jeden reellen Wert annehmen."
+    ],
+    "background": "Geraden aus Punkt und Richtung oder zwei Punkten aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G151": {
+    "correct": 0,
+    "explanation": "Bilde den Verbindungsvektor vom ersten zum zweiten Punkt. Jedes von 0 verschiedene Vielfache dieses Vektors wäre ebenfalls als Richtung erlaubt. Damit erhältst du \\(\\left[\\begin{matrix}2\\\\2\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Bilde den Verbindungsvektor vom ersten zum zweiten Punkt.",
+      "Jedes von 0 verschiedene Vielfache dieses Vektors wäre ebenfalls als Richtung erlaubt.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}2\\\\2\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Geraden aus Punkt und Richtung oder zwei Punkten aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G153": {
+    "correct": 1,
+    "explanation": "Jeder bisherige Parameterwert kann durch einen entsprechend skalierten neuen Parameter ersetzt werden. Ein von 0 verschiedener Faktor ändert die Richtungslinie und den Stützpunkt nicht.",
+    "steps": [
+      "Jeder bisherige Parameterwert kann durch einen entsprechend skalierten neuen Parameter ersetzt werden.",
+      "Ein von 0 verschiedener Faktor ändert die Richtungslinie und den Stützpunkt nicht."
+    ],
+    "background": "Geraden aus Punkt und Richtung oder zwei Punkten aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G155": {
+    "correct": 1,
+    "explanation": "Vergleiche alle drei Koordinaten. Aus der dritten Koordinate folgt direkt t = 3. Prüfe auch die erste und die konstante zweite Koordinate. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Vergleiche alle drei Koordinaten.",
+      "Aus der dritten Koordinate folgt direkt t = 3. Prüfe auch die erste und die konstante zweite Koordinate.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Punkte auf Geraden prüfen und Achsen- oder Ebenenspuren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G157": {
+    "correct": 2,
+    "explanation": "In der xy-Ebene ist die z-Koordinate 0. Setze 3 − t = 0. Die anderen beiden Koordinaten schränken diese Ebene nicht ein. Damit erhältst du \\(3\\).",
+    "steps": [
+      "In der xy-Ebene ist die z-Koordinate 0.",
+      "Setze 3 − t = 0. Die anderen beiden Koordinaten schränken diese Ebene nicht ein.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Punkte auf Geraden prüfen und Achsen- oder Ebenenspuren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G159": {
+    "correct": 0,
+    "explanation": "Ein Punkt der Geraden entsteht durch genau eine gemeinsame Wahl von t für alle Koordinaten. Verschiedene, widersprüchliche t-Werte können daher keine erfolgreiche Punktprobe sein.",
+    "steps": [
+      "Ein Punkt der Geraden entsteht durch genau eine gemeinsame Wahl von t für alle Koordinaten.",
+      "Verschiedene, widersprüchliche t-Werte können daher keine erfolgreiche Punktprobe sein."
+    ],
+    "background": "Punkte auf Geraden prüfen und Achsen- oder Ebenenspuren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G161": {
+    "correct": 0,
+    "explanation": "Die Richtungsvektoren sind Vielfache voneinander. Das entscheidet die Richtung, aber noch nicht, ob die Geraden dieselben Punkte enthalten.",
+    "steps": [
+      "Die Richtungsvektoren sind Vielfache voneinander.",
+      "Das entscheidet die Richtung, aber noch nicht, ob die Geraden dieselben Punkte enthalten."
+    ],
+    "background": "Parallele und identische Geraden durch Richtung und Punktprobe unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G163": {
+    "correct": 1,
+    "explanation": "Die Richtungsvektoren sind kollinear. Der Stützpunkt von h liegt für t = 3 auf g. Gleiche Richtung plus gemeinsamer Punkt ergibt Identität.",
+    "steps": [
+      "Die Richtungsvektoren sind kollinear.",
+      "Der Stützpunkt von h liegt für t = 3 auf g. Gleiche Richtung plus gemeinsamer Punkt ergibt Identität."
+    ],
+    "background": "Parallele und identische Geraden durch Richtung und Punktprobe unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G165": {
+    "correct": 2,
+    "explanation": "Die y-Koordinate ändert sich auf keiner der Geraden. Wegen der unterschiedlichen konstanten y-Werte gibt es keinen gemeinsamen Punkt, auch nicht bei negativen Parametern.",
+    "steps": [
+      "Die y-Koordinate ändert sich auf keiner der Geraden.",
+      "Wegen der unterschiedlichen konstanten y-Werte gibt es keinen gemeinsamen Punkt, auch nicht bei negativen Parametern."
+    ],
+    "background": "Parallele und identische Geraden durch Richtung und Punktprobe unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G167": {
+    "correct": 2,
+    "explanation": "Setze die passenden Koordinaten gleich: t = 3 und s = 0. Setze die Parameter in eine der Geraden ein und prüfe den Punkt auf der anderen. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\0\\\\0\\end{matrix}\\right]\\).",
+    "steps": [
+      "Setze die passenden Koordinaten gleich: t = 3 und s = 0.",
+      "Setze die Parameter in eine der Geraden ein und prüfe den Punkt auf der anderen.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\0\\\\0\\end{matrix}\\right]\\)."
+    ],
+    "background": "Geraden gleichsetzen und Parameter sowie Schnittpunkt konsistent bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G169": {
+    "correct": 0,
+    "explanation": "Aus der ersten Koordinate folgt t = s. In der zweiten steht t = 6 − s. Einsetzen ergibt 2t = 6. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Aus der ersten Koordinate folgt t = s.",
+      "In der zweiten steht t = 6 − s. Einsetzen ergibt 2t = 6.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Geraden gleichsetzen und Parameter sowie Schnittpunkt konsistent bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G171": {
+    "correct": 1,
+    "explanation": "Ein Schnittpunkt muss alle drei Koordinatengleichungen erfüllen. Die dritte Gleichung ist kein zusätzlicher Wunsch, sondern Teil der Punktgleichheit. Die übrige Lage muss separat untersucht werden.",
+    "steps": [
+      "Ein Schnittpunkt muss alle drei Koordinatengleichungen erfüllen.",
+      "Die dritte Gleichung ist kein zusätzlicher Wunsch, sondern Teil der Punktgleichheit. Die übrige Lage muss separat untersucht werden."
+    ],
+    "background": "Geraden gleichsetzen und Parameter sowie Schnittpunkt konsistent bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G173": {
+    "correct": 1,
+    "explanation": "Die Richtung schließt Parallelität und Identität aus. Im Raum gibt es zusätzlich zu schneidenden Geraden die Möglichkeit, aneinander vorbeizulaufen: windschief.",
+    "steps": [
+      "Die Richtung schließt Parallelität und Identität aus.",
+      "Im Raum gibt es zusätzlich zu schneidenden Geraden die Möglichkeit, aneinander vorbeizulaufen: windschief."
+    ],
+    "background": "Nicht parallele Geraden ohne Schnittpunkt von schneidenden Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G175": {
+    "correct": 2,
+    "explanation": "Ihre Richtungen sind unabhängig, also nicht parallel. Auf g ist z = 0, auf h ist z = 3. Deshalb gibt es keinen gemeinsamen Punkt.",
+    "steps": [
+      "Ihre Richtungen sind unabhängig, also nicht parallel.",
+      "Auf g ist z = 0, auf h ist z = 3. Deshalb gibt es keinen gemeinsamen Punkt."
+    ],
+    "background": "Nicht parallele Geraden ohne Schnittpunkt von schneidenden Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G177": {
+    "correct": 0,
+    "explanation": "Verschiedene Stützpunkte können sogar dieselbe Gerade beschreiben. Prüfe bei gleicher Richtung, ob ein Stützpunkt auf der anderen Geraden liegt. Die Lage ist identisch oder echt parallel.",
+    "steps": [
+      "Verschiedene Stützpunkte können sogar dieselbe Gerade beschreiben.",
+      "Prüfe bei gleicher Richtung, ob ein Stützpunkt auf der anderen Geraden liegt. Die Lage ist identisch oder echt parallel."
+    ],
+    "background": "Nicht parallele Geraden ohne Schnittpunkt von schneidenden Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G179": {
+    "correct": 0,
+    "explanation": "Gegenläufige Richtungsvektoren gehören trotzdem zu parallelen Geraden. Der kleinere Winkel der Richtungslinien ist daher 0°, nicht 180°. Damit erhältst du \\(0\\).",
+    "steps": [
+      "Gegenläufige Richtungsvektoren gehören trotzdem zu parallelen Geraden.",
+      "Der kleinere Winkel der Richtungslinien ist daher 0°, nicht 180°.",
+      "Damit erhältst du \\(0\\)."
+    ],
+    "background": "Den kleineren Schnittwinkel zweier Geraden bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G181": {
+    "correct": 1,
+    "explanation": "Für den kleineren Geradenwinkel verwendest du den Betrag des Skalarprodukts. Teile diesen durch das Produkt der beiden Längen. Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\).",
+    "steps": [
+      "Für den kleineren Geradenwinkel verwendest du den Betrag des Skalarprodukts.",
+      "Teile diesen durch das Produkt der beiden Längen.",
+      "Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\)."
+    ],
+    "background": "Den kleineren Schnittwinkel zweier Geraden bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G183": {
+    "correct": 2,
+    "explanation": "Die geometrische Gerade ändert sich durch diesen Faktor nicht. In der Formel für den kleineren Winkel kürzt sich der Betrag des Faktors zwischen Zähler und Nenner heraus.",
+    "steps": [
+      "Die geometrische Gerade ändert sich durch diesen Faktor nicht.",
+      "In der Formel für den kleineren Winkel kürzt sich der Betrag des Faktors zwischen Zähler und Nenner heraus."
+    ],
+    "background": "Den kleineren Schnittwinkel zweier Geraden bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G185": {
+    "correct": 2,
+    "explanation": "Addiere die beiden Gleichungen. Dabei fällt y weg. Es bleibt 2x = 6. Teile durch 2. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Addiere die beiden Gleichungen. Dabei fällt y weg.",
+      "Es bleibt 2x = 6. Teile durch 2.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Gauß-Schritte, Lösungsanzahl und parametrische Sonderfälle von LGS beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G187": {
+    "correct": 0,
+    "explanation": "Eine von 0 verschiedene Zahl kann nicht gleich 0 sein. Jede Lösung müsste auch diese Zeile erfüllen. Weil das unmöglich ist, ist die gesamte Lösungsmenge leer.",
+    "steps": [
+      "Eine von 0 verschiedene Zahl kann nicht gleich 0 sein.",
+      "Jede Lösung müsste auch diese Zeile erfüllen. Weil das unmöglich ist, ist die gesamte Lösungsmenge leer."
+    ],
+    "background": "Gauß-Schritte, Lösungsanzahl und parametrische Sonderfälle von LGS beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G189": {
+    "correct": 1,
+    "explanation": "Drei Variablen bei nur zwei unabhängigen Gleichungen lassen einen Freiheitsgrad. Ohne Widerspruch kann der freie Parameter beliebig gewählt werden. Keine Widerspruchszeile allein garantiert noch keine Eindeutigkeit.",
+    "steps": [
+      "Drei Variablen bei nur zwei unabhängigen Gleichungen lassen einen Freiheitsgrad.",
+      "Ohne Widerspruch kann der freie Parameter beliebig gewählt werden. Keine Widerspruchszeile allein garantiert noch keine Eindeutigkeit."
+    ],
+    "background": "Gauß-Schritte, Lösungsanzahl und parametrische Sonderfälle von LGS beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G191": {
+    "correct": 1,
+    "explanation": "Zwei parallele Spannvektoren liefern nur eine Richtung und damit keine Ebene. Eine Ebene braucht zwei unabhängige Richtungen; ihre Längen sind dafür nicht entscheidend.",
+    "steps": [
+      "Zwei parallele Spannvektoren liefern nur eine Richtung und damit keine Ebene.",
+      "Eine Ebene braucht zwei unabhängige Richtungen; ihre Längen sind dafür nicht entscheidend."
+    ],
+    "background": "Ebenen durch unabhängige Richtungen und Punkte beschreiben. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G193": {
+    "correct": 2,
+    "explanation": "Setze die Parameter in die zugehörigen Spannrichtungen ein. Addiere beide skalierten Richtungsvektoren zum Stützvektor. Damit erhältst du \\(\\left[\\begin{matrix}1\\\\3\\\\2\\end{matrix}\\right]\\).",
+    "steps": [
+      "Setze die Parameter in die zugehörigen Spannrichtungen ein.",
+      "Addiere beide skalierten Richtungsvektoren zum Stützvektor.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}1\\\\3\\\\2\\end{matrix}\\right]\\)."
+    ],
+    "background": "Ebenen durch unabhängige Richtungen und Punkte beschreiben. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G195": {
+    "correct": 0,
+    "explanation": "Der zweite Vektor ist genau das Doppelte des ersten. Auch zwei frei wählbare Parameter erzeugen damit nur eine unabhängige Richtung.",
+    "steps": [
+      "Der zweite Vektor ist genau das Doppelte des ersten.",
+      "Auch zwei frei wählbare Parameter erzeugen damit nur eine unabhängige Richtung."
+    ],
+    "background": "Ebenen durch unabhängige Richtungen und Punkte beschreiben. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G197": {
+    "correct": 0,
+    "explanation": "In der Koordinatenform sind die Koeffizienten von x, y und z die Komponenten eines Normalenvektors. Nimm das Minus vor y mit; die rechte Seite gehört nicht zum Vektor. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\-1\\\\2\\end{matrix}\\right]\\).",
+    "steps": [
+      "In der Koordinatenform sind die Koeffizienten von x, y und z die Komponenten eines Normalenvektors.",
+      "Nimm das Minus vor y mit; die rechte Seite gehört nicht zum Vektor.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\-1\\\\2\\end{matrix}\\right]\\)."
+    ],
+    "background": "Normalenvektoren prüfen und eine Normalenform aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G199": {
+    "correct": 1,
+    "explanation": "Ein Normalenvektor steht senkrecht auf jeder Richtung der Ebene. Bei zwei unabhängigen Spannrichtungen musst du deshalb beide Skalarprodukte prüfen; der Nullvektor wäre keine geeignete Normale.",
+    "steps": [
+      "Ein Normalenvektor steht senkrecht auf jeder Richtung der Ebene.",
+      "Bei zwei unabhängigen Spannrichtungen musst du deshalb beide Skalarprodukte prüfen; der Nullvektor wäre keine geeignete Normale."
+    ],
+    "background": "Normalenvektoren prüfen und eine Normalenform aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G201": {
+    "correct": 2,
+    "explanation": "Der Vektor vom Stützpunkt zu jedem Ebenenpunkt ist x − P. Er muss senkrecht auf n stehen. Deshalb ist genau sein Skalarprodukt mit n gleich 0.",
+    "steps": [
+      "Der Vektor vom Stützpunkt zu jedem Ebenenpunkt ist x − P.",
+      "Er muss senkrecht auf n stehen. Deshalb ist genau sein Skalarprodukt mit n gleich 0."
+    ],
+    "background": "Normalenvektoren prüfen und eine Normalenform aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G203": {
+    "correct": 2,
+    "explanation": "Die Spannvektoren ändern nur die zweite und dritte Koordinate. Die erste Koordinate bleibt bei jedem Punkt 3. Die beiden übrigen sind frei.",
+    "steps": [
+      "Die Spannvektoren ändern nur die zweite und dritte Koordinate.",
+      "Die erste Koordinate bleibt bei jedem Punkt 3. Die beiden übrigen sind frei."
+    ],
+    "background": "Parameter-, Normalen- und Koordinatenform ineinander überführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G205": {
+    "correct": 0,
+    "explanation": "Setze die Koordinaten des bekannten Punktes in die linke Seite ein. Der so berechnete Wert muss die rechte Seite der Ebene sein. Damit erhältst du \\(7\\).",
+    "steps": [
+      "Setze die Koordinaten des bekannten Punktes in die linke Seite ein.",
+      "Der so berechnete Wert muss die rechte Seite der Ebene sein.",
+      "Damit erhältst du \\(7\\)."
+    ],
+    "background": "Parameter-, Normalen- und Koordinatenform ineinander überführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G207": {
+    "correct": 1,
+    "explanation": "Jeder Punkt erfüllt die neue Gleichung genau dann, wenn er die alte erfüllt. Der Normalenvektor wird zwar skaliert, seine Richtungslinie und die Punktmenge ändern sich nicht.",
+    "steps": [
+      "Jeder Punkt erfüllt die neue Gleichung genau dann, wenn er die alte erfüllt.",
+      "Der Normalenvektor wird zwar skaliert, seine Richtungslinie und die Punktmenge ändern sich nicht."
+    ],
+    "background": "Parameter-, Normalen- und Koordinatenform ineinander überführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G209": {
+    "correct": 1,
+    "explanation": "Setze die drei Koordinaten für x, y und z ein. Die Summe ist 6 und stimmt mit der rechten Seite überein.",
+    "steps": [
+      "Setze die drei Koordinaten für x, y und z ein.",
+      "Die Summe ist 6 und stimmt mit der rechten Seite überein."
+    ],
+    "background": "Ebenengleichungen durch Einsetzen prüfen und Spurpunkte bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G211": {
+    "correct": 2,
+    "explanation": "Auf der z-Achse sind x und y gleich 0. Es bleibt 3z = 9. Löse nach z auf. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Auf der z-Achse sind x und y gleich 0.",
+      "Es bleibt 3z = 9. Löse nach z auf.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Ebenengleichungen durch Einsetzen prüfen und Spurpunkte bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G213": {
+    "correct": 0,
+    "explanation": "Auf der z-Achse gilt x = y = 0, unabhängig von z. Damit würde 0 = 3 verlangt. Das ist unmöglich; auch eine beliebige z-Koordinate ändert daran nichts.",
+    "steps": [
+      "Auf der z-Achse gilt x = y = 0, unabhängig von z.",
+      "Damit würde 0 = 3 verlangt. Das ist unmöglich; auch eine beliebige z-Koordinate ändert daran nichts."
+    ],
+    "background": "Ebenengleichungen durch Einsetzen prüfen und Spurpunkte bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G215": {
+    "correct": 0,
+    "explanation": "Die z-Koordinate der Geraden lautet 1 + t. Setze sie gleich der Höhe der Ebene und ziehe 1 ab. Damit erhältst du \\(2\\).",
+    "steps": [
+      "Die z-Koordinate der Geraden lautet 1 + t.",
+      "Setze sie gleich der Höhe der Ebene und ziehe 1 ab.",
+      "Damit erhältst du \\(2\\)."
+    ],
+    "background": "Eine Gerade in eine Ebene einsetzen und den Schnittparameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G217": {
+    "correct": 1,
+    "explanation": "Setze die Geradenkoordinaten in die Ebene ein: t + 2t = 9. Daraus folgt t = 3. Setze diesen Wert wieder in alle Geradenkoordinaten ein. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\6\\\\0\\end{matrix}\\right]\\).",
+    "steps": [
+      "Setze die Geradenkoordinaten in die Ebene ein: t + 2t = 9.",
+      "Daraus folgt t = 3. Setze diesen Wert wieder in alle Geradenkoordinaten ein.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\6\\\\0\\end{matrix}\\right]\\)."
+    ],
+    "background": "Eine Gerade in eine Ebene einsetzen und den Schnittparameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G219": {
+    "correct": 2,
+    "explanation": "Eine Identität schränkt den Parameter nicht ein. Jeder reelle Wert erfüllt die Ebenenbedingung. Die ganze Gerade ist daher enthalten; es gibt nicht nur einen einzelnen Schnittpunkt.",
+    "steps": [
+      "Eine Identität schränkt den Parameter nicht ein. Jeder reelle Wert erfüllt die Ebenenbedingung.",
+      "Die ganze Gerade ist daher enthalten; es gibt nicht nur einen einzelnen Schnittpunkt."
+    ],
+    "background": "Eine Gerade in eine Ebene einsetzen und den Schnittparameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G221": {
+    "correct": 2,
+    "explanation": "Die z-Koordinate der Geraden ändert sich nicht. Kein Punkt erreicht die geforderte Höhe 0. Daher ist die Gerade parallel, aber nicht enthalten.",
+    "steps": [
+      "Die z-Koordinate der Geraden ändert sich nicht.",
+      "Kein Punkt erreicht die geforderte Höhe 0. Daher ist die Gerade parallel, aber nicht enthalten."
+    ],
+    "background": "Schnitt, echte Parallelität und enthaltene Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G223": {
+    "correct": 0,
+    "explanation": "Orthogonalität zur Normalen bedeutet, dass die Geradenrichtung parallel zur Ebene verläuft. Weil zusätzlich ein Geradenpunkt in der Ebene liegt, bleibt die ganze Gerade in der Ebene.",
+    "steps": [
+      "Orthogonalität zur Normalen bedeutet, dass die Geradenrichtung parallel zur Ebene verläuft.",
+      "Weil zusätzlich ein Geradenpunkt in der Ebene liegt, bleibt die ganze Gerade in der Ebene."
+    ],
+    "background": "Schnitt, echte Parallelität und enthaltene Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G225": {
+    "correct": 1,
+    "explanation": "Das Skalarprodukt ist 3 und damit nicht 0. Der Koeffizient von t in der eingesetzten Ebenengleichung verschwindet nicht. Eine lineare Gleichung mit diesem Koeffizienten hat genau eine Lösung.",
+    "steps": [
+      "Das Skalarprodukt ist 3 und damit nicht 0.",
+      "Der Koeffizient von t in der eingesetzten Ebenengleichung verschwindet nicht. Eine lineare Gleichung mit diesem Koeffizienten hat genau eine Lösung."
+    ],
+    "background": "Schnitt, echte Parallelität und enthaltene Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G227": {
+    "correct": 1,
+    "explanation": "Beide Ebenen haben dieselbe Normalenrichtung. Wegen der verschiedenen festen z-Werte besitzen sie keinen gemeinsamen Punkt.",
+    "steps": [
+      "Beide Ebenen haben dieselbe Normalenrichtung.",
+      "Wegen der verschiedenen festen z-Werte besitzen sie keinen gemeinsamen Punkt."
+    ],
+    "background": "Identische, parallele und sich schneidende Ebenen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G229": {
+    "correct": 2,
+    "explanation": "Ein gemeinsamer Punkt muss gleichzeitig die erste und zweite feste Koordinate besitzen. Die z-Koordinate ist frei. So entsteht eine Gerade parallel zur z-Achse.",
+    "steps": [
+      "Ein gemeinsamer Punkt muss gleichzeitig die erste und zweite feste Koordinate besitzen.",
+      "Die z-Koordinate ist frei. So entsteht eine Gerade parallel zur z-Achse."
+    ],
+    "background": "Identische, parallele und sich schneidende Ebenen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G231": {
+    "correct": 0,
+    "explanation": "Nicht kollineare Normalen schließen parallele oder identische Ebenen aus. Zwei unabhängige lineare Ebenenbedingungen lassen im Raum eine freie Richtung übrig: ihre Schnittgerade.",
+    "steps": [
+      "Nicht kollineare Normalen schließen parallele oder identische Ebenen aus.",
+      "Zwei unabhängige lineare Ebenenbedingungen lassen im Raum eine freie Richtung übrig: ihre Schnittgerade."
+    ],
+    "background": "Identische, parallele und sich schneidende Ebenen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G233": {
+    "correct": 0,
+    "explanation": "Der kleinere Ebenenwinkel entspricht dem kleineren Winkel der Normalenrichtungen. Die Normalen sind orthogonal, weil ihr Skalarprodukt 0 ist. Damit erhältst du \\(90\\).",
+    "steps": [
+      "Der kleinere Ebenenwinkel entspricht dem kleineren Winkel der Normalenrichtungen.",
+      "Die Normalen sind orthogonal, weil ihr Skalarprodukt 0 ist.",
+      "Damit erhältst du \\(90\\)."
+    ],
+    "background": "Den kleineren Ebenenwinkel über die Normalenvektoren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G235": {
+    "correct": 1,
+    "explanation": "Nutze den Betrag des Normalen-Skalarprodukts. Teile durch das Produkt der Längen; die erste Länge ist 1. Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\).",
+    "steps": [
+      "Nutze den Betrag des Normalen-Skalarprodukts.",
+      "Teile durch das Produkt der Längen; die erste Länge ist 1.",
+      "Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\)."
+    ],
+    "background": "Den kleineren Ebenenwinkel über die Normalenvektoren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G237": {
+    "correct": 2,
+    "explanation": "Die Punktmenge der Ebene bleibt dieselbe. Die Normale kehrt zwar ihre Orientierung um, in der Formel für den kleineren Winkel wird das durch den Betrag ausgeglichen.",
+    "steps": [
+      "Die Punktmenge der Ebene bleibt dieselbe.",
+      "Die Normale kehrt zwar ihre Orientierung um, in der Formel für den kleineren Winkel wird das durch den Betrag ausgeglichen."
+    ],
+    "background": "Den kleineren Ebenenwinkel über die Normalenvektoren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G239": {
+    "correct": 2,
+    "explanation": "Ein Normalenvektor steht senkrecht auf der Ebene. Eine dazu parallele Gerade ist daher ebenfalls senkrecht zur Ebene. Damit erhältst du \\(90\\).",
+    "steps": [
+      "Ein Normalenvektor steht senkrecht auf der Ebene.",
+      "Eine dazu parallele Gerade ist daher ebenfalls senkrecht zur Ebene.",
+      "Damit erhältst du \\(90\\)."
+    ],
+    "background": "Winkel zur Ebene vom Winkel zur Normalen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G241": {
+    "correct": 0,
+    "explanation": "Für den Winkel zur Ebene brauchst du den Sinus, weil die Normale senkrecht zur Ebene steht. Teile den Betrag des Skalarprodukts durch die Längen der Richtung und der Normalen. Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\).",
+    "steps": [
+      "Für den Winkel zur Ebene brauchst du den Sinus, weil die Normale senkrecht zur Ebene steht.",
+      "Teile den Betrag des Skalarprodukts durch die Längen der Richtung und der Normalen.",
+      "Damit erhältst du \\(\\frac{3 \\sqrt{13}}{13}\\)."
+    ],
+    "background": "Winkel zur Ebene vom Winkel zur Normalen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G243": {
+    "correct": 1,
+    "explanation": "Der Winkel zur Ebene ergänzt den kleineren Winkel zur Normalen auf 90°. Subtrahiere daher den berechneten Winkel von 90°; verwende nicht unverändert den Normalenwinkel.",
+    "steps": [
+      "Der Winkel zur Ebene ergänzt den kleineren Winkel zur Normalen auf 90°.",
+      "Subtrahiere daher den berechneten Winkel von 90°; verwende nicht unverändert den Normalenwinkel."
+    ],
+    "background": "Winkel zur Ebene vom Winkel zur Normalen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G245": {
+    "correct": 1,
+    "explanation": "Der nächste Punkt auf der x-Achse hat denselben x-Wert und die übrigen Koordinaten 0. Die einzige nicht verschwindende senkrechte Änderung ist hier die y-Koordinate. Damit erhältst du \\(2\\).",
+    "steps": [
+      "Der nächste Punkt auf der x-Achse hat denselben x-Wert und die übrigen Koordinaten 0.",
+      "Die einzige nicht verschwindende senkrechte Änderung ist hier die y-Koordinate.",
+      "Damit erhältst du \\(2\\)."
+    ],
+    "background": "Lotfuß oder Projektion zur Bestimmung des Punkt-Geraden-Abstands nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G247": {
+    "correct": 2,
+    "explanation": "Der Lotfuß hat Parameter t = (P · v)/(v · v) = 3/2. Ziehe den Lotfuß von P ab und berechne die Länge. Beide nicht verschwindenden Differenzen haben den Betrag 3/2. Damit erhältst du \\(\\frac{3 \\sqrt{2}}{2}\\).",
+    "steps": [
+      "Der Lotfuß hat Parameter t = (P · v)/(v · v) = 3/2.",
+      "Ziehe den Lotfuß von P ab und berechne die Länge. Beide nicht verschwindenden Differenzen haben den Betrag 3/2.",
+      "Damit erhältst du \\(\\frac{3 \\sqrt{2}}{2}\\)."
+    ],
+    "background": "Lotfuß oder Projektion zur Bestimmung des Punkt-Geraden-Abstands nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G249": {
+    "correct": 0,
+    "explanation": "Am nächsten Geradenpunkt ist der Verbindungsweg senkrecht zur Geraden. Mit dem Skalarprodukt 0 kannst du den Lotfußparameter bestimmen. Die Länge ist erst danach zu berechnen.",
+    "steps": [
+      "Am nächsten Geradenpunkt ist der Verbindungsweg senkrecht zur Geraden.",
+      "Mit dem Skalarprodukt 0 kannst du den Lotfußparameter bestimmen. Die Länge ist erst danach zu berechnen."
+    ],
+    "background": "Lotfuß oder Projektion zur Bestimmung des Punkt-Geraden-Abstands nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G251": {
+    "correct": 0,
+    "explanation": "Die Ebene ist die xy-Ebene. Der senkrechte Weg ändert nur die z-Koordinate; nimm ihren nichtnegativen Betrag. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die Ebene ist die xy-Ebene.",
+      "Der senkrechte Weg ändert nur die z-Koordinate; nimm ihren nichtnegativen Betrag.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Die normierte Ebenengleichung zur Abstandsmessung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G253": {
+    "correct": 1,
+    "explanation": "Teile die ganze Ebenengleichung durch 3. Sie lautet dann x = 2. Der Ursprung liegt in x-Richtung genau 2 Einheiten entfernt; alternativ normierst du durch die Länge der Normalen. Damit erhältst du \\(2\\).",
+    "steps": [
+      "Teile die ganze Ebenengleichung durch 3. Sie lautet dann x = 2.",
+      "Der Ursprung liegt in x-Richtung genau 2 Einheiten entfernt; alternativ normierst du durch die Länge der Normalen.",
+      "Damit erhältst du \\(2\\)."
+    ],
+    "background": "Die normierte Ebenengleichung zur Abstandsmessung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G255": {
+    "correct": 2,
+    "explanation": "Eine Ebenengleichung kann mit jeder von 0 verschiedenen Zahl multipliziert werden, ohne die Ebene zu ändern. Zähler und Normalenlänge skalieren dabei mit demselben Betrag. Nur ihr Quotient beschreibt einen geometrisch eindeutigen Abstand.",
+    "steps": [
+      "Eine Ebenengleichung kann mit jeder von 0 verschiedenen Zahl multipliziert werden, ohne die Ebene zu ändern.",
+      "Zähler und Normalenlänge skalieren dabei mit demselben Betrag. Nur ihr Quotient beschreibt einen geometrisch eindeutigen Abstand."
+    ],
+    "background": "Die normierte Ebenengleichung zur Abstandsmessung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G257": {
+    "correct": 2,
+    "explanation": "Beide Ebenen unterscheiden sich nur in ihrer Höhe. Der senkrechte Abstand ist der Betrag der Differenz beider z-Werte. Damit erhältst du \\(2\\).",
+    "steps": [
+      "Beide Ebenen unterscheiden sich nur in ihrer Höhe.",
+      "Der senkrechte Abstand ist der Betrag der Differenz beider z-Werte.",
+      "Damit erhältst du \\(2\\)."
+    ],
+    "background": "Abstände paralleler Ebenen mit konsistent normierten Normalen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G259": {
+    "correct": 0,
+    "explanation": "Bringe beide Gleichungen zuerst in eine vergleichbare normierte Form. Es entstehen x = 3 und x = 5. Die rechten Seiten der ursprünglichen unnormierten Gleichungen darfst du nicht direkt subtrahieren. Damit erhältst du \\(2\\).",
+    "steps": [
+      "Bringe beide Gleichungen zuerst in eine vergleichbare normierte Form.",
+      "Es entstehen x = 3 und x = 5. Die rechten Seiten der ursprünglichen unnormierten Gleichungen darfst du nicht direkt subtrahieren.",
+      "Damit erhältst du \\(2\\)."
+    ],
+    "background": "Abstände paralleler Ebenen mit konsistent normierten Normalen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G261": {
+    "correct": 1,
+    "explanation": "Identische Ebenen enthalten dieselben Punkte. Der Abstand einer Punktmenge zu sich selbst ist 0; verschiedene Schreibweisen ändern die Geometrie nicht.",
+    "steps": [
+      "Identische Ebenen enthalten dieselben Punkte.",
+      "Der Abstand einer Punktmenge zu sich selbst ist 0; verschiedene Schreibweisen ändern die Geometrie nicht."
+    ],
+    "background": "Abstände paralleler Ebenen mit konsistent normierten Normalen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G263": {
+    "correct": 1,
+    "explanation": "Die beiden Geraden haben unterschiedliche konstante y-Werte. Der kürzeste Weg verläuft senkrecht zu ihrer gemeinsamen x-Richtung und hat die Länge der y-Differenz. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die beiden Geraden haben unterschiedliche konstante y-Werte.",
+      "Der kürzeste Weg verläuft senkrecht zu ihrer gemeinsamen x-Richtung und hat die Länge der y-Differenz.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Abstände paralleler oder windschiefer Geraden begründen und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G265": {
+    "correct": 2,
+    "explanation": "Jeder Verbindungsweg enthält die feste z-Differenz 3. Ein kürzerer Abstand ist daher unmöglich. Für t = s = 0 bleiben nur diese z-Einheiten übrig; dieser Weg ist zu beiden Richtungen senkrecht. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Jeder Verbindungsweg enthält die feste z-Differenz 3. Ein kürzerer Abstand ist daher unmöglich.",
+      "Für t = s = 0 bleiben nur diese z-Einheiten übrig; dieser Weg ist zu beiden Richtungen senkrecht.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Abstände paralleler oder windschiefer Geraden begründen und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G267": {
+    "correct": 0,
+    "explanation": "Die Wahl der Stützpunkte ist bei derselben Geraden nicht eindeutig. Ihre Entfernung kann daher kein automatisch eindeutiger Geradenabstand sein. Der minimale Verbindungsvektor muss orthogonal zu beiden Richtungsvektoren sein.",
+    "steps": [
+      "Die Wahl der Stützpunkte ist bei derselben Geraden nicht eindeutig. Ihre Entfernung kann daher kein automatisch eindeutiger Geradenabstand sein.",
+      "Der minimale Verbindungsvektor muss orthogonal zu beiden Richtungsvektoren sein."
+    ],
+    "background": "Abstände paralleler oder windschiefer Geraden begründen und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G269": {
+    "correct": 0,
+    "explanation": "Die beiden senkrechten Seiten können Grundseite und Höhe sein. Das Dreieck hat die halbe Fläche des zugehörigen Rechtecks. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die beiden senkrechten Seiten können Grundseite und Höhe sein.",
+      "Das Dreieck hat die halbe Fläche des zugehörigen Rechtecks.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Dreiecks- und Parallelogrammflächen mithilfe von Orthogonalität oder Kreuzprodukt bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G271": {
+    "correct": 1,
+    "explanation": "Wähle den ersten Vektor als Grundseite mit Länge 3. Die senkrechte Höhe ist die y-Komponente 2, nicht die Länge des schrägen zweiten Vektors. Damit erhältst du \\(6\\).",
+    "steps": [
+      "Wähle den ersten Vektor als Grundseite mit Länge 3.",
+      "Die senkrechte Höhe ist die y-Komponente 2, nicht die Länge des schrägen zweiten Vektors.",
+      "Damit erhältst du \\(6\\)."
+    ],
+    "background": "Dreiecks- und Parallelogrammflächen mithilfe von Orthogonalität oder Kreuzprodukt bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G273": {
+    "correct": 2,
+    "explanation": "Die beiden Seiten liegen auf derselben Richtungslinie. Die senkrechte Höhe und der Betrag ihres Kreuzprodukts sind daher 0. Das Parallelogramm ist entartet.",
+    "steps": [
+      "Die beiden Seiten liegen auf derselben Richtungslinie.",
+      "Die senkrechte Höhe und der Betrag ihres Kreuzprodukts sind daher 0. Das Parallelogramm ist entartet."
+    ],
+    "background": "Dreiecks- und Parallelogrammflächen mithilfe von Orthogonalität oder Kreuzprodukt bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G275": {
+    "correct": 2,
+    "explanation": "Das Volumen ist Länge mal Breite mal Höhe. Multipliziere alle drei Kantenlängen; die Einheit ist eine Kubikeinheit. Damit erhältst du \\(12\\).",
+    "steps": [
+      "Das Volumen ist Länge mal Breite mal Höhe.",
+      "Multipliziere alle drei Kantenlängen; die Einheit ist eine Kubikeinheit.",
+      "Damit erhältst du \\(12\\)."
+    ],
+    "background": "Volumen einfacher Körper und Spatprodukte interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G277": {
+    "correct": 0,
+    "explanation": "Eine Pyramide hat ein Drittel des Volumens des Prismas mit gleicher Grundfläche und Höhe. Rechne Grundfläche mal Höhe und teile durch 3. Damit erhältst du \\(6\\).",
+    "steps": [
+      "Eine Pyramide hat ein Drittel des Volumens des Prismas mit gleicher Grundfläche und Höhe.",
+      "Rechne Grundfläche mal Höhe und teile durch 3.",
+      "Damit erhältst du \\(6\\)."
+    ],
+    "background": "Volumen einfacher Körper und Spatprodukte interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G279": {
+    "correct": 1,
+    "explanation": "Koplanare Vektoren können keinen dreidimensionalen Körper mit positiver Höhe aufspannen. Das zugehörige Spatprodukt beziehungsweise die Determinante ist 0.",
+    "steps": [
+      "Koplanare Vektoren können keinen dreidimensionalen Körper mit positiver Höhe aufspannen.",
+      "Das zugehörige Spatprodukt beziehungsweise die Determinante ist 0."
+    ],
+    "background": "Volumen einfacher Körper und Spatprodukte interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G281": {
+    "correct": 1,
+    "explanation": "Die Ebene hat z = 0. Wechsle nur das Vorzeichen der z-Koordinate; der Punkt in der Ebene wäre der Lotfuß, nicht der Spiegelpunkt. Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\-3\\end{matrix}\\right]\\).",
+    "steps": [
+      "Die Ebene hat z = 0.",
+      "Wechsle nur das Vorzeichen der z-Koordinate; der Punkt in der Ebene wäre der Lotfuß, nicht der Spiegelpunkt.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\-3\\end{matrix}\\right]\\)."
+    ],
+    "background": "Lotfußpunkte und Spiegelpunkte an Ebenen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G283": {
+    "correct": 2,
+    "explanation": "Der Ausgangspunkt liegt 2 Einheiten oberhalb der Ebene. Der Bildpunkt liegt ebenso weit darunter; die Ebene liegt genau in der Mitte der Verbindung. Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Der Ausgangspunkt liegt 2 Einheiten oberhalb der Ebene.",
+      "Der Bildpunkt liegt ebenso weit darunter; die Ebene liegt genau in der Mitte der Verbindung.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Lotfußpunkte und Spiegelpunkte an Ebenen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G285": {
+    "correct": 0,
+    "explanation": "Beim Spiegeln geht es von P zuerst nach L und um denselben Vektor noch einmal weiter. Also P′ = P + 2(L − P) = 2L − P. Der Lotfuß ist nur die Mitte des Weges.",
+    "steps": [
+      "Beim Spiegeln geht es von P zuerst nach L und um denselben Vektor noch einmal weiter.",
+      "Also P′ = P + 2(L − P) = 2L − P. Der Lotfuß ist nur die Mitte des Weges."
+    ],
+    "background": "Lotfußpunkte und Spiegelpunkte an Ebenen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G287": {
+    "correct": 0,
+    "explanation": "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors.",
+      "Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G289": {
+    "correct": 1,
+    "explanation": "Setze die Höhe gleich 0 und löse die lineare Gleichung. Der gefundene Zeitpunkt ist nichtnegativ und gehört zum betrachteten Flugabschnitt. Damit erhältst du \\(\\frac{3}{2}\\).",
+    "steps": [
+      "Setze die Höhe gleich 0 und löse die lineare Gleichung.",
+      "Der gefundene Zeitpunkt ist nichtnegativ und gehört zum betrachteten Flugabschnitt.",
+      "Damit erhältst du \\(\\frac{3}{2}\\)."
+    ],
+    "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G291": {
+    "correct": 2,
+    "explanation": "Der Parameter liegt außerhalb des erlaubten Intervalls von 0 bis 1. Die geometrische Gerade ist unbeschränkt, die Straße in diesem Modell aber nur das Stück zwischen A und B.",
+    "steps": [
+      "Der Parameter liegt außerhalb des erlaubten Intervalls von 0 bis 1.",
+      "Die geometrische Gerade ist unbeschränkt, die Straße in diesem Modell aber nur das Stück zwischen A und B."
+    ],
+    "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G293": {
+    "correct": 2,
+    "explanation": "Die Normale zeigt bereits senkrecht aus der Ebene heraus. Eine dazu parallele Gerade steht ebenfalls senkrecht auf der Ebene. Orthogonalität zur Normalen würde eine parallele Ebenenrichtung bedeuten.",
+    "steps": [
+      "Die Normale zeigt bereits senkrecht aus der Ebene heraus.",
+      "Eine dazu parallele Gerade steht ebenfalls senkrecht auf der Ebene. Orthogonalität zur Normalen würde eine parallele Ebenenrichtung bedeuten."
+    ],
+    "background": "Mehrschrittige geometrische Argumente und typische Rechenfehler prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G295": {
+    "correct": 0,
+    "explanation": "Die Geradengleichung ist eine Gleichheit von Vektoren. Eine solche Gleichheit gilt nur komponentenweise vollständig, mit demselben Parameterwert.",
+    "steps": [
+      "Die Geradengleichung ist eine Gleichheit von Vektoren.",
+      "Eine solche Gleichheit gilt nur komponentenweise vollständig, mit demselben Parameterwert."
+    ],
+    "background": "Mehrschrittige geometrische Argumente und typische Rechenfehler prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G297": {
+    "correct": 1,
+    "explanation": "Ein Skalarprodukt 0 beurteilt zunächst nur die Richtungen. Für einen geometrischen Schnittpunkt brauchst du zusätzlich eine erfolgreiche gemeinsame Punktprobe. Richtungswinkel und Schnitt sind verschiedene Informationen.",
+    "steps": [
+      "Ein Skalarprodukt 0 beurteilt zunächst nur die Richtungen.",
+      "Für einen geometrischen Schnittpunkt brauchst du zusätzlich eine erfolgreiche gemeinsame Punktprobe. Richtungswinkel und Schnitt sind verschiedene Informationen."
+    ],
+    "background": "Mehrschrittige geometrische Argumente und typische Rechenfehler prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G102": {
+    "correct": 0,
+    "explanation": "Die Koordinaten stehen in der Reihenfolge x, y, z. Gesucht ist die zweite Zahl einschließlich ihres Vorzeichens. Damit erhältst du \\(-3\\).",
+    "steps": [
+      "Die Koordinaten stehen in der Reihenfolge x, y, z.",
+      "Gesucht ist die zweite Zahl einschließlich ihres Vorzeichens.",
+      "Damit erhältst du \\(-3\\)."
+    ],
+    "background": "Koordinaten lesen und einfache Achsen- und Ebenenspiegelungen durchführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G104": {
+    "correct": 1,
+    "explanation": "Die xz-Ebene hat y = 0. Beim Spiegeln wechselt nur die y-Koordinate das Vorzeichen. Die anderen beiden bleiben gleich. Damit erhältst du \\(\\left[\\begin{matrix}4\\\\3\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Die xz-Ebene hat y = 0.",
+      "Beim Spiegeln wechselt nur die y-Koordinate das Vorzeichen. Die anderen beiden bleiben gleich.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}4\\\\3\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Koordinaten lesen und einfache Achsen- und Ebenenspiegelungen durchführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G106": {
+    "correct": 2,
+    "explanation": "Die Spiegelung an x = 0 wechselt nur das Vorzeichen der x-Koordinate. Addiere danach den Verschiebungsvektor. Die Reihenfolge der Operationen ist wichtig. Damit erhältst du \\(\\left[\\begin{matrix}-3\\\\3\\\\3\\end{matrix}\\right]\\).",
+    "steps": [
+      "Die Spiegelung an x = 0 wechselt nur das Vorzeichen der x-Koordinate.",
+      "Addiere danach den Verschiebungsvektor. Die Reihenfolge der Operationen ist wichtig.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}-3\\\\3\\\\3\\end{matrix}\\right]\\)."
+    ],
+    "background": "Koordinaten lesen und einfache Achsen- und Ebenenspiegelungen durchführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G108": {
+    "correct": 2,
+    "explanation": "Ein Verbindungsvektor ist Zielpunkt minus Startpunkt. Subtrahiere die drei Koordinaten jeweils an derselben Stelle. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\1\\\\3\\end{matrix}\\right]\\).",
+    "steps": [
+      "Ein Verbindungsvektor ist Zielpunkt minus Startpunkt.",
+      "Subtrahiere die drei Koordinaten jeweils an derselben Stelle.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\1\\\\3\\end{matrix}\\right]\\)."
+    ],
+    "background": "Punkte, Verbindungsvektoren und Mittelpunkte unterscheiden und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G110": {
+    "correct": 0,
+    "explanation": "Der Mittelpunkt liegt in jeder Koordinatenrichtung auf halbem Weg. Addiere die entsprechenden Koordinaten und teile jede Summe durch 2. Damit erhältst du \\(\\left[\\begin{matrix}4\\\\2\\\\2\\end{matrix}\\right]\\).",
+    "steps": [
+      "Der Mittelpunkt liegt in jeder Koordinatenrichtung auf halbem Weg.",
+      "Addiere die entsprechenden Koordinaten und teile jede Summe durch 2.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}4\\\\2\\\\2\\end{matrix}\\right]\\)."
+    ],
+    "background": "Punkte, Verbindungsvektoren und Mittelpunkte unterscheiden und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G112": {
+    "correct": 1,
+    "explanation": "Der Vektor beschreibt die Änderung vom Start zum Ziel. Deshalb gilt Ziel minus Start. A − B ist zwar ein gültiger Vektor, hat aber genau die entgegengesetzte Richtung.",
+    "steps": [
+      "Der Vektor beschreibt die Änderung vom Start zum Ziel. Deshalb gilt Ziel minus Start.",
+      "A − B ist zwar ein gültiger Vektor, hat aber genau die entgegengesetzte Richtung."
+    ],
+    "background": "Punkte, Verbindungsvektoren und Mittelpunkte unterscheiden und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G114": {
+    "correct": 1,
+    "explanation": "Addiere erste zu erster, zweite zu zweiter und dritte zu dritter Komponente. Negative Komponenten werden mit ihrem Vorzeichen addiert. Damit erhältst du \\(\\left[\\begin{matrix}5\\\\-2\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Addiere erste zu erster, zweite zu zweiter und dritte zu dritter Komponente.",
+      "Negative Komponenten werden mit ihrem Vorzeichen addiert.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}5\\\\-2\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Vektoren addieren, subtrahieren und skalar multiplizieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G116": {
+    "correct": 2,
+    "explanation": "Multipliziere zuerst jede Komponente des ersten Vektors mit 2. Ziehe dann die Komponenten des zweiten Vektors ab; der Faktor 2 gilt nicht für diesen zweiten Vektor. Damit erhältst du \\(\\left[\\begin{matrix}7\\\\-1\\\\-7\\end{matrix}\\right]\\).",
+    "steps": [
+      "Multipliziere zuerst jede Komponente des ersten Vektors mit 2.",
+      "Ziehe dann die Komponenten des zweiten Vektors ab; der Faktor 2 gilt nicht für diesen zweiten Vektor.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}7\\\\-1\\\\-7\\end{matrix}\\right]\\)."
+    ],
+    "background": "Vektoren addieren, subtrahieren und skalar multiplizieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G118": {
+    "correct": 0,
+    "explanation": "Der Betrag des Faktors skaliert die Länge. Das negative Vorzeichen dreht die Richtung um. Eine geometrische Länge bleibt trotzdem nichtnegativ.",
+    "steps": [
+      "Der Betrag des Faktors skaliert die Länge.",
+      "Das negative Vorzeichen dreht die Richtung um. Eine geometrische Länge bleibt trotzdem nichtnegativ."
+    ],
+    "background": "Vektoren addieren, subtrahieren und skalar multiplizieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G120": {
+    "correct": 0,
+    "explanation": "Der Vektor bewegt dich nur entlang einer Achse. Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Der Vektor bewegt dich nur entlang einer Achse.",
+      "Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G122": {
+    "correct": 1,
+    "explanation": "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0. Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel. Damit erhältst du \\(5\\).",
+    "steps": [
+      "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0.",
+      "Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel.",
+      "Damit erhältst du \\(5\\)."
+    ],
+    "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G124": {
+    "correct": 2,
+    "explanation": "Ein Einheitsvektor soll die Länge 1 haben. Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren.",
+    "steps": [
+      "Ein Einheitsvektor soll die Länge 1 haben.",
+      "Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren."
+    ],
+    "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G126": {
+    "correct": 2,
+    "explanation": "Alle Komponenten wurden mit demselben Faktor multipliziert. Damit zeigen sie in dieselbe Richtung; verschiedene Längen verhindern Kollinearität nicht.",
+    "steps": [
+      "Alle Komponenten wurden mit demselben Faktor multipliziert.",
+      "Damit zeigen sie in dieselbe Richtung; verschiedene Längen verhindern Kollinearität nicht."
+    ],
+    "background": "Kollinearität und lineare Unabhängigkeit von Vektoren prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G128": {
+    "correct": 0,
+    "explanation": "Aus der ersten Komponente folgt der gemeinsame Faktor 4. Derselbe Faktor muss auch in der zweiten Komponente gelten: a = 2 · 4. Damit erhältst du \\(8\\).",
+    "steps": [
+      "Aus der ersten Komponente folgt der gemeinsame Faktor 4.",
+      "Derselbe Faktor muss auch in der zweiten Komponente gelten: a = 2 · 4.",
+      "Damit erhältst du \\(8\\)."
+    ],
+    "background": "Kollinearität und lineare Unabhängigkeit von Vektoren prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G130": {
+    "correct": 1,
+    "explanation": "Multipliziere den ersten mit 4 und den zweiten mit 3. Ihre Summe ist genau der dritte Vektor. Allgemein können im Raum durchaus drei unabhängige Vektoren existieren.",
+    "steps": [
+      "Multipliziere den ersten mit 4 und den zweiten mit 3.",
+      "Ihre Summe ist genau der dritte Vektor. Allgemein können im Raum durchaus drei unabhängige Vektoren existieren."
+    ],
+    "background": "Kollinearität und lineare Unabhängigkeit von Vektoren prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G132": {
+    "correct": 1,
+    "explanation": "Multipliziere die passenden Komponenten. Addiere die Produkte: 4 · 1 + 1 · 3 + 0 · 2. Damit erhältst du \\(7\\).",
+    "steps": [
+      "Multipliziere die passenden Komponenten.",
+      "Addiere die Produkte: 4 · 1 + 1 · 3 + 0 · 2.",
+      "Damit erhältst du \\(7\\)."
+    ],
+    "background": "Skalarprodukte berechnen und als Projektionsmaß deuten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G134": {
+    "correct": 2,
+    "explanation": "Ein Skalarprodukt mit sich selbst ist die Summe der Komponentenquadrate. Auch die negative Komponente liefert ein positives Quadrat; das Ergebnis ist das Quadrat der Länge. Damit erhältst du \\(26\\).",
+    "steps": [
+      "Ein Skalarprodukt mit sich selbst ist die Summe der Komponentenquadrate.",
+      "Auch die negative Komponente liefert ein positives Quadrat; das Ergebnis ist das Quadrat der Länge.",
+      "Damit erhältst du \\(26\\)."
+    ],
+    "background": "Skalarprodukte berechnen und als Projektionsmaß deuten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G136": {
+    "correct": 0,
+    "explanation": "Ein negatives Skalarprodukt bedeutet einen negativen Kosinus, weil beide Längen positiv sind. Für Winkel zwischen 0° und 180° ist der Kosinus genau oberhalb von 90° negativ. Gegenläufige Vektoren mit 180° sind möglich.",
+    "steps": [
+      "Ein negatives Skalarprodukt bedeutet einen negativen Kosinus, weil beide Längen positiv sind.",
+      "Für Winkel zwischen 0° und 180° ist der Kosinus genau oberhalb von 90° negativ. Gegenläufige Vektoren mit 180° sind möglich."
+    ],
+    "background": "Skalarprodukte berechnen und als Projektionsmaß deuten. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G138": {
+    "correct": 0,
+    "explanation": "Senkrechte Vektoren haben das Skalarprodukt 0. Hier steht a + 4 = 0. Löse diese Gleichung. Damit erhältst du \\(-4\\).",
+    "steps": [
+      "Senkrechte Vektoren haben das Skalarprodukt 0.",
+      "Hier steht a + 4 = 0. Löse diese Gleichung.",
+      "Damit erhältst du \\(-4\\)."
+    ],
+    "background": "Orthogonalität durch Skalarprodukte prüfen und Parameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G140": {
+    "correct": 1,
+    "explanation": "Berechne für jeden Kandidaten das Skalarprodukt. Beim Vektor mit Komponenten (3|−4|1) heben sich die beiden Produkte auf; die dritte Komponente des Ausgangsvektors ist 0.",
+    "steps": [
+      "Berechne für jeden Kandidaten das Skalarprodukt.",
+      "Beim Vektor mit Komponenten (3|−4|1) heben sich die beiden Produkte auf; die dritte Komponente des Ausgangsvektors ist 0."
+    ],
+    "background": "Orthogonalität durch Skalarprodukte prüfen und Parameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G142": {
+    "correct": 2,
+    "explanation": "In der Winkelformel steht das Produkt der Vektorlängen im Nenner. Die Länge des Nullvektors ist 0. Durch 0 darfst du nicht teilen, und der Nullvektor hat keine Richtung.",
+    "steps": [
+      "In der Winkelformel steht das Produkt der Vektorlängen im Nenner.",
+      "Die Länge des Nullvektors ist 0. Durch 0 darfst du nicht teilen, und der Nullvektor hat keine Richtung."
+    ],
+    "background": "Orthogonalität durch Skalarprodukte prüfen und Parameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G144": {
+    "correct": 2,
+    "explanation": "Das Skalarprodukt der beiden von 0 verschiedenen Vektoren ist 0. Damit sind sie orthogonal. Damit erhältst du \\(90\\).",
+    "steps": [
+      "Das Skalarprodukt der beiden von 0 verschiedenen Vektoren ist 0.",
+      "Damit sind sie orthogonal.",
+      "Damit erhältst du \\(90\\)."
+    ],
+    "background": "Winkel zwischen Vektoren mit Skalarprodukt und Beträgen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G146": {
+    "correct": 0,
+    "explanation": "Teile das Skalarprodukt durch das Produkt der Längen. Die erste Länge ist 1, die zweite √(25). Damit erhältst du \\(\\frac{4}{5}\\).",
+    "steps": [
+      "Teile das Skalarprodukt durch das Produkt der Längen.",
+      "Die erste Länge ist 1, die zweite √(25).",
+      "Damit erhältst du \\(\\frac{4}{5}\\)."
+    ],
+    "background": "Winkel zwischen Vektoren mit Skalarprodukt und Beträgen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G148": {
+    "correct": 1,
+    "explanation": "Ein negativer Faktor kehrt die Richtung eines von 0 verschiedenen Vektors um. Die beiden Pfeile sind gegenläufig. Winkel zwischen Vektoren und kleinerer Winkel zwischen Geraden sind zu unterscheiden.",
+    "steps": [
+      "Ein negativer Faktor kehrt die Richtung eines von 0 verschiedenen Vektors um.",
+      "Die beiden Pfeile sind gegenläufig. Winkel zwischen Vektoren und kleinerer Winkel zwischen Geraden sind zu unterscheiden."
+    ],
+    "background": "Winkel zwischen Vektoren mit Skalarprodukt und Beträgen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G150": {
+    "correct": 1,
+    "explanation": "Setzt du t = 0, erhältst du den Stützpunkt. Der Parameter einer ganzen Geraden darf jeden reellen Wert annehmen.",
+    "steps": [
+      "Setzt du t = 0, erhältst du den Stützpunkt.",
+      "Der Parameter einer ganzen Geraden darf jeden reellen Wert annehmen."
+    ],
+    "background": "Geraden aus Punkt und Richtung oder zwei Punkten aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G152": {
+    "correct": 2,
+    "explanation": "Bilde den Verbindungsvektor vom ersten zum zweiten Punkt. Jedes von 0 verschiedene Vielfache dieses Vektors wäre ebenfalls als Richtung erlaubt. Damit erhältst du \\(\\left[\\begin{matrix}3\\\\3\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Bilde den Verbindungsvektor vom ersten zum zweiten Punkt.",
+      "Jedes von 0 verschiedene Vielfache dieses Vektors wäre ebenfalls als Richtung erlaubt.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}3\\\\3\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Geraden aus Punkt und Richtung oder zwei Punkten aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G154": {
+    "correct": 0,
+    "explanation": "Jeder bisherige Parameterwert kann durch einen entsprechend skalierten neuen Parameter ersetzt werden. Ein von 0 verschiedener Faktor ändert die Richtungslinie und den Stützpunkt nicht.",
+    "steps": [
+      "Jeder bisherige Parameterwert kann durch einen entsprechend skalierten neuen Parameter ersetzt werden.",
+      "Ein von 0 verschiedener Faktor ändert die Richtungslinie und den Stützpunkt nicht."
+    ],
+    "background": "Geraden aus Punkt und Richtung oder zwei Punkten aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G156": {
+    "correct": 0,
+    "explanation": "Vergleiche alle drei Koordinaten. Aus der dritten Koordinate folgt direkt t = 4. Prüfe auch die erste und die konstante zweite Koordinate. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Vergleiche alle drei Koordinaten.",
+      "Aus der dritten Koordinate folgt direkt t = 4. Prüfe auch die erste und die konstante zweite Koordinate.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Punkte auf Geraden prüfen und Achsen- oder Ebenenspuren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G158": {
+    "correct": 1,
+    "explanation": "In der xy-Ebene ist die z-Koordinate 0. Setze 4 − t = 0. Die anderen beiden Koordinaten schränken diese Ebene nicht ein. Damit erhältst du \\(4\\).",
+    "steps": [
+      "In der xy-Ebene ist die z-Koordinate 0.",
+      "Setze 4 − t = 0. Die anderen beiden Koordinaten schränken diese Ebene nicht ein.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Punkte auf Geraden prüfen und Achsen- oder Ebenenspuren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G160": {
+    "correct": 2,
+    "explanation": "Ein Punkt der Geraden entsteht durch genau eine gemeinsame Wahl von t für alle Koordinaten. Verschiedene, widersprüchliche t-Werte können daher keine erfolgreiche Punktprobe sein.",
+    "steps": [
+      "Ein Punkt der Geraden entsteht durch genau eine gemeinsame Wahl von t für alle Koordinaten.",
+      "Verschiedene, widersprüchliche t-Werte können daher keine erfolgreiche Punktprobe sein."
+    ],
+    "background": "Punkte auf Geraden prüfen und Achsen- oder Ebenenspuren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G162": {
+    "correct": 2,
+    "explanation": "Die Richtungsvektoren sind Vielfache voneinander. Das entscheidet die Richtung, aber noch nicht, ob die Geraden dieselben Punkte enthalten.",
+    "steps": [
+      "Die Richtungsvektoren sind Vielfache voneinander.",
+      "Das entscheidet die Richtung, aber noch nicht, ob die Geraden dieselben Punkte enthalten."
+    ],
+    "background": "Parallele und identische Geraden durch Richtung und Punktprobe unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G164": {
+    "correct": 0,
+    "explanation": "Die Richtungsvektoren sind kollinear. Der Stützpunkt von h liegt für t = 4 auf g. Gleiche Richtung plus gemeinsamer Punkt ergibt Identität.",
+    "steps": [
+      "Die Richtungsvektoren sind kollinear.",
+      "Der Stützpunkt von h liegt für t = 4 auf g. Gleiche Richtung plus gemeinsamer Punkt ergibt Identität."
+    ],
+    "background": "Parallele und identische Geraden durch Richtung und Punktprobe unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G166": {
+    "correct": 1,
+    "explanation": "Die y-Koordinate ändert sich auf keiner der Geraden. Wegen der unterschiedlichen konstanten y-Werte gibt es keinen gemeinsamen Punkt, auch nicht bei negativen Parametern.",
+    "steps": [
+      "Die y-Koordinate ändert sich auf keiner der Geraden.",
+      "Wegen der unterschiedlichen konstanten y-Werte gibt es keinen gemeinsamen Punkt, auch nicht bei negativen Parametern."
+    ],
+    "background": "Parallele und identische Geraden durch Richtung und Punktprobe unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G168": {
+    "correct": 1,
+    "explanation": "Setze die passenden Koordinaten gleich: t = 4 und s = 0. Setze die Parameter in eine der Geraden ein und prüfe den Punkt auf der anderen. Damit erhältst du \\(\\left[\\begin{matrix}4\\\\0\\\\0\\end{matrix}\\right]\\).",
+    "steps": [
+      "Setze die passenden Koordinaten gleich: t = 4 und s = 0.",
+      "Setze die Parameter in eine der Geraden ein und prüfe den Punkt auf der anderen.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}4\\\\0\\\\0\\end{matrix}\\right]\\)."
+    ],
+    "background": "Geraden gleichsetzen und Parameter sowie Schnittpunkt konsistent bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G170": {
+    "correct": 2,
+    "explanation": "Aus der ersten Koordinate folgt t = s. In der zweiten steht t = 8 − s. Einsetzen ergibt 2t = 8. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Aus der ersten Koordinate folgt t = s.",
+      "In der zweiten steht t = 8 − s. Einsetzen ergibt 2t = 8.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Geraden gleichsetzen und Parameter sowie Schnittpunkt konsistent bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G172": {
+    "correct": 0,
+    "explanation": "Ein Schnittpunkt muss alle drei Koordinatengleichungen erfüllen. Die dritte Gleichung ist kein zusätzlicher Wunsch, sondern Teil der Punktgleichheit. Die übrige Lage muss separat untersucht werden.",
+    "steps": [
+      "Ein Schnittpunkt muss alle drei Koordinatengleichungen erfüllen.",
+      "Die dritte Gleichung ist kein zusätzlicher Wunsch, sondern Teil der Punktgleichheit. Die übrige Lage muss separat untersucht werden."
+    ],
+    "background": "Geraden gleichsetzen und Parameter sowie Schnittpunkt konsistent bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G174": {
+    "correct": 0,
+    "explanation": "Der Widerspruch schließt einen gemeinsamen Punkt aus. Nicht parallele Richtungen zusammen mit fehlendem Schnittpunkt kennzeichnen windschiefe Geraden.",
+    "steps": [
+      "Der Widerspruch schließt einen gemeinsamen Punkt aus.",
+      "Nicht parallele Richtungen zusammen mit fehlendem Schnittpunkt kennzeichnen windschiefe Geraden."
+    ],
+    "background": "Nicht parallele Geraden ohne Schnittpunkt von schneidenden Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G176": {
+    "correct": 1,
+    "explanation": "Ihre Richtungen sind unabhängig, also nicht parallel. Auf g ist z = 0, auf h ist z = 4. Deshalb gibt es keinen gemeinsamen Punkt.",
+    "steps": [
+      "Ihre Richtungen sind unabhängig, also nicht parallel.",
+      "Auf g ist z = 0, auf h ist z = 4. Deshalb gibt es keinen gemeinsamen Punkt."
+    ],
+    "background": "Nicht parallele Geraden ohne Schnittpunkt von schneidenden Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G178": {
+    "correct": 2,
+    "explanation": "Verschiedene Stützpunkte können auf derselben Geraden liegen. Eine erfolgreiche Punktprobe bei gleichen Richtungslinien weist Identität nach; andernfalls sind sie echt parallel.",
+    "steps": [
+      "Verschiedene Stützpunkte können auf derselben Geraden liegen.",
+      "Eine erfolgreiche Punktprobe bei gleichen Richtungslinien weist Identität nach; andernfalls sind sie echt parallel."
+    ],
+    "background": "Nicht parallele Geraden ohne Schnittpunkt von schneidenden Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G180": {
+    "correct": 2,
+    "explanation": "Gegenläufige Richtungsvektoren gehören trotzdem zu parallelen Geraden. Der kleinere Winkel der Richtungslinien ist daher 0°, nicht 180°. Damit erhältst du \\(0\\).",
+    "steps": [
+      "Gegenläufige Richtungsvektoren gehören trotzdem zu parallelen Geraden.",
+      "Der kleinere Winkel der Richtungslinien ist daher 0°, nicht 180°.",
+      "Damit erhältst du \\(0\\)."
+    ],
+    "background": "Den kleineren Schnittwinkel zweier Geraden bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G182": {
+    "correct": 0,
+    "explanation": "Für den kleineren Geradenwinkel verwendest du den Betrag des Skalarprodukts. Teile diesen durch das Produkt der beiden Längen. Damit erhältst du \\(\\frac{4}{5}\\).",
+    "steps": [
+      "Für den kleineren Geradenwinkel verwendest du den Betrag des Skalarprodukts.",
+      "Teile diesen durch das Produkt der beiden Längen.",
+      "Damit erhältst du \\(\\frac{4}{5}\\)."
+    ],
+    "background": "Den kleineren Schnittwinkel zweier Geraden bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G184": {
+    "correct": 1,
+    "explanation": "Die geometrische Gerade ändert sich durch diesen Faktor nicht. In der Formel für den kleineren Winkel kürzt sich der Betrag des Faktors zwischen Zähler und Nenner heraus.",
+    "steps": [
+      "Die geometrische Gerade ändert sich durch diesen Faktor nicht.",
+      "In der Formel für den kleineren Winkel kürzt sich der Betrag des Faktors zwischen Zähler und Nenner heraus."
+    ],
+    "background": "Den kleineren Schnittwinkel zweier Geraden bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G186": {
+    "correct": 1,
+    "explanation": "Addiere die beiden Gleichungen. Dabei fällt y weg. Es bleibt 2x = 8. Teile durch 2. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Addiere die beiden Gleichungen. Dabei fällt y weg.",
+      "Es bleibt 2x = 8. Teile durch 2.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Gauß-Schritte, Lösungsanzahl und parametrische Sonderfälle von LGS beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G188": {
+    "correct": 2,
+    "explanation": "Eine von 0 verschiedene Zahl kann nicht gleich 0 sein. Jede Lösung müsste auch diese Zeile erfüllen. Weil das unmöglich ist, ist die gesamte Lösungsmenge leer.",
+    "steps": [
+      "Eine von 0 verschiedene Zahl kann nicht gleich 0 sein.",
+      "Jede Lösung müsste auch diese Zeile erfüllen. Weil das unmöglich ist, ist die gesamte Lösungsmenge leer."
+    ],
+    "background": "Gauß-Schritte, Lösungsanzahl und parametrische Sonderfälle von LGS beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G190": {
+    "correct": 0,
+    "explanation": "Verdopple die erste Gleichung. Ihre linke Seite ist dann identisch mit der linken Seite der zweiten Gleichung. Die rechten Seiten stimmen genau bei a = 4 überein. Dann bleibt nur eine unabhängige Bedingung für zwei Variablen. Für andere a entsteht ein Widerspruch.",
+    "steps": [
+      "Verdopple die erste Gleichung. Ihre linke Seite ist dann identisch mit der linken Seite der zweiten Gleichung.",
+      "Die rechten Seiten stimmen genau bei a = 4 überein. Dann bleibt nur eine unabhängige Bedingung für zwei Variablen. Für andere a entsteht ein Widerspruch."
+    ],
+    "background": "Gauß-Schritte, Lösungsanzahl und parametrische Sonderfälle von LGS beurteilen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G192": {
+    "correct": 0,
+    "explanation": "Zwei parallele Spannvektoren liefern nur eine Richtung und damit keine Ebene. Eine Ebene braucht zwei unabhängige Richtungen; ihre Längen sind dafür nicht entscheidend.",
+    "steps": [
+      "Zwei parallele Spannvektoren liefern nur eine Richtung und damit keine Ebene.",
+      "Eine Ebene braucht zwei unabhängige Richtungen; ihre Längen sind dafür nicht entscheidend."
+    ],
+    "background": "Ebenen durch unabhängige Richtungen und Punkte beschreiben. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G194": {
+    "correct": 1,
+    "explanation": "Setze die Parameter in die zugehörigen Spannrichtungen ein. Addiere beide skalierten Richtungsvektoren zum Stützvektor. Damit erhältst du \\(\\left[\\begin{matrix}1\\\\4\\\\3\\end{matrix}\\right]\\).",
+    "steps": [
+      "Setze die Parameter in die zugehörigen Spannrichtungen ein.",
+      "Addiere beide skalierten Richtungsvektoren zum Stützvektor.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}1\\\\4\\\\3\\end{matrix}\\right]\\)."
+    ],
+    "background": "Ebenen durch unabhängige Richtungen und Punkte beschreiben. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G196": {
+    "correct": 2,
+    "explanation": "Der zweite Vektor ist genau das Doppelte des ersten. Auch zwei frei wählbare Parameter erzeugen damit nur eine unabhängige Richtung.",
+    "steps": [
+      "Der zweite Vektor ist genau das Doppelte des ersten.",
+      "Auch zwei frei wählbare Parameter erzeugen damit nur eine unabhängige Richtung."
+    ],
+    "background": "Ebenen durch unabhängige Richtungen und Punkte beschreiben. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G198": {
+    "correct": 2,
+    "explanation": "In der Koordinatenform sind die Koeffizienten von x, y und z die Komponenten eines Normalenvektors. Nimm das Minus vor y mit; die rechte Seite gehört nicht zum Vektor. Damit erhältst du \\(\\left[\\begin{matrix}4\\\\-1\\\\2\\end{matrix}\\right]\\).",
+    "steps": [
+      "In der Koordinatenform sind die Koeffizienten von x, y und z die Komponenten eines Normalenvektors.",
+      "Nimm das Minus vor y mit; die rechte Seite gehört nicht zum Vektor.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}4\\\\-1\\\\2\\end{matrix}\\right]\\)."
+    ],
+    "background": "Normalenvektoren prüfen und eine Normalenform aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G200": {
+    "correct": 0,
+    "explanation": "Senkrecht auf einer Richtung zu stehen ist schwächer als senkrecht auf der ganzen Ebene zu stehen. Erst beide unabhängigen Richtungen legen die Normalenrichtung fest; Normieren ersetzt diese Prüfung nicht.",
+    "steps": [
+      "Senkrecht auf einer Richtung zu stehen ist schwächer als senkrecht auf der ganzen Ebene zu stehen.",
+      "Erst beide unabhängigen Richtungen legen die Normalenrichtung fest; Normieren ersetzt diese Prüfung nicht."
+    ],
+    "background": "Normalenvektoren prüfen und eine Normalenform aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G202": {
+    "correct": 1,
+    "explanation": "Der Vektor vom Stützpunkt zu jedem Ebenenpunkt ist x − P. Er muss senkrecht auf n stehen. Deshalb ist genau sein Skalarprodukt mit n gleich 0.",
+    "steps": [
+      "Der Vektor vom Stützpunkt zu jedem Ebenenpunkt ist x − P.",
+      "Er muss senkrecht auf n stehen. Deshalb ist genau sein Skalarprodukt mit n gleich 0."
+    ],
+    "background": "Normalenvektoren prüfen und eine Normalenform aufstellen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G204": {
+    "correct": 1,
+    "explanation": "Die Spannvektoren ändern nur die zweite und dritte Koordinate. Die erste Koordinate bleibt bei jedem Punkt 4. Die beiden übrigen sind frei.",
+    "steps": [
+      "Die Spannvektoren ändern nur die zweite und dritte Koordinate.",
+      "Die erste Koordinate bleibt bei jedem Punkt 4. Die beiden übrigen sind frei."
+    ],
+    "background": "Parameter-, Normalen- und Koordinatenform ineinander überführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G206": {
+    "correct": 2,
+    "explanation": "Setze die Koordinaten des bekannten Punktes in die linke Seite ein. Der so berechnete Wert muss die rechte Seite der Ebene sein. Damit erhältst du \\(10\\).",
+    "steps": [
+      "Setze die Koordinaten des bekannten Punktes in die linke Seite ein.",
+      "Der so berechnete Wert muss die rechte Seite der Ebene sein.",
+      "Damit erhältst du \\(10\\)."
+    ],
+    "background": "Parameter-, Normalen- und Koordinatenform ineinander überführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G208": {
+    "correct": 0,
+    "explanation": "Jeder Punkt erfüllt die neue Gleichung genau dann, wenn er die alte erfüllt. Der Normalenvektor wird zwar skaliert, seine Richtungslinie und die Punktmenge ändern sich nicht.",
+    "steps": [
+      "Jeder Punkt erfüllt die neue Gleichung genau dann, wenn er die alte erfüllt.",
+      "Der Normalenvektor wird zwar skaliert, seine Richtungslinie und die Punktmenge ändern sich nicht."
+    ],
+    "background": "Parameter-, Normalen- und Koordinatenform ineinander überführen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G210": {
+    "correct": 0,
+    "explanation": "Setze die drei Koordinaten für x, y und z ein. Die Summe ist 8 und stimmt mit der rechten Seite überein.",
+    "steps": [
+      "Setze die drei Koordinaten für x, y und z ein.",
+      "Die Summe ist 8 und stimmt mit der rechten Seite überein."
+    ],
+    "background": "Ebenengleichungen durch Einsetzen prüfen und Spurpunkte bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G212": {
+    "correct": 1,
+    "explanation": "Auf der z-Achse sind x und y gleich 0. Es bleibt 3z = 12. Löse nach z auf. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Auf der z-Achse sind x und y gleich 0.",
+      "Es bleibt 3z = 12. Löse nach z auf.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Ebenengleichungen durch Einsetzen prüfen und Spurpunkte bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G214": {
+    "correct": 2,
+    "explanation": "Auf der z-Achse gilt x = y = 0, unabhängig von z. Damit würde 0 = 4 verlangt. Das ist unmöglich; auch eine beliebige z-Koordinate ändert daran nichts.",
+    "steps": [
+      "Auf der z-Achse gilt x = y = 0, unabhängig von z.",
+      "Damit würde 0 = 4 verlangt. Das ist unmöglich; auch eine beliebige z-Koordinate ändert daran nichts."
+    ],
+    "background": "Ebenengleichungen durch Einsetzen prüfen und Spurpunkte bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G216": {
+    "correct": 2,
+    "explanation": "Die z-Koordinate der Geraden lautet 1 + t. Setze sie gleich der Höhe der Ebene und ziehe 1 ab. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Die z-Koordinate der Geraden lautet 1 + t.",
+      "Setze sie gleich der Höhe der Ebene und ziehe 1 ab.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Eine Gerade in eine Ebene einsetzen und den Schnittparameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G218": {
+    "correct": 0,
+    "explanation": "Setze die Geradenkoordinaten in die Ebene ein: t + 2t = 12. Daraus folgt t = 4. Setze diesen Wert wieder in alle Geradenkoordinaten ein. Damit erhältst du \\(\\left[\\begin{matrix}4\\\\8\\\\0\\end{matrix}\\right]\\).",
+    "steps": [
+      "Setze die Geradenkoordinaten in die Ebene ein: t + 2t = 12.",
+      "Daraus folgt t = 4. Setze diesen Wert wieder in alle Geradenkoordinaten ein.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}4\\\\8\\\\0\\end{matrix}\\right]\\)."
+    ],
+    "background": "Eine Gerade in eine Ebene einsetzen und den Schnittparameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G220": {
+    "correct": 1,
+    "explanation": "Eine Identität schränkt den Parameter nicht ein. Jeder reelle Wert erfüllt die Ebenenbedingung. Die ganze Gerade ist daher enthalten; es gibt nicht nur einen einzelnen Schnittpunkt.",
+    "steps": [
+      "Eine Identität schränkt den Parameter nicht ein. Jeder reelle Wert erfüllt die Ebenenbedingung.",
+      "Die ganze Gerade ist daher enthalten; es gibt nicht nur einen einzelnen Schnittpunkt."
+    ],
+    "background": "Eine Gerade in eine Ebene einsetzen und den Schnittparameter bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G222": {
+    "correct": 1,
+    "explanation": "Die z-Koordinate der Geraden ändert sich nicht. Kein Punkt erreicht die geforderte Höhe 0. Daher ist die Gerade parallel, aber nicht enthalten.",
+    "steps": [
+      "Die z-Koordinate der Geraden ändert sich nicht.",
+      "Kein Punkt erreicht die geforderte Höhe 0. Daher ist die Gerade parallel, aber nicht enthalten."
+    ],
+    "background": "Schnitt, echte Parallelität und enthaltene Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G224": {
+    "correct": 2,
+    "explanation": "Alle Parameterwerte sind Lösungen der eingesetzten Gleichung. Damit liegt jeder Geradenpunkt in der Ebene; ein eindeutiger Schnittpunkt würde einen eindeutigen Parameter verlangen.",
+    "steps": [
+      "Alle Parameterwerte sind Lösungen der eingesetzten Gleichung.",
+      "Damit liegt jeder Geradenpunkt in der Ebene; ein eindeutiger Schnittpunkt würde einen eindeutigen Parameter verlangen."
+    ],
+    "background": "Schnitt, echte Parallelität und enthaltene Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G226": {
+    "correct": 0,
+    "explanation": "Das Skalarprodukt ist 4 und damit nicht 0. Der Koeffizient von t in der eingesetzten Ebenengleichung verschwindet nicht. Eine lineare Gleichung mit diesem Koeffizienten hat genau eine Lösung.",
+    "steps": [
+      "Das Skalarprodukt ist 4 und damit nicht 0.",
+      "Der Koeffizient von t in der eingesetzten Ebenengleichung verschwindet nicht. Eine lineare Gleichung mit diesem Koeffizienten hat genau eine Lösung."
+    ],
+    "background": "Schnitt, echte Parallelität und enthaltene Geraden unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G228": {
+    "correct": 0,
+    "explanation": "Beide Ebenen haben dieselbe Normalenrichtung. Wegen der verschiedenen festen z-Werte besitzen sie keinen gemeinsamen Punkt.",
+    "steps": [
+      "Beide Ebenen haben dieselbe Normalenrichtung.",
+      "Wegen der verschiedenen festen z-Werte besitzen sie keinen gemeinsamen Punkt."
+    ],
+    "background": "Identische, parallele und sich schneidende Ebenen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G230": {
+    "correct": 1,
+    "explanation": "Ein gemeinsamer Punkt muss gleichzeitig die erste und zweite feste Koordinate besitzen. Die z-Koordinate ist frei. So entsteht eine Gerade parallel zur z-Achse.",
+    "steps": [
+      "Ein gemeinsamer Punkt muss gleichzeitig die erste und zweite feste Koordinate besitzen.",
+      "Die z-Koordinate ist frei. So entsteht eine Gerade parallel zur z-Achse."
+    ],
+    "background": "Identische, parallele und sich schneidende Ebenen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G232": {
+    "correct": 2,
+    "explanation": "Zwei unabhängige Bedingungen lassen einen Freiheitsgrad. Dieser freie Parameter beschreibt die Schnittgerade der beiden Ebenen.",
+    "steps": [
+      "Zwei unabhängige Bedingungen lassen einen Freiheitsgrad.",
+      "Dieser freie Parameter beschreibt die Schnittgerade der beiden Ebenen."
+    ],
+    "background": "Identische, parallele und sich schneidende Ebenen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G234": {
+    "correct": 2,
+    "explanation": "Der kleinere Ebenenwinkel entspricht dem kleineren Winkel der Normalenrichtungen. Die Normalen sind orthogonal, weil ihr Skalarprodukt 0 ist. Damit erhältst du \\(90\\).",
+    "steps": [
+      "Der kleinere Ebenenwinkel entspricht dem kleineren Winkel der Normalenrichtungen.",
+      "Die Normalen sind orthogonal, weil ihr Skalarprodukt 0 ist.",
+      "Damit erhältst du \\(90\\)."
+    ],
+    "background": "Den kleineren Ebenenwinkel über die Normalenvektoren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G236": {
+    "correct": 0,
+    "explanation": "Nutze den Betrag des Normalen-Skalarprodukts. Teile durch das Produkt der Längen; die erste Länge ist 1. Damit erhältst du \\(\\frac{4}{5}\\).",
+    "steps": [
+      "Nutze den Betrag des Normalen-Skalarprodukts.",
+      "Teile durch das Produkt der Längen; die erste Länge ist 1.",
+      "Damit erhältst du \\(\\frac{4}{5}\\)."
+    ],
+    "background": "Den kleineren Ebenenwinkel über die Normalenvektoren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G238": {
+    "correct": 1,
+    "explanation": "Die Punktmenge der Ebene bleibt dieselbe. Die Normale kehrt zwar ihre Orientierung um, in der Formel für den kleineren Winkel wird das durch den Betrag ausgeglichen.",
+    "steps": [
+      "Die Punktmenge der Ebene bleibt dieselbe.",
+      "Die Normale kehrt zwar ihre Orientierung um, in der Formel für den kleineren Winkel wird das durch den Betrag ausgeglichen."
+    ],
+    "background": "Den kleineren Ebenenwinkel über die Normalenvektoren bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G240": {
+    "correct": 1,
+    "explanation": "Die Geradenrichtung liegt parallel zu den Ebenenrichtungen. Das sagt noch nicht, ob die ganze Gerade in der Ebene liegt, bestimmt aber den Winkel 0°.",
+    "steps": [
+      "Die Geradenrichtung liegt parallel zu den Ebenenrichtungen.",
+      "Das sagt noch nicht, ob die ganze Gerade in der Ebene liegt, bestimmt aber den Winkel 0°."
+    ],
+    "background": "Winkel zur Ebene vom Winkel zur Normalen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G242": {
+    "correct": 2,
+    "explanation": "Für den Winkel zur Ebene brauchst du den Sinus, weil die Normale senkrecht zur Ebene steht. Teile den Betrag des Skalarprodukts durch die Längen der Richtung und der Normalen. Damit erhältst du \\(\\frac{4}{5}\\).",
+    "steps": [
+      "Für den Winkel zur Ebene brauchst du den Sinus, weil die Normale senkrecht zur Ebene steht.",
+      "Teile den Betrag des Skalarprodukts durch die Längen der Richtung und der Normalen.",
+      "Damit erhältst du \\(\\frac{4}{5}\\)."
+    ],
+    "background": "Winkel zur Ebene vom Winkel zur Normalen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G244": {
+    "correct": 0,
+    "explanation": "Der Winkel zur Ebene ergänzt den kleineren Winkel zur Normalen auf 90°. Subtrahiere daher den berechneten Winkel von 90°; verwende nicht unverändert den Normalenwinkel.",
+    "steps": [
+      "Der Winkel zur Ebene ergänzt den kleineren Winkel zur Normalen auf 90°.",
+      "Subtrahiere daher den berechneten Winkel von 90°; verwende nicht unverändert den Normalenwinkel."
+    ],
+    "background": "Winkel zur Ebene vom Winkel zur Normalen unterscheiden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G246": {
+    "correct": 0,
+    "explanation": "Der nächste Punkt auf der x-Achse hat denselben x-Wert und die übrigen Koordinaten 0. Die einzige nicht verschwindende senkrechte Änderung ist hier die y-Koordinate. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Der nächste Punkt auf der x-Achse hat denselben x-Wert und die übrigen Koordinaten 0.",
+      "Die einzige nicht verschwindende senkrechte Änderung ist hier die y-Koordinate.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Lotfuß oder Projektion zur Bestimmung des Punkt-Geraden-Abstands nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G248": {
+    "correct": 1,
+    "explanation": "Der Lotfuß hat Parameter t = (P · v)/(v · v) = 4/2. Ziehe den Lotfuß von P ab und berechne die Länge. Beide nicht verschwindenden Differenzen haben den Betrag 4/2. Damit erhältst du \\(2 \\sqrt{2}\\).",
+    "steps": [
+      "Der Lotfuß hat Parameter t = (P · v)/(v · v) = 4/2.",
+      "Ziehe den Lotfuß von P ab und berechne die Länge. Beide nicht verschwindenden Differenzen haben den Betrag 4/2.",
+      "Damit erhältst du \\(2 \\sqrt{2}\\)."
+    ],
+    "background": "Lotfuß oder Projektion zur Bestimmung des Punkt-Geraden-Abstands nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G250": {
+    "correct": 2,
+    "explanation": "Für den minimalen Verbindungsweg muss das Skalarprodukt mit der Geradenrichtung 0 sein. Da diese notwendige Bedingung fehlt, ist der Kandidat noch entlang der Geraden verbesserbar.",
+    "steps": [
+      "Für den minimalen Verbindungsweg muss das Skalarprodukt mit der Geradenrichtung 0 sein.",
+      "Da diese notwendige Bedingung fehlt, ist der Kandidat noch entlang der Geraden verbesserbar."
+    ],
+    "background": "Lotfuß oder Projektion zur Bestimmung des Punkt-Geraden-Abstands nutzen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G252": {
+    "correct": 2,
+    "explanation": "Die Ebene ist die xy-Ebene. Der senkrechte Weg ändert nur die z-Koordinate; nimm ihren nichtnegativen Betrag. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Die Ebene ist die xy-Ebene.",
+      "Der senkrechte Weg ändert nur die z-Koordinate; nimm ihren nichtnegativen Betrag.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Die normierte Ebenengleichung zur Abstandsmessung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G254": {
+    "correct": 0,
+    "explanation": "Teile die ganze Ebenengleichung durch 4. Sie lautet dann x = 3. Der Ursprung liegt in x-Richtung genau 3 Einheiten entfernt; alternativ normierst du durch die Länge der Normalen. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Teile die ganze Ebenengleichung durch 4. Sie lautet dann x = 3.",
+      "Der Ursprung liegt in x-Richtung genau 3 Einheiten entfernt; alternativ normierst du durch die Länge der Normalen.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Die normierte Ebenengleichung zur Abstandsmessung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G256": {
+    "correct": 1,
+    "explanation": "Eine vollständig skalierte Ebenengleichung beschreibt dieselbe Punktmenge. Auch der Normalenvektor wird skaliert; sein Längenfaktor muss den Faktor im Einsetzergebnis ausgleichen.",
+    "steps": [
+      "Eine vollständig skalierte Ebenengleichung beschreibt dieselbe Punktmenge.",
+      "Auch der Normalenvektor wird skaliert; sein Längenfaktor muss den Faktor im Einsetzergebnis ausgleichen."
+    ],
+    "background": "Die normierte Ebenengleichung zur Abstandsmessung verwenden. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G258": {
+    "correct": 1,
+    "explanation": "Beide Ebenen unterscheiden sich nur in ihrer Höhe. Der senkrechte Abstand ist der Betrag der Differenz beider z-Werte. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Beide Ebenen unterscheiden sich nur in ihrer Höhe.",
+      "Der senkrechte Abstand ist der Betrag der Differenz beider z-Werte.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Abstände paralleler Ebenen mit konsistent normierten Normalen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G260": {
+    "correct": 2,
+    "explanation": "Bringe beide Gleichungen zuerst in eine vergleichbare normierte Form. Es entstehen x = 4 und x = 7. Die rechten Seiten der ursprünglichen unnormierten Gleichungen darfst du nicht direkt subtrahieren. Damit erhältst du \\(3\\).",
+    "steps": [
+      "Bringe beide Gleichungen zuerst in eine vergleichbare normierte Form.",
+      "Es entstehen x = 4 und x = 7. Die rechten Seiten der ursprünglichen unnormierten Gleichungen darfst du nicht direkt subtrahieren.",
+      "Damit erhältst du \\(3\\)."
+    ],
+    "background": "Abstände paralleler Ebenen mit konsistent normierten Normalen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G262": {
+    "correct": 0,
+    "explanation": "Identische Ebenen enthalten dieselben Punkte. Der Abstand einer Punktmenge zu sich selbst ist 0; verschiedene Schreibweisen ändern die Geometrie nicht.",
+    "steps": [
+      "Identische Ebenen enthalten dieselben Punkte.",
+      "Der Abstand einer Punktmenge zu sich selbst ist 0; verschiedene Schreibweisen ändern die Geometrie nicht."
+    ],
+    "background": "Abstände paralleler Ebenen mit konsistent normierten Normalen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G264": {
+    "correct": 0,
+    "explanation": "Die beiden Geraden haben unterschiedliche konstante y-Werte. Der kürzeste Weg verläuft senkrecht zu ihrer gemeinsamen x-Richtung und hat die Länge der y-Differenz. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Die beiden Geraden haben unterschiedliche konstante y-Werte.",
+      "Der kürzeste Weg verläuft senkrecht zu ihrer gemeinsamen x-Richtung und hat die Länge der y-Differenz.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Abstände paralleler oder windschiefer Geraden begründen und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G266": {
+    "correct": 1,
+    "explanation": "Jeder Verbindungsweg enthält die feste z-Differenz 4. Ein kürzerer Abstand ist daher unmöglich. Für t = s = 0 bleiben nur diese z-Einheiten übrig; dieser Weg ist zu beiden Richtungen senkrecht. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Jeder Verbindungsweg enthält die feste z-Differenz 4. Ein kürzerer Abstand ist daher unmöglich.",
+      "Für t = s = 0 bleiben nur diese z-Einheiten übrig; dieser Weg ist zu beiden Richtungen senkrecht.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Abstände paralleler oder windschiefer Geraden begründen und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G268": {
+    "correct": 2,
+    "explanation": "Der gemeinsame senkrechte Weg ist die kürzeste Verbindung zwischen windschiefen Geraden. Die Geraden sind nicht schneidend, daher ist die minimale Länge positiv.",
+    "steps": [
+      "Der gemeinsame senkrechte Weg ist die kürzeste Verbindung zwischen windschiefen Geraden.",
+      "Die Geraden sind nicht schneidend, daher ist die minimale Länge positiv."
+    ],
+    "background": "Abstände paralleler oder windschiefer Geraden begründen und berechnen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G270": {
+    "correct": 2,
+    "explanation": "Die beiden senkrechten Seiten können Grundseite und Höhe sein. Das Dreieck hat die halbe Fläche des zugehörigen Rechtecks. Damit erhältst du \\(6\\).",
+    "steps": [
+      "Die beiden senkrechten Seiten können Grundseite und Höhe sein.",
+      "Das Dreieck hat die halbe Fläche des zugehörigen Rechtecks.",
+      "Damit erhältst du \\(6\\)."
+    ],
+    "background": "Dreiecks- und Parallelogrammflächen mithilfe von Orthogonalität oder Kreuzprodukt bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G272": {
+    "correct": 0,
+    "explanation": "Wähle den ersten Vektor als Grundseite mit Länge 4. Die senkrechte Höhe ist die y-Komponente 3, nicht die Länge des schrägen zweiten Vektors. Damit erhältst du \\(12\\).",
+    "steps": [
+      "Wähle den ersten Vektor als Grundseite mit Länge 4.",
+      "Die senkrechte Höhe ist die y-Komponente 3, nicht die Länge des schrägen zweiten Vektors.",
+      "Damit erhältst du \\(12\\)."
+    ],
+    "background": "Dreiecks- und Parallelogrammflächen mithilfe von Orthogonalität oder Kreuzprodukt bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G274": {
+    "correct": 1,
+    "explanation": "Der Flächeninhalt ist der Betrag des Kreuzprodukts. Ein Nullprodukt bedeutet keine zweite unabhängige Seitenrichtung; die Fläche ist entartet.",
+    "steps": [
+      "Der Flächeninhalt ist der Betrag des Kreuzprodukts.",
+      "Ein Nullprodukt bedeutet keine zweite unabhängige Seitenrichtung; die Fläche ist entartet."
+    ],
+    "background": "Dreiecks- und Parallelogrammflächen mithilfe von Orthogonalität oder Kreuzprodukt bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G276": {
+    "correct": 1,
+    "explanation": "Das Volumen ist Länge mal Breite mal Höhe. Multipliziere alle drei Kantenlängen; die Einheit ist eine Kubikeinheit. Damit erhältst du \\(24\\).",
+    "steps": [
+      "Das Volumen ist Länge mal Breite mal Höhe.",
+      "Multipliziere alle drei Kantenlängen; die Einheit ist eine Kubikeinheit.",
+      "Damit erhältst du \\(24\\)."
+    ],
+    "background": "Volumen einfacher Körper und Spatprodukte interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G278": {
+    "correct": 2,
+    "explanation": "Eine Pyramide hat ein Drittel des Volumens des Prismas mit gleicher Grundfläche und Höhe. Rechne Grundfläche mal Höhe und teile durch 3. Damit erhältst du \\(12\\).",
+    "steps": [
+      "Eine Pyramide hat ein Drittel des Volumens des Prismas mit gleicher Grundfläche und Höhe.",
+      "Rechne Grundfläche mal Höhe und teile durch 3.",
+      "Damit erhältst du \\(12\\)."
+    ],
+    "background": "Volumen einfacher Körper und Spatprodukte interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G280": {
+    "correct": 0,
+    "explanation": "Das Vorzeichen des Spatprodukts beschreibt die Orientierung. Das geometrische Volumen ist sein Betrag, hier also 12. Eine Halbierung gehört etwa zu Dreiecksflächen, nicht zu Spaten.",
+    "steps": [
+      "Das Vorzeichen des Spatprodukts beschreibt die Orientierung.",
+      "Das geometrische Volumen ist sein Betrag, hier also 12. Eine Halbierung gehört etwa zu Dreiecksflächen, nicht zu Spaten."
+    ],
+    "background": "Volumen einfacher Körper und Spatprodukte interpretieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G282": {
+    "correct": 0,
+    "explanation": "Die Ebene hat z = 0. Wechsle nur das Vorzeichen der z-Koordinate; der Punkt in der Ebene wäre der Lotfuß, nicht der Spiegelpunkt. Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\-4\\end{matrix}\\right]\\).",
+    "steps": [
+      "Die Ebene hat z = 0.",
+      "Wechsle nur das Vorzeichen der z-Koordinate; der Punkt in der Ebene wäre der Lotfuß, nicht der Spiegelpunkt.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\-4\\end{matrix}\\right]\\)."
+    ],
+    "background": "Lotfußpunkte und Spiegelpunkte an Ebenen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G284": {
+    "correct": 1,
+    "explanation": "Der Ausgangspunkt liegt 3 Einheiten oberhalb der Ebene. Der Bildpunkt liegt ebenso weit darunter; die Ebene liegt genau in der Mitte der Verbindung. Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\1\\end{matrix}\\right]\\).",
+    "steps": [
+      "Der Ausgangspunkt liegt 3 Einheiten oberhalb der Ebene.",
+      "Der Bildpunkt liegt ebenso weit darunter; die Ebene liegt genau in der Mitte der Verbindung.",
+      "Damit erhältst du \\(\\left[\\begin{matrix}1\\\\2\\\\1\\end{matrix}\\right]\\)."
+    ],
+    "background": "Lotfußpunkte und Spiegelpunkte an Ebenen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G286": {
+    "correct": 2,
+    "explanation": "Der senkrechte Abstand zur Spiegelebene ist 0. Damit sind P, Lotfuß und Bildpunkt identisch. Ein Ebenenpunkt ist ein Fixpunkt der Spiegelung.",
+    "steps": [
+      "Der senkrechte Abstand zur Spiegelebene ist 0.",
+      "Damit sind P, Lotfuß und Bildpunkt identisch. Ein Ebenenpunkt ist ein Fixpunkt der Spiegelung."
+    ],
+    "background": "Lotfußpunkte und Spiegelpunkte an Ebenen bestimmen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G288": {
+    "correct": 2,
+    "explanation": "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit. Damit erhältst du \\(4\\).",
+    "steps": [
+      "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors.",
+      "Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit.",
+      "Damit erhältst du \\(4\\)."
+    ],
+    "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G290": {
+    "correct": 0,
+    "explanation": "Setze die Höhe gleich 0 und löse die lineare Gleichung. Der gefundene Zeitpunkt ist nichtnegativ und gehört zum betrachteten Flugabschnitt. Damit erhältst du \\(\\frac{4}{3}\\).",
+    "steps": [
+      "Setze die Höhe gleich 0 und löse die lineare Gleichung.",
+      "Der gefundene Zeitpunkt ist nichtnegativ und gehört zum betrachteten Flugabschnitt.",
+      "Damit erhältst du \\(\\frac{4}{3}\\)."
+    ],
+    "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G292": {
+    "correct": 1,
+    "explanation": "Der Parameter liegt außerhalb des erlaubten Intervalls von 0 bis 1. Die geometrische Gerade ist unbeschränkt, die Straße in diesem Modell aber nur das Stück zwischen A und B.",
+    "steps": [
+      "Der Parameter liegt außerhalb des erlaubten Intervalls von 0 bis 1.",
+      "Die geometrische Gerade ist unbeschränkt, die Straße in diesem Modell aber nur das Stück zwischen A und B."
+    ],
+    "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G294": {
+    "correct": 1,
+    "explanation": "Die Normale zeigt bereits senkrecht aus der Ebene heraus. Eine dazu parallele Gerade steht ebenfalls senkrecht auf der Ebene. Orthogonalität zur Normalen würde eine parallele Ebenenrichtung bedeuten.",
+    "steps": [
+      "Die Normale zeigt bereits senkrecht aus der Ebene heraus.",
+      "Eine dazu parallele Gerade steht ebenfalls senkrecht auf der Ebene. Orthogonalität zur Normalen würde eine parallele Ebenenrichtung bedeuten."
+    ],
+    "background": "Mehrschrittige geometrische Argumente und typische Rechenfehler prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G296": {
+    "correct": 2,
+    "explanation": "Die Komponenten eines Geradenpunktes hängen vom selben Parameter ab. Drei getrennte passende Werte beschreiben im Allgemeinen drei verschiedene Geradenpunkte.",
+    "steps": [
+      "Die Komponenten eines Geradenpunktes hängen vom selben Parameter ab.",
+      "Drei getrennte passende Werte beschreiben im Allgemeinen drei verschiedene Geradenpunkte."
+    ],
+    "background": "Mehrschrittige geometrische Argumente und typische Rechenfehler prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
+  },
+  "G298": {
+    "correct": 0,
+    "explanation": "Das Skalarprodukt beschreibt nur die Richtungen. Ohne gemeinsamen Punkt könnten die Geraden trotz senkrechter Richtungen windschief sein; erst der Schnittnachweis ergänzt die Aussage.",
+    "steps": [
+      "Das Skalarprodukt beschreibt nur die Richtungen.",
+      "Ohne gemeinsamen Punkt könnten die Geraden trotz senkrechter Richtungen windschief sein; erst der Schnittnachweis ergänzt die Aussage."
+    ],
+    "background": "Mehrschrittige geometrische Argumente und typische Rechenfehler prüfen. ",
+    "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
+    "oral": "Erkläre, warum dein Verfahren passt und woran du einen Fehler erkennen würdest."
   }
 };

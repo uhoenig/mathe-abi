@@ -1,39 +1,70 @@
-# MatheQuest 2.0: Architektur und Aufgabenbelegung
+# Decks und Kompetenzarchitektur
 
-Entscheidungsstand vor Implementierung, 16. November 2026.
+Stand: 18. November 2026, develop. Der Ausbau und alle Prüfgrenzen sind in [COVERAGE.md](COVERAGE.md) beschrieben. Die ursprüngliche Analyse steht in [ANALYSIS.md](ANALYSIS.md).
 
-## Vorhandene Architektur und Weiterverwendung
+## Zentrale Quellen
 
-Vanilla-Skripte ohne Build-Schritt. `app.js` enthält Router, Darstellung, Auswertung und lokale Speicherung. `review.js` enthält die bisherige deterministische Zeitplanung, `theme.js` die unabhängige Theme-Präferenz. Die Frage-/Lösungsdateien und Generatoren bleiben unverändert. Speicherfehlerbehandlung, bestätigter Import/Reset, eindeutige Einheiten-IDs, XP-Grenzen, JSON-Downloads und Theme-Steuerung werden weiterverwendet.
+- `data/competency_matrix.json`: 66 hierarchisch geordnete Kompetenzen mit Lernziel, Voraussetzungen, Einführungsdeck, Pflichtstatus und Quellenannahmen.
+- `tools/expanded_bank.py`: 396 redaktionelle Varianten in drei Schwierigkeitsgraden. IDs A101–A298 und G101–G298 bleiben dauerhaft an ihre Aufgabe gebunden.
+- `competencies.js`: daraus erzeugte Metadaten und Deckbelegung für den Browser.
+- `expanded-questions.js`: neue Aufgaben ohne Lösungen.
+- `questions.js`, `final-questions.js`: alle 159 bisherigen Aufgaben mit unveränderten Texten, IDs und Antwortreihenfolgen.
+- `solutions.js`: separat geladene Lösungen für alle 555 erhaltenen und ergänzten Aufgaben.
+- `math-content.js`: erzeugte LaTeX-Darstellung; lokale KaTeX-Dateien, keine externen Laufzeitdienste.
 
-## Entscheidungen für Version 2.0
+Die 502 aktiven Fragen enthalten je 251 Aufgaben aus Analysis und analytischer Geometrie. Die 53 Stochastikfragen bleiben erhalten und inaktiv. Aufgaben besitzen Hauptthema, Unterthema, Kompetenz-ID, Schwierigkeit, Deck, Freischalteignung, Voraussetzungen, Variantenfamilie und Prüfstatus. Der korrekte Antwortindex bleibt im vorhandenen separaten Lösungsschlüssel.
 
-- Zehn explizite Decks mit stabilen Frage-IDs, Belegungsversion 1. Keine neuen Fragen und keine veränderten Antwortreihenfolgen. Alle 100 Analysis-/Geometrie-Basisfragen und sechs passende Abschlussfragen werden genau einmal zugeordnet. Die 50 Stochastik-Basisfragen und drei Stochastik-Abschlussfragen bleiben für eine spätere Aktivierung erhalten.
-- Freischaltung: mindestens `ceil(0.8 * Aufgabenanzahl)` unterschiedliche jemals richtig beantwortete Aufgaben im Vorgängerdeck. Deck 1 ist offen. Leere Decks lösen keine automatische Freischaltung aus. Bereits gespeicherte Freischaltungen werden beim Ergänzen neuer Aufgaben nie zurückgenommen. XP sind davon unabhängig.
-- Lernplan: zentral konfigurierte Intervalle 1/3/7/14/30/60 Tage; falsch/Weiß nicht am nächsten Tag, Wiederholungsstufe zurückgesetzt. Nur abgeschlossene tägliche Einheiten verändern Termine. Freies Training zählt zu Antwortstatistik, XP und Freischaltung, lässt den gesamten Wiederholungszeitplan unverändert. Keine Selbsteinschätzungsbuttons und keine Ratemarkierung.
-- Heute: gemeinsame fällige Warteschlange aller offenen Decks, danach neue Fragen nur aus dem aktuellen Deck. Keine Begrenzung pro Tag oder Runde. Wenn keine Aufgaben fällig oder neu sind, erlaubt „Weiter üben“ eine zusätzliche Runde aus allen offenen Decks; frühe richtige Antworten verlängern noch laufende Wiederholungsintervalle nicht.
-- Ein Antwortklick sperrt und speichert die erste Antwort unmittelbar und zeigt direkt die Erklärung. Es gibt keinen separaten Bestätigungsschritt. „Weiß nicht“ bleibt als zusätzliche Auswahl erhalten. Fragenformat ist vorerst Multiple Choice; Deckmetadaten und vorhandene mündliche Lösungsimpulse lassen spätere Aufgabenformate zu, ohne eine freie Antwortbewertung vorzutäuschen.
-- Fortschrittsversion 3: bestehende Einheiten/Antworten bleiben Quelle für XP und Beleg für richtige Aufgaben. Zusätzlich werden ein Lernplan-Snapshot mit Versuchen, richtigen Antworten, erster/letzter Bearbeitung, Fälligkeit, Intervall und Stufe, offene Decks, aktuelles Deck und Tageszählung. Das frühere Feld `newPerDay` bleibt für alte Backups lesbar, wird aber nicht mehr als Begrenzung verwendet; neue Stände speichern dort `null` gespeichert. Die manuelle Hell-/Dunkel-Präferenz bleibt separat gespeichert und wird zusätzlich im vollständigen JSON-Backup mitgeführt. Kein zusätzlicher Server.
-- Alte Versionen 1/2: Laden verändert die Rohdaten nicht. Erst bestätigte Übernahme schreibt Version 3; vorher kann der Originalstand exportiert werden. Alte Einheiten bleiben erhalten, einschließlich inaktiver Stochastik. Ein laufender alter Durchlauf wird samt Antworten als `archivedActive` mitgeführt, nicht stillschweigend gelöscht oder als neue tägliche Einheit gewertet. Neue Planung startet auf Basis der bisherigen aktiven Antwortverläufe mit transparent neu berechneten Terminen. Unbekannte Versionen werden geschützt abgewiesen.
-- Erweiterbarkeit: stabile IDs und dauerhafte offene Decks schützen Fortschritt bei neuen Fragen. Reine Designupdates benötigen keinen Reset. Nicht mehr bekannte Frage-IDs oder unbekannte Belegungsversionen erzeugen eine schützende Fehlermeldung statt stiller Datenlöschung. Eine neue inkompatible Zuordnung benötigt eine bewusste Versionsentscheidung.
+## Decks
 
-## Bestehender Fragenbestand je Deck
+| Deck | Konzepte | Fragen |
+| --- | --- | ---: |
+| 1 | Rechengrundlagen, Koordinaten, Vektoroperationen | 52 |
+| 2 | Funktionen, Definitionsbereiche, Längen, Abhängigkeit | 40 |
+| 3 | Transformationen, Logarithmen, Skalarprodukt, Winkel | 46 |
+| 4 | Ableitungsbegriff, Grundregeln, Geraden, LGS | 46 |
+| 5 | Ableitungsregeln und Geradenlagen | 52 |
+| 6 | Weitere Funktionen und Ebenendarstellungen | 58 |
+| 7 | Tangenten, Monotonie, Extrema, Krümmung, Schnitte | 52 |
+| 8 | Integrale, Flächen, Winkel und Abstände | 58 |
+| 9 | Wachstum, Bestände, Modellierung und Raumgeometrie | 52 |
+| 10 | Optimierung, Parameter, Projektion und Begründungen | 46 |
 
-Die bisherigen `difficulty`-Werte sind grob (1/2 für Basisfragen, 3 für Abschlussfragen), keine empirische Kalibrierung. Die Belegung folgt hauptsächlich fachlichen Voraussetzungen. Die höheren Decknamen beschreiben die angestrebte Ausbaustufe; die meisten vorhandenen Aufgaben bleiben Einstiegsfragen. Das Ziel von etwa 50 Aufgaben pro Deck ist noch nicht erreicht.
+Alle Decks enthalten leichte, mittlere und schwere Aufgaben. Die Reihenfolge führt Begriffe ein und ist keine bloße Schwierigkeitstreppe. Bestehende Fragen behalten aus Kompatibilitätsgründen ihre alten Decks; einzelne frühere Vorgriffe bleiben daher möglich.
 
-| Deck | Name | Analysis | Analytische Geometrie | Anzahl | Bisherige Schwierigkeit |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Grundlagen | A001–A005 | G001–G005 | 10 | 6 × 1, 4 × 2 |
-| 2 | Funktionen & Vektoren | A006–A010 | G006–G010 | 10 | 6 × 1, 4 × 2 |
-| 3 | Regeln anwenden | A011–A015 | G011–G015 | 10 | 6 × 1, 4 × 2 |
-| 4 | Verfahren verstehen | A016–A020 | G016–G020 | 10 | 6 × 1, 4 × 2 |
-| 5 | Ableitung & Winkel | A021–A025 | G021–G025 | 10 | 6 × 1, 4 × 2 |
-| 6 | Verfahren kombinieren | A026–A030 | G026–G030 | 10 | 6 × 1, 4 × 2 |
-| 7 | Zusammenhänge | A031–A035 | G031–G035 | 10 | 6 × 1, 4 × 2 |
-| 8 | Integral & Ebene | A036–A040 | G036–G040 | 10 | 6 × 1, 4 × 2 |
-| 9 | Modelle & Schnittpunkte | A041–A045 | G041–G045 | 10 | 6 × 1, 4 × 2 |
-| 10 | Prüfungsausblick | A046–A050, F001–F003 | G046–G050, F004–F006 | 16 | 6 × 1, 4 × 2, 6 × 3 |
+## Kompetenzbasierte Freischaltung
 
-Aktiv: 106 Aufgaben. Inaktiv und erhalten: P001–P050, F007–F009. Keine Grundlage, Deck 8/9 bereits als durchgängig anspruchsvoll oder Deck 10 als vollständige mündliche Abiturprüfung zu bezeichnen.
+Die alte Quote von 80 % aller Fragen ist ersetzt. Jedes Deck benennt explizite Pflichtkompetenzen. Je ein korrekt gelöster geeigneter leichter Nachweis pro Pflichtkompetenz öffnet das folgende Deck. Varianten derselben Kompetenz werden nicht als mehrere Kompetenzen gezählt. Vertiefungen und optionale Kompetenzen blockieren nicht. XP führen nicht zur Freischaltung. Früher ausdrücklich als geraten markierte Antworten zählen nicht als Grundnachweis.
 
-Review-Snapshots zählen Versuche geplanter Einheiten; alle Antwortversuche einschließlich freien Trainings bleiben in der Einheitenhistorie. Die sechs übernommenen Abschlussfragen geben wie bisher keine XP. Neue Fragen müssen stabile IDs erhalten und explizit einem Deck zugeordnet werden; vorhandene Zuordnungen nicht still ändern.
+Bereits offene Decks bleiben dauerhaft offen. Zusätzliche Aufgaben erhöhen keine absolute Freischaltschwelle. Leere Decks öffnen keine Folge. Nachweise werden in `journey.js` aus der Antwortgeschichte hergeleitet; die Wiederholungsstufe einer Frage ist dafür keine Ersatzgröße.
+
+Nach den Grundnachweisen kann eine laufende Runde im bisherigen Buttonstil vorzeitig abgeschlossen werden. Unbeantwortete Vertiefungsfragen bleiben ohne Wertung. Die Freischaltung erfolgt beim Abschluss; Antworten, Verlauf und Termine werden dabei konsistent gespeichert.
+
+## Wiederholungsplanung
+
+`review.js` plant weiterhin 1/3/7/14/30/60 Tage, Fehler und Weiß nicht am Folgetag. Ein frühes richtiges Zusatztraining verlängert kein noch laufendes Intervall. Fällige Fragen aller offenen Decks kommen vor neuen Fragen des aktuellen Decks. Neue Varianten erben keinen Status. Kompetenzen werden in der Warteschlange abwechselnd angeboten, bei neuen Aufgaben beginnen leichtere Varianten. Tages- und Rundenlimits bleiben entfernt.
+
+## Speicherung und Rückwärtskompatibilität
+
+`mathequest.v1`, version 1, progressVersion 3 und deckVersion 1 bleiben unverändert. Die Erweiterung ist additiv: alte IDs, Antwortreihenfolgen, Deckzuordnungen und Termine werden nicht umgedeutet. Auch alte laufende Runden bleiben gültig. Deshalb ist keine neue Migration oder automatische Rücksetzung nötig. Der alte Schutz vor unbekannten IDs und Datenversionen bleibt erhalten.
+
+Version 1/2 wird weiterhin erst nach bestätigter Übernahme in Version 3 geschrieben. Originalbackup, archivierter Entwurf und alte Stochastikdaten bleiben erhalten. JSON-Export/-Import umfasst den gesamten Lernstand. Alte App-Stände ohne die neuen IDs können neue Exporte nicht lesen und sollen sie geschützt ablehnen.
+
+## Qualitätsstatus und Grenzen
+
+217 neue Aufgaben werden symbolisch/exakt geprüft, 179 neue konzeptionelle Aufgaben redaktionell. Eine unabhängige fachliche Freigabe steht aus. Der aktive Altbestand hat keine neue vollständige Einzelvalidierung; vorhandene Rechentests prüfen Teilmengen. Die Liste in [MANUAL_REVIEW.md](MANUAL_REVIEW.md) und die Statusfelder in [question_coverage.json](question_coverage.json) machen diese Grenze explizit.
+
+Keine vollständige Lehrplanabdeckung oder freie mündliche Kompetenzbewertung. Kursniveau und persönliche Prüfungsabsprache sind nicht bekannt. Keine Frameworks, Datenbanken, Konten oder Änderung der Pages-Veröffentlichung. Oberfläche und Abenteuerkarte bleiben erhalten; die Fortschrittsseite bleibt entfernt.
+
+## Reproduktion
+
+Die Website braucht keinen Build und keine Python-Installation. Nur zur redaktionellen Neuerzeugung und Prüfung werden die Pakete aus `tools/requirements.txt` benötigt:
+
+```sh
+python tools/build_questions.py
+python tools/check_expansion.py
+python3 -B tests/content.py
+node tests/review.cjs
+node tests/competencies.cjs
+```
+
+Die weiteren Browserprüfungen stehen unter `tests/`. Entwicklung erfolgt auf develop; Commit, Push und Merge erfolgen nur nach ausdrücklicher Freigabe.

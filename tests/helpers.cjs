@@ -2,14 +2,14 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 let playwright;try{playwright=require('playwright');}catch{playwright=require('/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules/playwright');}
 const root=path.resolve(__dirname,'..'),base='https://mathequest.test/',KEY='mathequest.v1',data={window:{}};
-for(const f of ['questions.js','final-questions.js','solutions.js','journey.js','review.js'])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),data);
+for(const f of ['questions.js','final-questions.js','expanded-questions.js','competencies.js','solutions.js','journey.js','review.js'])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),data);
 const J=data.window.MQ_JOURNEY,R=data.window.MQ_REVIEW,key=data.window.MQ_SOLUTIONS;
 const blank=()=>({app:'MatheQuest',version:1,progressVersion:3,sessions:[],active:null,archivedActive:null,oral:{},learning:JSON.parse(JSON.stringify(J.fresh())),themePreference:'light'});
 const record=(ids,answers,id='fixture',mode='daily',date=new Date().toISOString())=>({id,mode,date,title:mode==='free'?'Freies Training':'Heute',ids,answers});
 async function launch(){let executablePath=process.env.MQ_BROWSER;if(!executablePath&&!fs.existsSync(playwright.chromium.executablePath()))executablePath='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser';return playwright.chromium.launch({headless:true,executablePath});}
 async function open(browser,{state=null,width=1440,height=1100,scheme='light',theme=null,writeError=false,readError=false,hasTouch=false}={}){
  const context=await browser.newContext({viewport:{width,height},colorScheme:scheme,hasTouch,acceptDownloads:true}),requests=[],errors=[];
- const allowed=new Set(['index.html','app.js','journey.js','review.js','theme.js','theme.css','style.css','trainer.css','questions.js','final-questions.js','solutions.js','assets/favicon.svg','assets/quest.svg','math-content.js','math-text.js']);
+ const allowed=new Set(['index.html','app.js','journey.js','review.js','theme.js','theme.css','style.css','trainer.css','questions.js','final-questions.js','expanded-questions.js','competencies.js','solutions.js','assets/favicon.svg','assets/quest.svg','math-content.js','math-text.js']);
  await context.route('**/*',route=>{const req=route.request(),url=new URL(req.url()),file=url.pathname.slice(1)||'index.html';requests.push({origin:url.origin,method:req.method(),file});if(file==='__bootstrap')return route.fulfill({body:'<!doctype html>',contentType:'text/html'});if(url.origin!==new URL(base).origin||(!allowed.has(file)&&!file.startsWith('assets/katex/')))return route.abort();return route.fulfill({body:fs.readFileSync(path.join(root,file)),contentType:file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':file.endsWith('.svg')?'image/svg+xml':file.endsWith('.woff2')?'font/woff2':file.endsWith('.woff')?'font/woff':'text/html'});});
  const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));await page.goto(base+'__bootstrap');
  if(state!==null)await page.evaluate(({state,KEY})=>localStorage.setItem(KEY,typeof state==='string'?state:JSON.stringify(state)),{state,KEY});
@@ -19,7 +19,7 @@ async function open(browser,{state=null,width=1440,height=1100,scheme='light',th
 }
 const saved=p=>p.evaluate(KEY=>JSON.parse(window.__mqNativeGet.call(localStorage,KEY)),KEY);
 const raw=p=>p.evaluate(KEY=>window.__mqNativeGet.call(localStorage,KEY),KEY);
-async function route(p,name){await p.goto(base+'#'+name);await p.waitForFunction(name=>document.getElementById('page-label').textContent===name,({dashboard:'Heute',decks:'Decks',progress:'Fortschritt',settings:'Einstellungen',quiz:'Lernen',solutions:'Lösungswege'})[name]);}
+async function route(p,name){await p.goto(base+'#'+name);await p.waitForFunction(name=>document.getElementById('page-label').textContent===name,({dashboard:'Heute',decks:'Decks',settings:'Einstellungen',quiz:'Lernen',solutions:'Lösungswege'})[name]);}
 async function upload(p,state){await p.locator('#import-file').setInputFiles({name:'synthetic.json',mimeType:'application/json',buffer:Buffer.from(typeof state==='string'?state:JSON.stringify(state))});}
 async function exportData(p,action='export-all'){const promise=p.waitForEvent('download');await p.locator(`[data-action="${action}"]`).first().click();const d=await promise,stream=await d.createReadStream(),chunks=[];for await(const c of stream)chunks.push(c);return Buffer.concat(chunks).toString('utf8');}
 async function confirm(p,answer){await p.locator(`[data-answer="${answer}"]`).click();await p.locator('.answer-feedback').waitFor();}

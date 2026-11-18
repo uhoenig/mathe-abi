@@ -46,3 +46,5 @@ body{font-size:15px}.app-shell main{max-width:1280px;margin:0 auto;padding:36px 
 .answer-feedback .feedback-title{font-size:16px;margin:18px 0 10px}.answer-feedback .feedback-steps{padding-left:24px;margin:0;line-height:1.8}.answer-feedback .feedback-steps li{font-size:15px;padding-left:5px;margin:10px 0}.answer-feedback .feedback-steps li::marker{font-weight:600}
 
 .math-inline{display:inline-block;max-width:100%;vertical-align:middle;overflow-x:auto;overflow-y:hidden;padding:3px 1px}.math-inline .katex{font-size:1.12em}.answer-option>span:nth-child(2){min-width:0}.answer-feedback,.solution-body,.report-question{overflow-wrap:anywhere}.math-inline .katex-html{white-space:nowrap}
+
+.quiz-nav.can-finish{flex-wrap:wrap}.quiz-nav.can-finish>.btn-primary{margin-left:auto}

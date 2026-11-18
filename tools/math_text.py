@@ -79,6 +79,14 @@ def latex(tokens):
     return out
 
 def parts(text):
+    if r'\(' in text:
+        out=[];cursor=0
+        for match in re.finditer(r'\\\((.*?)\\\)',text):
+            if match.start()>cursor:out.extend(parts(text[cursor:match.start()]))
+            out.append(['math',match[1]]);cursor=match.end()
+        if cursor:
+            if cursor<len(text):out.extend(parts(text[cursor:]))
+            return out
     matches=[];pos=0
     while pos<len(text):
         m=TOKEN.match(text,pos)
@@ -125,6 +133,8 @@ def parts(text):
 def build():
     def read(name,marker):return json.loads((ROOT/name).read_text().split(marker)[1].rsplit(';',1)[0])
     questions=read('questions.js','window.MQ_QUESTIONS = ')+read('final-questions.js','window.MQ_FINAL_QUESTIONS = ')
+    extra=ROOT/'expanded-questions.js'
+    if extra.exists():questions+=read('expanded-questions.js','window.MQ_EXTRA_QUESTIONS = ')
     solutions=read('solutions.js','window.MQ_SOLUTIONS = ')
     texts=set()
     for q in questions:texts.update([q['prompt'],*q['options']])
