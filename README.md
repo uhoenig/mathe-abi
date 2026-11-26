@@ -12,6 +12,7 @@ MatheQuest 2.0 ist ein minimalistischer Lerntrainer für Analysis und analytisch
 - Kompetenzbasierte Deckfreischaltung: je ein Grundnachweis pro Pflichtkompetenz öffnet dauerhaft das nächste Deck. Mittlere und schwere Varianten sind Vertiefung.
 - Lösungswege und Anregungen zum mündlichen Erklären.
 - Helle und dunkle Darstellung sowie anpassbare Ansichten für unterschiedliche Bildschirmgrößen.
+- Entwicklermodus unter Einstellungen: alle Decks direkt prüfen, schwere Aufgaben zuerst und ein separat gespeicherter Testlernstand. Beim Ausschalten kehrt der reguläre Lernstand zurück.
 
 ## Anwendung starten
 

@@ -25,6 +25,18 @@ console.log(`OK ${count} LaTeX-Abschnitte ohne Parsefehler; Brüche, Nennerpoten
  await p.reload();await p.locator('.question-title').waitFor();h.assert.equal((await h.saved(p)).active.ids.length,h.J.questionIds.length);h.assert.deepEqual((await h.saved(p)).learning.reviews,before);
  const demo=h.blank();demo.learning.unlockedDecks=[1,2,3,4,5,6,7,8,9,10];demo.active={id:'fraction-demo',mode:'daily',title:'Lernen',ids:['A029','F004'],answers:[null,null],index:0,selection:null,startedAt:new Date().toISOString()};
  const sample=await h.open(browser,{state:demo});await h.route(sample.page,'quiz');await h.confirm(sample.page,h.key.A029.correct);await sample.page.screenshot({path:h.path.join(h.root,'tests/latex-fraction.png'),fullPage:true,animations:'disabled'});h.assert.deepEqual(sample.errors,[]);
+ const vectorState=h.blank();vectorState.learning.unlockedDecks=[1,2,3,4,5,6,7,8,9,10];
+ const vectorIds=['G007','G006','G004','G009','G038','G030'];vectorState.active={id:'vector-notation',mode:'daily',title:'Lernen',ids:vectorIds,answers:vectorIds.map((id,i)=>i===0?(h.key[id].correct+1)%3:h.key[id].correct),index:0,selection:null,startedAt:new Date().toISOString()};
+ const vectors=await h.open(browser,{state:vectorState});await h.route(vectors.page,'quiz');await vectors.page.locator('.answer-option .katex-mathml mtable').first().waitFor();
+ for(let i=0;i<vectorIds.length;i++){
+  if(i){await vectors.page.locator('[data-action="quiz-next"]').click();await vectors.page.waitForFunction(i=>JSON.parse(localStorage.getItem('mathequest.v1')).active.index===i,i);}
+  if(vectorIds[i]==='G004')h.assert.equal(await vectors.page.locator('.answer-option mtable').count(),0,'Punkte bleiben in Koordinatenschreibweise');
+  else{const rows=await vectors.page.locator('.answer-option').evaluateAll(options=>options.map(el=>el.querySelectorAll('.katex-mathml mtable mtr').length));h.assert.ok(rows.every(n=>n>0),vectorIds[i]);}
+  for(const width of [320,768,1440]){await vectors.page.setViewportSize({width,height:1100});h.assert.ok(await vectors.page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));}
+  if(i===0){h.assert.equal(await vectors.page.locator('.answer-feedback>p .katex-mathml mtable mtr').count(),3);await vectors.page.screenshot({path:h.path.join(h.root,'tests/column-vectors.png'),fullPage:true,animations:'disabled'});}
+ }
+ const roles=await vectors.page.evaluate(()=>({vector:MQ_MATH.render('(2|−1|3)',{vectorTuples:true}).includes('pmatrix'),point:MQ_MATH.render('(2|−1|3)').includes('pmatrix')}));h.assert.deepEqual(roles,{vector:true,point:false});h.assert.deepEqual(vectors.errors,[]);
+ console.log('OK Orts-, Verbindungs-, Stütz- und Normalenvektoren als Spalten; Punkte unverändert; Cache trennt beide Rollen; drei Breiten ohne Überlauf');
  h.assert.equal(requests.filter(r=>r.origin!==new URL(h.base).origin).length,0);h.assert.deepEqual(errors,[]);
  console.log('OK LaTeX in Fragen/Antworten/Lösungen, beide Themes, vier Breiten, sichere Texte und lokale Ressourcen');
  console.log('OK Auch altes Tageslimit 0 blockiert nicht; nach Abschluss sind Alle aktiven Fragen erneut lernbar und nach Neuladen erhalten');
