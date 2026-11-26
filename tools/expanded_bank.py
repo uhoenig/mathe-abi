@@ -20,6 +20,24 @@ QUESTIONS=[];SOLUTIONS={};CHECKS={}
 def m(value):return r'\('+ (value if isinstance(value,str) else L(value)) +r'\)'
 def tup(*v):return m(r'\left('+r'\mid '.join(map(str,v))+r'\right)')
 def expr(value):return str(value)
+def length_steps(components):
+    dims=['x','y','z'][:len(components)]
+    formula=r'\lVert\vec v\rVert=\sqrt{'+ '+'.join('v_'+d+'^2' for d in dims)+'}'
+    squares='+'.join(r'\left('+L(S.sympify(c))+r'\right)^2' for c in components)
+    total=sum(S.sympify(c)**2 for c in components)
+    return ['Die allgemeine Längenformel lautet '+m(formula)+'.',
+            'Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme.',
+            'Setze die Komponenten ein: '+m(r'\lVert\vec v\rVert=\sqrt{'+squares+r'}=\sqrt{'+L(total)+'}')+'.']
+
+def point_distance_steps(start,end):
+    dims=['x','y','z'][:len(start)]
+    formula=r'd(A,B)=\lVert B-A\rVert=\sqrt{'+ '+'.join('('+d+'_B-'+d+'_A)^2' for d in dims)+'}'
+    delta=M(end)-M(start)
+    squares='+'.join(r'\left('+L(c)+r'\right)^2' for c in delta)
+    return ['Der Punktabstand ist die Länge des Verbindungsvektors. Die allgemeine Formel ist '+m(formula)+'.',
+            'Bilde zuerst die Koordinatendifferenzen, also Ziel minus Start: '+m(r'\overrightarrow{AB}=B-A='+L(delta))+'.',
+            'Setze diese Differenzen in die Längenformel ein: '+m(r'd(A,B)=\sqrt{'+squares+'}')+'.']
+
 def add(cid,slot,prompt,answer,wrong,steps,check=None,reason=''):
     c=COMP[cid];qid=f'{cid[0]}{100+(int(cid[1:])-1)*6+slot:03}'
     # Slot und ID sind dauerhaft; keine Zufallszahlen und kein abhängig vom Pool rotierender Schlüssel.
@@ -172,9 +190,9 @@ def geometry():
     calc('G03',k,'Berechne '+m(M([n,1,-2]))+' + '+m(M([1,-v,3]))+'.',M([n+1,1-v,1]),[M([n-1,1+v,-5]),M([n,v,1])],['Addiere erste zu erster, zweite zu zweiter und dritte zu dritter Komponente.','Negative Komponenten werden mit ihrem Vorzeichen addiert.'])
     calc('G03',k+2,'Berechne '+m(r'2'+L(M([n,1,-2]))+r'-'+L(M([1,v,3])))+'.',M([2*n-1,2-v,-7]),[M([2*n-2,2-2*v,-10]),M([2*n+1,2+v,-1])],['Multipliziere zuerst jede Komponente des ersten Vektors mit 2.','Ziehe dann die Komponenten des zweiten Vektors ab; der Faktor 2 gilt nicht für diesen zweiten Vektor.'])
     concept('G03',k+4,'Ein von 0 verschiedener Vektor wird mit '+str(-n)+' multipliziert. Was ändert sich?', 'Seine Länge wird '+str(n)+'-mal so groß und seine Richtung kehrt sich um.','Nur die Richtung ändert sich, die Länge bleibt immer gleich.','Seine Länge wird negativ.','Der Betrag des Faktors skaliert die Länge.','Das negative Vorzeichen dreht die Richtung um. Eine geometrische Länge bleibt trotzdem nichtnegativ.')
-    calc('G04',k,'Welche Länge hat '+m(M([n,0,0]))+'?',n,[-n,n*n],['Der Vektor bewegt dich nur entlang einer Achse.','Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente.'])
-    calc('G04',k+2,'Wie weit sind '+m(r'A(0\mid 1\mid 2)')+' und '+m(r'B('+str(n)+r'\mid '+str(v+1)+r'\mid 2)')+' voneinander entfernt?',S.sqrt(n*n+v*v),[n+v,n*n+v*v],['Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0.','Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel.'])
-    concept('G04',k+4,'Ein Vektor hat die Länge '+str(n)+'. Welcher Faktor macht daraus einen Einheitsvektor gleicher Richtung?',m(R(1,n)),str(n),str(-n),'Ein Einheitsvektor soll die Länge 1 haben.','Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren.')
+    calc('G04',k,'Welche Länge hat '+m(M([n,0,0]))+'?',n,[-n,n*n],length_steps([n,0,0]))
+    calc('G04',k+2,'Wie weit sind '+m(r'A(0\mid 1\mid 2)')+' und '+m(r'B('+str(n)+r'\mid '+str(v+1)+r'\mid 2)')+' voneinander entfernt?',S.sqrt(n*n+v*v),[n+v,n*n+v*v],point_distance_steps([0,1,2],[n,v+1,2]))
+    concept('G04',k+4,'Ein Vektor hat die Länge '+str(n)+'. Welcher Faktor macht daraus einen Einheitsvektor gleicher Richtung?',m(R(1,n)),str(n),str(-n),'Zum Normieren gilt '+m(r'\vec e=\frac{\vec v}{\lVert\vec v\rVert}')+' für '+m(r'\vec v\ne0')+'. Ein Einheitsvektor soll die Länge 1 haben.','Hier ist die Länge '+str(n)+', also teilst du jede Komponente durch '+str(n)+'. Der Faktor ist '+m(R(1,n))+'. Ein negativer Faktor würde zusätzlich die Richtung umkehren.')
     concept('G05',k,'Was gilt für '+m(M([1,2,0]))+' und '+m(M([n,2*n,0]))+'?', 'Sie sind linear abhängig, denn der zweite ist das '+str(n)+'-Fache des ersten.','Sie sind unabhängig, weil ihre Längen verschieden sind.','Sie sind orthogonal.','Alle Komponenten wurden mit demselben Faktor multipliziert.','Damit zeigen sie in dieselbe Richtung; verschiedene Längen verhindern Kollinearität nicht.')
     calc('G05',k+2,'Für welchen Wert a sind '+m(M([1,2,0]))+' und '+m(M([n,a,0]))+' kollinear?',2*n,[n,R(n,2)],['Aus der ersten Komponente folgt der gemeinsame Faktor '+str(n)+'.','Derselbe Faktor muss auch in der zweiten Komponente gelten: a = 2 · '+str(n)+'.'])
     concept('G05',k+4,'Zu '+m(M([1,0,0]))+' und '+m(M([0,1,0]))+' kommt '+m(M([n,v,0]))+' hinzu. Warum sind die drei Vektoren abhängig?', 'Der dritte lässt sich als Linearkombination der ersten beiden darstellen.','Weil jeder der drei Vektoren ein Nullvektor ist.','Weil im Raum nie drei unabhängige Vektoren existieren.','Multipliziere den ersten mit '+str(n)+' und den zweiten mit '+str(v)+'.','Ihre Summe ist genau der dritte Vektor. Allgemein können im Raum durchaus drei unabhängige Vektoren existieren.')
@@ -256,7 +274,7 @@ def geometry():
     calc('G31',k,'Spiegle '+m(r'P(1\mid 2\mid '+str(n)+r')')+' an der xy-Ebene. Welches Tupel entsteht?',M([1,2,-n]),[M([-1,-2,n]),M([1,2,0])],['Die Ebene hat z = 0.','Wechsle nur das Vorzeichen der z-Koordinate; der Punkt in der Ebene wäre der Lotfuß, nicht der Spiegelpunkt.'])
     calc('G31',k+2,'Spiegle '+m(r'P(1\mid 2\mid '+str(n+v)+r')')+' an der Ebene z = '+str(n)+'. Welches Tupel entsteht?',M([1,2,n-v]),[M([1,2,-n-v]),M([1,2,n])],['Der Ausgangspunkt liegt '+str(v)+' Einheiten oberhalb der Ebene.','Der Bildpunkt liegt ebenso weit darunter; die Ebene liegt genau in der Mitte der Verbindung.'])
     concept('G31',k+4,'L ist der Lotfuß eines Punktes P auf einer Ebene. Welche Gleichung liefert den gespiegelten Punkt P′?',m(r'P\prime=2L-P'),m(r'P\prime=L'),m(r'P\prime=2P-L'),'Beim Spiegeln geht es von P zuerst nach L und um denselben Vektor noch einmal weiter.','Also P′ = P + 2(L − P) = 2L − P. Der Lotfuß ist nur die Mitte des Weges.')
-    calc('G32',k,'Ein Objekt bewegt sich mit dem konstanten Geschwindigkeitsvektor '+m(M([n,0,0]))+' in Metern pro Sekunde. Welche Geschwindigkeit hat es in m/s?',n,[n*n,1],['Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors.','Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit.'])
+    calc('G32',k,'Ein Objekt bewegt sich mit dem konstanten Geschwindigkeitsvektor '+m(M([n,0,0]))+' in Metern pro Sekunde. Welche Geschwindigkeit hat es in m/s?',n,[n*n,1],['Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Seine Komponenten sind in m/s angegeben.']+length_steps([n,0,0]))
     calc('G32',k+2,'Eine Drohne startet bei '+m(r'P(0\mid 0\mid '+str(n)+r')')+' und hat '+m(r'z(t)='+str(n)+r'-'+str(v)+r't')+' für '+m(r't\ge0')+'. Wann erreicht sie die Ebene z = 0?',R(n,v),[n*v,-R(n,v)],['Setze die Höhe gleich 0 und löse die lineare Gleichung.','Der gefundene Zeitpunkt ist nichtnegativ und gehört zum betrachteten Flugabschnitt.'])
     concept('G32',k+4,'Eine Straßenstrecke wird durch '+m(r'P(t)=A+t(B-A),\quad 0\le t\le1')+' beschrieben. Die verlängerte Gerade schneidet eine Ebene bei t = '+str(n)+'. Was folgt für die Strecke?', 'Dieser Schnittpunkt liegt nicht auf dem modellierten Streckenabschnitt.','Jeder Geradenschnitt ist automatisch ein Streckenschnitt.','Der Punkt muss der Mittelpunkt der Strecke sein.','Der Parameter liegt außerhalb des erlaubten Intervalls von 0 bis 1.','Die geometrische Gerade ist unbeschränkt, die Straße in diesem Modell aber nur das Stück zwischen A und B.')
     concept('G33',k,'Eine Gerade hat die Richtung '+m(M([1,n,0]))+' und soll senkrecht auf der Ebene stehen. Wie muss ihre Richtung zur Ebenennormalen liegen?', 'Sie muss parallel zur Normalen sein.','Sie muss orthogonal zur Normalen sein.','Die Normalenrichtung spielt dafür keine Rolle.','Die Normale zeigt bereits senkrecht aus der Ebene heraus.','Eine dazu parallele Gerade steht ebenfalls senkrecht auf der Ebene. Orthogonalität zur Normalen würde eine parallele Ebenenrichtung bedeuten.')

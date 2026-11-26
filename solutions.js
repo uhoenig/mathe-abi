@@ -663,11 +663,11 @@ window.MQ_SOLUTIONS = {
   },
   "G006": {
     "correct": 2,
-    "explanation": "Der Vektor von A nach B beschreibt die Bewegung vom Startpunkt zum Zielpunkt. Rechne deshalb Ziel minus Start: B − A. Für die erste Komponente gilt 4 − 1 = 3, für die zweite 6 − 2 = 4. Der Vektor ist (3|4): Von A gehst du 3 Einheiten in x- und 4 in y-Richtung, um B zu erreichen.",
+    "explanation": "Der Vektor von A nach B beschreibt die Bewegung vom Startpunkt zum Zielpunkt. Rechne deshalb Ziel minus Start: B − A. Für die erste Komponente gilt 4 − 1 = 3, für die zweite 6 − 2 = 4. Der Vektor ist \\(\\begin{pmatrix}3\\\\4\\end{pmatrix}\\): Von A gehst du 3 Einheiten in x- und 4 in y-Richtung, um B zu erreichen.",
     "steps": [
       "Der Vektor von A nach B beschreibt die Bewegung vom Startpunkt zum Zielpunkt. Rechne deshalb Ziel minus Start: B − A.",
       "Für die erste Komponente gilt 4 − 1 = 3, für die zweite 6 − 2 = 4.",
-      "Der Vektor ist (3|4): Von A gehst du 3 Einheiten in x- und 4 in y-Richtung, um B zu erreichen."
+      "Der Vektor ist \\(\\begin{pmatrix}3\\\\4\\end{pmatrix}\\): Von A gehst du 3 Einheiten in x- und 4 in y-Richtung, um B zu erreichen."
     ],
     "background": "Der Ortsvektor führt vom Ursprung zu einem Punkt. Der Verbindungsvektor AB ist B−A. Freie Vektoren sind bei gleichen Komponenten gleich, unabhängig vom Angriffspunkt. Der Mittelpunkt hat die gemittelten Koordinaten der Endpunkte.",
     "misconception": "Startpunkt minus Zielpunkt rechnen.",
@@ -675,11 +675,11 @@ window.MQ_SOLUTIONS = {
   },
   "G007": {
     "correct": 1,
-    "explanation": "Ein Ortsvektor beginnt immer im Ursprung O(0|0|0) und zeigt zum angegebenen Punkt. Rechne P − O = (2 − 0|−1 − 0|3 − 0). Das ergibt (2|−1|3). Die Zahlen sind dieselben wie beim Punkt; der Vektor beschreibt aber eine Bewegung.",
+    "explanation": "Ein Ortsvektor beginnt immer im Ursprung O(0|0|0) und zeigt zum angegebenen Punkt. Rechne P − O = \\(\\begin{pmatrix}2 - 0\\\\-1 - 0\\\\3 - 0\\end{pmatrix}\\). Das ergibt \\(\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}\\). Die Zahlen sind dieselben wie beim Punkt; der Vektor beschreibt aber eine Bewegung.",
     "steps": [
       "Ein Ortsvektor beginnt immer im Ursprung O(0|0|0) und zeigt zum angegebenen Punkt.",
-      "Rechne P − O = (2 − 0|−1 − 0|3 − 0).",
-      "Das ergibt (2|−1|3). Die Zahlen sind dieselben wie beim Punkt; der Vektor beschreibt aber eine Bewegung."
+      "Rechne P − O = \\(\\begin{pmatrix}2 - 0\\\\-1 - 0\\\\3 - 0\\end{pmatrix}\\).",
+      "Das ergibt \\(\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}\\). Die Zahlen sind dieselben wie beim Punkt; der Vektor beschreibt aber eine Bewegung."
     ],
     "background": "Der Ortsvektor führt vom Ursprung zu einem Punkt. Der Verbindungsvektor AB ist B−A. Freie Vektoren sind bei gleichen Komponenten gleich, unabhängig vom Angriffspunkt. Der Mittelpunkt hat die gemittelten Koordinaten der Endpunkte.",
     "misconception": "Den Gegenvektor als Ortsvektor wählen.",
@@ -699,10 +699,10 @@ window.MQ_SOLUTIONS = {
   },
   "G009": {
     "correct": 2,
-    "explanation": "Vergleiche zuerst die erste Komponente beider Vektoren und dann die zweite. Auch das Vorzeichen muss passen. Im Paar (2|−1) und (2|−1) stimmen beide Komponenten überein. Deshalb sind diese Vektoren gleich: Beide verschieben um 2 in x- und um −1 in y-Richtung.",
+    "explanation": "Vergleiche zuerst die erste Komponente beider Vektoren und dann die zweite. Auch das Vorzeichen muss passen. Im Paar \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) und \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) stimmen beide Komponenten überein. Deshalb sind diese Vektoren gleich: Beide verschieben um 2 in x- und um −1 in y-Richtung.",
     "steps": [
       "Vergleiche zuerst die erste Komponente beider Vektoren und dann die zweite. Auch das Vorzeichen muss passen.",
-      "Im Paar (2|−1) und (2|−1) stimmen beide Komponenten überein.",
+      "Im Paar \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) und \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) stimmen beide Komponenten überein.",
       "Deshalb sind diese Vektoren gleich: Beide verschieben um 2 in x- und um −1 in y-Richtung."
     ],
     "background": "Der Ortsvektor führt vom Ursprung zu einem Punkt. Der Verbindungsvektor AB ist B−A. Freie Vektoren sind bei gleichen Komponenten gleich, unabhängig vom Angriffspunkt. Der Mittelpunkt hat die gemittelten Koordinaten der Endpunkte.",
@@ -723,11 +723,11 @@ window.MQ_SOLUTIONS = {
   },
   "G011": {
     "correct": 1,
-    "explanation": "Bei der Vektoraddition rechnest du die Komponenten an derselben Position zusammen. Die erste Komponente ist 1 + 3 = 4. Die zweite ist 2 + (−1) = 1. Der Ergebnisvektor lautet (4|1). Das entspricht den beiden Verschiebungen direkt nacheinander.",
+    "explanation": "Bei der Vektoraddition rechnest du die Komponenten an derselben Position zusammen. Die erste Komponente ist 1 + 3 = 4. Die zweite ist 2 + (−1) = 1. Der Ergebnisvektor lautet \\(\\begin{pmatrix}4\\\\1\\end{pmatrix}\\). Das entspricht den beiden Verschiebungen direkt nacheinander.",
     "steps": [
       "Bei der Vektoraddition rechnest du die Komponenten an derselben Position zusammen.",
       "Die erste Komponente ist 1 + 3 = 4. Die zweite ist 2 + (−1) = 1.",
-      "Der Ergebnisvektor lautet (4|1). Das entspricht den beiden Verschiebungen direkt nacheinander."
+      "Der Ergebnisvektor lautet \\(\\begin{pmatrix}4\\\\1\\end{pmatrix}\\). Das entspricht den beiden Verschiebungen direkt nacheinander."
     ],
     "background": "Vektoren werden komponentenweise addiert und subtrahiert. Ein Skalar multipliziert jede Komponente; der Betrag der Länge wächst um den Betrag des Skalars. Negative Faktoren kehren die Richtung um. Linearkombinationen gewichten und addieren Vektoren.",
     "misconception": "Vektoren komponentenweise multiplizieren.",
@@ -735,11 +735,11 @@ window.MQ_SOLUTIONS = {
   },
   "G012": {
     "correct": 0,
-    "explanation": "Ziehe die Komponenten des zweiten Vektors jeweils von denen des ersten ab. Die Reihenfolge ist wichtig. Erste Komponente: 3 − 1 = 2. Zweite Komponente: 4 − 6 = −2. Das Ergebnis ist (2|−2). Ein negatives Ergebnis bei einer Komponente ist völlig erlaubt.",
+    "explanation": "Ziehe die Komponenten des zweiten Vektors jeweils von denen des ersten ab. Die Reihenfolge ist wichtig. Erste Komponente: 3 − 1 = 2. Zweite Komponente: 4 − 6 = −2. Das Ergebnis ist \\(\\begin{pmatrix}2\\\\-2\\end{pmatrix}\\). Ein negatives Ergebnis bei einer Komponente ist völlig erlaubt.",
     "steps": [
       "Ziehe die Komponenten des zweiten Vektors jeweils von denen des ersten ab. Die Reihenfolge ist wichtig.",
       "Erste Komponente: 3 − 1 = 2. Zweite Komponente: 4 − 6 = −2.",
-      "Das Ergebnis ist (2|−2). Ein negatives Ergebnis bei einer Komponente ist völlig erlaubt."
+      "Das Ergebnis ist \\(\\begin{pmatrix}2\\\\-2\\end{pmatrix}\\). Ein negatives Ergebnis bei einer Komponente ist völlig erlaubt."
     ],
     "background": "Vektoren werden komponentenweise addiert und subtrahiert. Ein Skalar multipliziert jede Komponente; der Betrag der Länge wächst um den Betrag des Skalars. Negative Faktoren kehren die Richtung um. Linearkombinationen gewichten und addieren Vektoren.",
     "misconception": "Das Vorzeichen der zweiten Differenz verlieren.",
@@ -747,11 +747,11 @@ window.MQ_SOLUTIONS = {
   },
   "G013": {
     "correct": 2,
-    "explanation": "Der Faktor 3 gilt für jede Komponente des Vektors, auch für negative Zahlen und die 0. Rechne 3 · 2 = 6, 3 · (−1) = −3 und 3 · 0 = 0. So erhältst du (6|−3|0). Der Vektor zeigt in dieselbe Richtung und ist dreimal so lang.",
+    "explanation": "Der Faktor 3 gilt für jede Komponente des Vektors, auch für negative Zahlen und die 0. Rechne 3 · 2 = 6, 3 · (−1) = −3 und 3 · 0 = 0. So erhältst du \\(\\begin{pmatrix}6\\\\-3\\\\0\\end{pmatrix}\\). Der Vektor zeigt in dieselbe Richtung und ist dreimal so lang.",
     "steps": [
       "Der Faktor 3 gilt für jede Komponente des Vektors, auch für negative Zahlen und die 0.",
       "Rechne 3 · 2 = 6, 3 · (−1) = −3 und 3 · 0 = 0.",
-      "So erhältst du (6|−3|0). Der Vektor zeigt in dieselbe Richtung und ist dreimal so lang."
+      "So erhältst du \\(\\begin{pmatrix}6\\\\-3\\\\0\\end{pmatrix}\\). Der Vektor zeigt in dieselbe Richtung und ist dreimal so lang."
     ],
     "background": "Vektoren werden komponentenweise addiert und subtrahiert. Ein Skalar multipliziert jede Komponente; der Betrag der Länge wächst um den Betrag des Skalars. Negative Faktoren kehren die Richtung um. Linearkombinationen gewichten und addieren Vektoren.",
     "misconception": "Nur die erste Komponente multiplizieren.",
@@ -771,11 +771,11 @@ window.MQ_SOLUTIONS = {
   },
   "G015": {
     "correct": 0,
-    "explanation": "Multipliziere zuerst jeden Vektor mit seinem Faktor: 2u = (2|0) und 3v = (0|3). Addiere anschließend komponentenweise: (2 + 0|0 + 3). Das ergibt (2|3). Anschaulich gehst du 2 Einheiten in x- und 3 in y-Richtung.",
+    "explanation": "Multipliziere zuerst jeden Vektor mit seinem Faktor: 2u = \\(\\begin{pmatrix}2\\\\0\\end{pmatrix}\\) und 3v = \\(\\begin{pmatrix}0\\\\3\\end{pmatrix}\\). Addiere anschließend komponentenweise: \\(\\begin{pmatrix}2 + 0\\\\0 + 3\\end{pmatrix}\\). Das ergibt \\(\\begin{pmatrix}2\\\\3\\end{pmatrix}\\). Anschaulich gehst du 2 Einheiten in x- und 3 in y-Richtung.",
     "steps": [
-      "Multipliziere zuerst jeden Vektor mit seinem Faktor: 2u = (2|0) und 3v = (0|3).",
-      "Addiere anschließend komponentenweise: (2 + 0|0 + 3).",
-      "Das ergibt (2|3). Anschaulich gehst du 2 Einheiten in x- und 3 in y-Richtung."
+      "Multipliziere zuerst jeden Vektor mit seinem Faktor: 2u = \\(\\begin{pmatrix}2\\\\0\\end{pmatrix}\\) und 3v = \\(\\begin{pmatrix}0\\\\3\\end{pmatrix}\\).",
+      "Addiere anschließend komponentenweise: \\(\\begin{pmatrix}2 + 0\\\\0 + 3\\end{pmatrix}\\).",
+      "Das ergibt \\(\\begin{pmatrix}2\\\\3\\end{pmatrix}\\). Anschaulich gehst du 2 Einheiten in x- und 3 in y-Richtung."
     ],
     "background": "Vektoren werden komponentenweise addiert und subtrahiert. Ein Skalar multipliziert jede Komponente; der Betrag der Länge wächst um den Betrag des Skalars. Negative Faktoren kehren die Richtung um. Linearkombinationen gewichten und addieren Vektoren.",
     "misconception": "Die Koeffizienten vertauschen.",
@@ -783,11 +783,11 @@ window.MQ_SOLUTIONS = {
   },
   "G016": {
     "correct": 0,
-    "explanation": "Die Komponenten 3 und 4 bilden die Katheten eines rechtwinkligen Dreiecks. Der Vektor selbst ist die Hypotenuse. Nach Pythagoras gilt für seine Länge √(3² + 4²) = √(9 + 16). Weil √25 = 5 ist, hat der Vektor die Länge 5. Die Komponenten einfach zu addieren wäre falsch.",
+    "explanation": "Für einen Vektor in der Ebene gilt die Längenformel \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2}\\). Die Komponenten sind die beiden senkrechten Strecken eines rechtwinkligen Dreiecks. Der Vektorpfeil ist die Hypotenuse; deshalb addierst du nach Pythagoras die Quadrate und ziehst die Wurzel. Setze die Komponenten 3 und 4 ein: \\(\\lVert\\vec v\\rVert=\\sqrt{3^2+4^2}=\\sqrt{9+16}=\\sqrt{25}=5\\).",
     "steps": [
-      "Die Komponenten 3 und 4 bilden die Katheten eines rechtwinkligen Dreiecks. Der Vektor selbst ist die Hypotenuse.",
-      "Nach Pythagoras gilt für seine Länge √(3² + 4²) = √(9 + 16).",
-      "Weil √25 = 5 ist, hat der Vektor die Länge 5. Die Komponenten einfach zu addieren wäre falsch."
+      "Für einen Vektor in der Ebene gilt die Längenformel \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2}\\).",
+      "Die Komponenten sind die beiden senkrechten Strecken eines rechtwinkligen Dreiecks. Der Vektorpfeil ist die Hypotenuse; deshalb addierst du nach Pythagoras die Quadrate und ziehst die Wurzel.",
+      "Setze die Komponenten 3 und 4 ein: \\(\\lVert\\vec v\\rVert=\\sqrt{3^2+4^2}=\\sqrt{9+16}=\\sqrt{25}=5\\)."
     ],
     "background": "Der euklidische Vektorbetrag ist √(v₁²+v₂²+v₃²). Punktabstände sind Beträge von Verbindungsvektoren. Für E: ax+by+cz=d ist der Punkt-Ebene-Abstand |ax₀+by₀+cz₀−d|/√(a²+b²+c²).",
     "misconception": "Die Wurzel nach der Quadratsumme vergessen.",
@@ -795,11 +795,11 @@ window.MQ_SOLUTIONS = {
   },
   "G017": {
     "correct": 2,
-    "explanation": "Der Vektor bewegt dich nur in z-Richtung, und zwar um −2 Einheiten. Die Richtung ist negativ, seine Länge aber nicht. Mit der Längenformel erhältst du √(0² + 0² + (−2)²) = √4. Die Länge beträgt 2. Beim Quadrieren wird auch die negative Komponente positiv.",
+    "explanation": "Für einen Vektor im Raum gilt \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Auch die dritte Komponente wird quadriert. Setze 0, 0 und −2 ein: \\(\\lVert\\vec v\\rVert=\\sqrt{0^2+0^2+(-2)^2}=\\sqrt{4}=2\\). Das Minuszeichen beschreibt die Richtung, keine negative Länge. Beim Quadrieren wird (−2)² = 4; die Wurzel ist nichtnegativ.",
     "steps": [
-      "Der Vektor bewegt dich nur in z-Richtung, und zwar um −2 Einheiten. Die Richtung ist negativ, seine Länge aber nicht.",
-      "Mit der Längenformel erhältst du √(0² + 0² + (−2)²) = √4.",
-      "Die Länge beträgt 2. Beim Quadrieren wird auch die negative Komponente positiv."
+      "Für einen Vektor im Raum gilt \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Auch die dritte Komponente wird quadriert.",
+      "Setze 0, 0 und −2 ein: \\(\\lVert\\vec v\\rVert=\\sqrt{0^2+0^2+(-2)^2}=\\sqrt{4}=2\\).",
+      "Das Minuszeichen beschreibt die Richtung, keine negative Länge. Beim Quadrieren wird (−2)² = 4; die Wurzel ist nichtnegativ."
     ],
     "background": "Der euklidische Vektorbetrag ist √(v₁²+v₂²+v₃²). Punktabstände sind Beträge von Verbindungsvektoren. Für E: ax+by+cz=d ist der Punkt-Ebene-Abstand |ax₀+by₀+cz₀−d|/√(a²+b²+c²).",
     "misconception": "Eine negative Komponente als negative Länge lesen.",
@@ -807,11 +807,11 @@ window.MQ_SOLUTIONS = {
   },
   "G018": {
     "correct": 1,
-    "explanation": "Beide Punkte haben denselben y-Wert 2. Ihr Abstand entsteht daher nur durch die Änderung in x-Richtung. Die x-Werte unterscheiden sich um 4 − 1 = 3. Der Verbindungsvektor ist (3|0). Seine Länge ist √(3² + 0²) = 3. Also beträgt der Abstand 3.",
+    "explanation": "Der Abstand zweier Punkte ist die Länge ihres Verbindungsvektors. In der Ebene gilt \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}\\). Bilde zuerst Ziel minus Start: \\(\\overrightarrow{AB}=B-A=\\begin{pmatrix}4-1\\\\2-2\\end{pmatrix}=\\begin{pmatrix}3\\\\0\\end{pmatrix}\\). Setze die Differenzen ein: \\(d(A,B)=\\sqrt{3^2+0^2}=\\sqrt{9}=3\\). Die gemeinsame y-Koordinate trägt hier nichts zum Abstand bei.",
     "steps": [
-      "Beide Punkte haben denselben y-Wert 2. Ihr Abstand entsteht daher nur durch die Änderung in x-Richtung.",
-      "Die x-Werte unterscheiden sich um 4 − 1 = 3. Der Verbindungsvektor ist (3|0).",
-      "Seine Länge ist √(3² + 0²) = 3. Also beträgt der Abstand 3."
+      "Der Abstand zweier Punkte ist die Länge ihres Verbindungsvektors. In der Ebene gilt \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}\\).",
+      "Bilde zuerst Ziel minus Start: \\(\\overrightarrow{AB}=B-A=\\begin{pmatrix}4-1\\\\2-2\\end{pmatrix}=\\begin{pmatrix}3\\\\0\\end{pmatrix}\\).",
+      "Setze die Differenzen ein: \\(d(A,B)=\\sqrt{3^2+0^2}=\\sqrt{9}=3\\). Die gemeinsame y-Koordinate trägt hier nichts zum Abstand bei."
     ],
     "background": "Der euklidische Vektorbetrag ist √(v₁²+v₂²+v₃²). Punktabstände sind Beträge von Verbindungsvektoren. Für E: ax+by+cz=d ist der Punkt-Ebene-Abstand |ax₀+by₀+cz₀−d|/√(a²+b²+c²).",
     "misconception": "Koordinaten statt Koordinatendifferenzen verwenden.",
@@ -819,11 +819,11 @@ window.MQ_SOLUTIONS = {
   },
   "G019": {
     "correct": 0,
-    "explanation": "Da A der Ursprung ist, führt der Vektor (1|2|2) direkt von A nach B. Berechne seine Länge mit der räumlichen Pythagoras-Formel: √(1² + 2² + 2²). Das ergibt √(1 + 4 + 4) = √9 = 3. Der Abstand der Punkte ist die Länge dieses Verbindungsvektors.",
+    "explanation": "Im Raum berechnest du Punktabstände mit \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\). Du quadrierst die Koordinatendifferenzen, nicht einfach die Ortskoordinaten. Da A der Ursprung ist, lautet der Verbindungsvektor \\(\\overrightarrow{AB}=\\begin{pmatrix}1-0\\\\2-0\\\\2-0\\end{pmatrix}=\\begin{pmatrix}1\\\\2\\\\2\\end{pmatrix}\\). Daraus folgt \\(d(A,B)=\\sqrt{1^2+2^2+2^2}=\\sqrt{1+4+4}=\\sqrt{9}=3\\).",
     "steps": [
-      "Da A der Ursprung ist, führt der Vektor (1|2|2) direkt von A nach B.",
-      "Berechne seine Länge mit der räumlichen Pythagoras-Formel: √(1² + 2² + 2²).",
-      "Das ergibt √(1 + 4 + 4) = √9 = 3. Der Abstand der Punkte ist die Länge dieses Verbindungsvektors."
+      "Im Raum berechnest du Punktabstände mit \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\). Du quadrierst die Koordinatendifferenzen, nicht einfach die Ortskoordinaten.",
+      "Da A der Ursprung ist, lautet der Verbindungsvektor \\(\\overrightarrow{AB}=\\begin{pmatrix}1-0\\\\2-0\\\\2-0\\end{pmatrix}=\\begin{pmatrix}1\\\\2\\\\2\\end{pmatrix}\\).",
+      "Daraus folgt \\(d(A,B)=\\sqrt{1^2+2^2+2^2}=\\sqrt{1+4+4}=\\sqrt{9}=3\\)."
     ],
     "background": "Der euklidische Vektorbetrag ist √(v₁²+v₂²+v₃²). Punktabstände sind Beträge von Verbindungsvektoren. Für E: ax+by+cz=d ist der Punkt-Ebene-Abstand |ax₀+by₀+cz₀−d|/√(a²+b²+c²).",
     "misconception": "Die Quadratsumme als Abstand verwenden.",
@@ -879,11 +879,11 @@ window.MQ_SOLUTIONS = {
   },
   "G024": {
     "correct": 2,
-    "explanation": "Senkrechte Vektoren erkennst du am Skalarprodukt 0. Prüfe daher den vorgeschlagenen Vektor (2|−1). Rechne (1|2) · (2|−1) = 1 · 2 + 2 · (−1). Das ergibt 2 − 2 = 0. Deshalb ist (2|−1) orthogonal zu (1|2).",
+    "explanation": "Senkrechte Vektoren erkennst du am Skalarprodukt 0. Prüfe daher den vorgeschlagenen Vektor \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\). Rechne \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\) · \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) = 1 · 2 + 2 · (−1). Das ergibt 2 − 2 = 0. Deshalb ist \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) orthogonal zu \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\).",
     "steps": [
-      "Senkrechte Vektoren erkennst du am Skalarprodukt 0. Prüfe daher den vorgeschlagenen Vektor (2|−1).",
-      "Rechne (1|2) · (2|−1) = 1 · 2 + 2 · (−1).",
-      "Das ergibt 2 − 2 = 0. Deshalb ist (2|−1) orthogonal zu (1|2)."
+      "Senkrechte Vektoren erkennst du am Skalarprodukt 0. Prüfe daher den vorgeschlagenen Vektor \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\).",
+      "Rechne \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\) · \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) = 1 · 2 + 2 · (−1).",
+      "Das ergibt 2 − 2 = 0. Deshalb ist \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\) orthogonal zu \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\)."
     ],
     "background": "Das Skalarprodukt ist die Summe entsprechender Komponentenprodukte. Es gilt u·v=|u||v|cos(α). Für zwei Vektoren ungleich null ist u·v=0 genau das Kriterium für Orthogonalität. Der Winkel folgt mit dem Arkuskosinus.",
     "misconception": "Das Vorzeichen bei der Orthogonalitätsprüfung übersehen.",
@@ -903,11 +903,11 @@ window.MQ_SOLUTIONS = {
   },
   "G026": {
     "correct": 1,
-    "explanation": "Eine Gerade in Parameterform sieht so aus: x = a + t · v. a zeigt zu einem festen Startpunkt auf der Geraden. In der Aufgabe steht (1|2|3) ohne t vor dem Pluszeichen. Das ist a. Ein Stützvektor ist deshalb (1|2|3). Der Vektor (0|1|0) ist dagegen der Richtungsvektor.",
+    "explanation": "Eine Gerade in Parameterform sieht so aus: x = a + t · v. a zeigt zu einem festen Startpunkt auf der Geraden. In der Aufgabe steht \\(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\) ohne t vor dem Pluszeichen. Das ist a. Ein Stützvektor ist deshalb \\(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\). Der Vektor \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}\\) ist dagegen der Richtungsvektor.",
     "steps": [
       "Eine Gerade in Parameterform sieht so aus: x = a + t · v. a zeigt zu einem festen Startpunkt auf der Geraden.",
-      "In der Aufgabe steht (1|2|3) ohne t vor dem Pluszeichen. Das ist a.",
-      "Ein Stützvektor ist deshalb (1|2|3). Der Vektor (0|1|0) ist dagegen der Richtungsvektor."
+      "In der Aufgabe steht \\(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\) ohne t vor dem Pluszeichen. Das ist a.",
+      "Ein Stützvektor ist deshalb \\(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\). Der Vektor \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}\\) ist dagegen der Richtungsvektor."
     ],
     "background": "Eine Gerade hat die Parameterform x=a+tv mit v≠0. a ist der Ortsvektor eines Geradenpunkts und v beschreibt die Richtung. Bei einer Punktprobe muss ein gemeinsamer Parameter sämtliche Koordinatengleichungen erfüllen.",
     "misconception": "Stütz- und Richtungsvektor vertauschen.",
@@ -951,11 +951,11 @@ window.MQ_SOLUTIONS = {
   },
   "G030": {
     "correct": 0,
-    "explanation": "Für eine Gerade brauchst du einen Punkt und eine Richtung. Als Startpunkt kannst du A(0|0) nehmen. Von A nach B führt der Vektor B − A = (2|4). Auch sein halbes Vielfaches (1|2) zeigt in dieselbe Richtung. Daher passt x = (0|0) + t(1|2). Für t = 0 erhältst du A, für t = 2 den Punkt B.",
+    "explanation": "Für eine Gerade brauchst du einen Punkt und eine Richtung. Als Startpunkt kannst du A(0|0) nehmen. Von A nach B führt der Vektor B − A = \\(\\begin{pmatrix}2\\\\4\\end{pmatrix}\\). Auch sein halbes Vielfaches \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\) zeigt in dieselbe Richtung. Daher passt x = \\(\\begin{pmatrix}0\\\\0\\end{pmatrix}\\) + t\\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\). Für t = 0 erhältst du A, für t = 2 den Punkt B.",
     "steps": [
       "Für eine Gerade brauchst du einen Punkt und eine Richtung. Als Startpunkt kannst du A(0|0) nehmen.",
-      "Von A nach B führt der Vektor B − A = (2|4). Auch sein halbes Vielfaches (1|2) zeigt in dieselbe Richtung.",
-      "Daher passt x = (0|0) + t(1|2). Für t = 0 erhältst du A, für t = 2 den Punkt B."
+      "Von A nach B führt der Vektor B − A = \\(\\begin{pmatrix}2\\\\4\\end{pmatrix}\\). Auch sein halbes Vielfaches \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\) zeigt in dieselbe Richtung.",
+      "Daher passt x = \\(\\begin{pmatrix}0\\\\0\\end{pmatrix}\\) + t\\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\). Für t = 0 erhältst du A, für t = 2 den Punkt B."
     ],
     "background": "Eine Gerade hat die Parameterform x=a+tv mit v≠0. a ist der Ortsvektor eines Geradenpunkts und v beschreibt die Richtung. Bei einer Punktprobe muss ein gemeinsamer Parameter sämtliche Koordinatengleichungen erfüllen.",
     "misconception": "Jeden Verbindungsvektor nur in seiner ursprünglichen Länge zulassen.",
@@ -1035,10 +1035,10 @@ window.MQ_SOLUTIONS = {
   },
   "G037": {
     "correct": 1,
-    "explanation": "Zwei Vektoren spannen nur dann eine Ebene auf, wenn sie in zwei unabhängige Richtungen zeigen. (1|0|0) zeigt entlang der x-Achse und (0|1|0) entlang der y-Achse. Keiner ist ein Vielfaches des anderen. Deshalb können sie eine Ebene aufspannen. Zwei parallele Vektoren würden nur eine Richtung liefern.",
+    "explanation": "Zwei Vektoren spannen nur dann eine Ebene auf, wenn sie in zwei unabhängige Richtungen zeigen. \\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\) zeigt entlang der x-Achse und \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}\\) entlang der y-Achse. Keiner ist ein Vielfaches des anderen. Deshalb können sie eine Ebene aufspannen. Zwei parallele Vektoren würden nur eine Richtung liefern.",
     "steps": [
       "Zwei Vektoren spannen nur dann eine Ebene auf, wenn sie in zwei unabhängige Richtungen zeigen.",
-      "(1|0|0) zeigt entlang der x-Achse und (0|1|0) entlang der y-Achse. Keiner ist ein Vielfaches des anderen.",
+      "\\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\) zeigt entlang der x-Achse und \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}\\) entlang der y-Achse. Keiner ist ein Vielfaches des anderen.",
       "Deshalb können sie eine Ebene aufspannen. Zwei parallele Vektoren würden nur eine Richtung liefern."
     ],
     "background": "Eine Ebene in Parameterform benötigt einen Stützvektor und zwei unabhängige Spannvektoren. In ax+by+cz=d ist (a|b|c) ein Normalenvektor ungleich null. Ein Punkt gehört zur Ebene, wenn seine Koordinaten die Gleichung erfüllen.",
@@ -1047,11 +1047,11 @@ window.MQ_SOLUTIONS = {
   },
   "G038": {
     "correct": 0,
-    "explanation": "In einer Ebenengleichung ax + by + cz = d bilden die Zahlen vor x, y und z einen Normalenvektor. Dieser steht senkrecht auf der Ebene. Lies bei 2x − y + 3z = 6 die Koeffizienten ab: 2, −1 und 3. Damit ist n = (2|−1|3). Das Minus vor y gehört zum Koeffizienten; die 6 auf der rechten Seite gehört nicht zum Vektor.",
+    "explanation": "In einer Ebenengleichung ax + by + cz = d bilden die Zahlen vor x, y und z einen Normalenvektor. Dieser steht senkrecht auf der Ebene. Lies bei 2x − y + 3z = 6 die Koeffizienten ab: 2, −1 und 3. Damit ist n = \\(\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}\\). Das Minus vor y gehört zum Koeffizienten; die 6 auf der rechten Seite gehört nicht zum Vektor.",
     "steps": [
       "In einer Ebenengleichung ax + by + cz = d bilden die Zahlen vor x, y und z einen Normalenvektor. Dieser steht senkrecht auf der Ebene.",
       "Lies bei 2x − y + 3z = 6 die Koeffizienten ab: 2, −1 und 3.",
-      "Damit ist n = (2|−1|3). Das Minus vor y gehört zum Koeffizienten; die 6 auf der rechten Seite gehört nicht zum Vektor."
+      "Damit ist n = \\(\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}\\). Das Minus vor y gehört zum Koeffizienten; die 6 auf der rechten Seite gehört nicht zum Vektor."
     ],
     "background": "Eine Ebene in Parameterform benötigt einen Stützvektor und zwei unabhängige Spannvektoren. In ax+by+cz=d ist (a|b|c) ein Normalenvektor ungleich null. Ein Punkt gehört zur Ebene, wenn seine Koordinaten die Gleichung erfüllen.",
     "misconception": "Das Vorzeichen eines Koeffizienten verlieren.",
@@ -1167,11 +1167,11 @@ window.MQ_SOLUTIONS = {
   },
   "G048": {
     "correct": 1,
-    "explanation": "Bilde die Bewegung von A nach B: B − A = (3 − 0|4 − 0|2 − 2) = (3|4|0). Die Höhe bleibt gleich. Für die direkte Strecke brauchst du deshalb nur √(3² + 4² + 0²). Das ergibt √25 = 5. Die Drohne fliegt direkt 5 Längeneinheiten.",
+    "explanation": "Die direkte Flugstrecke ist die Länge des Verbindungsvektors. Verwende \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\). Ziel minus Start liefert \\(\\overrightarrow{AB}=\\begin{pmatrix}3-0\\\\4-0\\\\2-2\\end{pmatrix}=\\begin{pmatrix}3\\\\4\\\\0\\end{pmatrix}\\). Die Flughöhe bleibt gleich und fällt in der Differenz weg. Damit ist \\(d(A,B)=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5\\).",
     "steps": [
-      "Bilde die Bewegung von A nach B: B − A = (3 − 0|4 − 0|2 − 2) = (3|4|0).",
-      "Die Höhe bleibt gleich. Für die direkte Strecke brauchst du deshalb nur √(3² + 4² + 0²).",
-      "Das ergibt √25 = 5. Die Drohne fliegt direkt 5 Längeneinheiten."
+      "Die direkte Flugstrecke ist die Länge des Verbindungsvektors. Verwende \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\).",
+      "Ziel minus Start liefert \\(\\overrightarrow{AB}=\\begin{pmatrix}3-0\\\\4-0\\\\2-2\\end{pmatrix}=\\begin{pmatrix}3\\\\4\\\\0\\end{pmatrix}\\). Die Flughöhe bleibt gleich und fällt in der Differenz weg.",
+      "Damit ist \\(d(A,B)=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5\\)."
     ],
     "background": "Geometrische Modelle verbinden Koordinaten mit realen Größen und Einheiten. Vektorbeträge liefern Weglängen und Geschwindigkeitsbeträge. Parameterbereiche beschränken eine mathematische Gerade auf einen realen Zeit- oder Streckenabschnitt.",
     "misconception": "Ortskoordinaten statt Differenzen quadrieren.",
@@ -1179,11 +1179,11 @@ window.MQ_SOLUTIONS = {
   },
   "G049": {
     "correct": 0,
-    "explanation": "t wird in Sekunden angegeben. Bei jeder zusätzlichen Sekunde ändert sich der Ort um den Richtungsvektor (2|0|0) in Metern. Die Drohne oder das bewegte Objekt legt also pro Sekunde 2 Meter in x-Richtung zurück. Die Geschwindigkeit ist die Länge dieses Vektors: √(2² + 0² + 0²) = 2 m/s.",
+    "explanation": "Der Faktor vor t beschreibt den Geschwindigkeitsvektor: \\(\\vec v=\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix}\\) in Metern pro Sekunde. Die Geschwindigkeit als Zahl ist die Länge dieses Vektors. Verwende die räumliche Längenformel \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Setze ein: \\(\\lVert\\vec v\\rVert=\\sqrt{2^2+0^2+0^2}=2\\). Die Geschwindigkeit beträgt also 2 m/s; die Formel liefert einen Betrag, keine negative Richtung.",
     "steps": [
-      "t wird in Sekunden angegeben. Bei jeder zusätzlichen Sekunde ändert sich der Ort um den Richtungsvektor (2|0|0) in Metern.",
-      "Die Drohne oder das bewegte Objekt legt also pro Sekunde 2 Meter in x-Richtung zurück.",
-      "Die Geschwindigkeit ist die Länge dieses Vektors: √(2² + 0² + 0²) = 2 m/s."
+      "Der Faktor vor t beschreibt den Geschwindigkeitsvektor: \\(\\vec v=\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix}\\) in Metern pro Sekunde.",
+      "Die Geschwindigkeit als Zahl ist die Länge dieses Vektors. Verwende die räumliche Längenformel \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\).",
+      "Setze ein: \\(\\lVert\\vec v\\rVert=\\sqrt{2^2+0^2+0^2}=2\\). Die Geschwindigkeit beträgt also 2 m/s; die Formel liefert einen Betrag, keine negative Richtung."
     ],
     "background": "Geometrische Modelle verbinden Koordinaten mit realen Größen und Einheiten. Vektorbeträge liefern Weglängen und Geschwindigkeitsbeträge. Parameterbereiche beschränken eine mathematische Gerade auf einen realen Zeit- oder Streckenabschnitt.",
     "misconception": "Parameter und zurückgelegte Strecke gleichsetzen.",
@@ -4325,10 +4325,11 @@ window.MQ_SOLUTIONS = {
   },
   "G119": {
     "correct": 1,
-    "explanation": "Der Vektor bewegt dich nur entlang einer Achse. Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente. Damit erhältst du \\(3\\).",
+    "explanation": "Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme. Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(3\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{9}\\). Damit erhältst du \\(3\\).",
     "steps": [
-      "Der Vektor bewegt dich nur entlang einer Achse.",
-      "Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente.",
+      "Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\).",
+      "Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme.",
+      "Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(3\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{9}\\).",
       "Damit erhältst du \\(3\\)."
     ],
     "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
@@ -4337,10 +4338,11 @@ window.MQ_SOLUTIONS = {
   },
   "G121": {
     "correct": 2,
-    "explanation": "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0. Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel. Damit erhältst du \\(\\sqrt{13}\\).",
+    "explanation": "Der Punktabstand ist die Länge des Verbindungsvektors. Die allgemeine Formel ist \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\). Bilde zuerst die Koordinatendifferenzen, also Ziel minus Start: \\(\\overrightarrow{AB}=B-A=\\left[\\begin{matrix}3\\\\2\\\\0\\end{matrix}\\right]\\). Setze diese Differenzen in die Längenformel ein: \\(d(A,B)=\\sqrt{\\left(3\\right)^2+\\left(2\\right)^2+\\left(0\\right)^2}\\). Damit erhältst du \\(\\sqrt{13}\\).",
     "steps": [
-      "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0.",
-      "Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel.",
+      "Der Punktabstand ist die Länge des Verbindungsvektors. Die allgemeine Formel ist \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\).",
+      "Bilde zuerst die Koordinatendifferenzen, also Ziel minus Start: \\(\\overrightarrow{AB}=B-A=\\left[\\begin{matrix}3\\\\2\\\\0\\end{matrix}\\right]\\).",
+      "Setze diese Differenzen in die Längenformel ein: \\(d(A,B)=\\sqrt{\\left(3\\right)^2+\\left(2\\right)^2+\\left(0\\right)^2}\\).",
       "Damit erhältst du \\(\\sqrt{13}\\)."
     ],
     "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
@@ -4349,10 +4351,10 @@ window.MQ_SOLUTIONS = {
   },
   "G123": {
     "correct": 0,
-    "explanation": "Ein Einheitsvektor soll die Länge 1 haben. Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren.",
+    "explanation": "Zum Normieren gilt \\(\\vec e=\\frac{\\vec v}{\\lVert\\vec v\\rVert}\\) für \\(\\vec v\\ne0\\). Ein Einheitsvektor soll die Länge 1 haben. Hier ist die Länge 3, also teilst du jede Komponente durch 3. Der Faktor ist \\(\\frac{1}{3}\\). Ein negativer Faktor würde zusätzlich die Richtung umkehren.",
     "steps": [
-      "Ein Einheitsvektor soll die Länge 1 haben.",
-      "Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren."
+      "Zum Normieren gilt \\(\\vec e=\\frac{\\vec v}{\\lVert\\vec v\\rVert}\\) für \\(\\vec v\\ne0\\). Ein Einheitsvektor soll die Länge 1 haben.",
+      "Hier ist die Länge 3, also teilst du jede Komponente durch 3. Der Faktor ist \\(\\frac{1}{3}\\). Ein negativer Faktor würde zusätzlich die Richtung umkehren."
     ],
     "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
     "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
@@ -5289,10 +5291,12 @@ window.MQ_SOLUTIONS = {
   },
   "G287": {
     "correct": 0,
-    "explanation": "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit. Damit erhältst du \\(3\\).",
+    "explanation": "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Seine Komponenten sind in m/s angegeben. Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme. Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(3\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{9}\\). Damit erhältst du \\(3\\).",
     "steps": [
-      "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors.",
-      "Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit.",
+      "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Seine Komponenten sind in m/s angegeben.",
+      "Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\).",
+      "Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme.",
+      "Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(3\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{9}\\).",
       "Damit erhältst du \\(3\\)."
     ],
     "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",
@@ -5463,10 +5467,11 @@ window.MQ_SOLUTIONS = {
   },
   "G120": {
     "correct": 0,
-    "explanation": "Der Vektor bewegt dich nur entlang einer Achse. Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente. Damit erhältst du \\(4\\).",
+    "explanation": "Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme. Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(4\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{16}\\). Damit erhältst du \\(4\\).",
     "steps": [
-      "Der Vektor bewegt dich nur entlang einer Achse.",
-      "Die Länge ist der nichtnegative Betrag der einzigen von 0 verschiedenen Komponente.",
+      "Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\).",
+      "Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme.",
+      "Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(4\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{16}\\).",
       "Damit erhältst du \\(4\\)."
     ],
     "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
@@ -5475,10 +5480,11 @@ window.MQ_SOLUTIONS = {
   },
   "G122": {
     "correct": 1,
-    "explanation": "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0. Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel. Damit erhältst du \\(5\\).",
+    "explanation": "Der Punktabstand ist die Länge des Verbindungsvektors. Die allgemeine Formel ist \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\). Bilde zuerst die Koordinatendifferenzen, also Ziel minus Start: \\(\\overrightarrow{AB}=B-A=\\left[\\begin{matrix}4\\\\3\\\\0\\end{matrix}\\right]\\). Setze diese Differenzen in die Längenformel ein: \\(d(A,B)=\\sqrt{\\left(4\\right)^2+\\left(3\\right)^2+\\left(0\\right)^2}\\). Damit erhältst du \\(5\\).",
     "steps": [
-      "Bilde zuerst den Verbindungsvektor B − A. Die z-Differenz ist 0.",
-      "Addiere die Quadrate der Differenzen und ziehe erst danach die Wurzel.",
+      "Der Punktabstand ist die Länge des Verbindungsvektors. Die allgemeine Formel ist \\(d(A,B)=\\lVert B-A\\rVert=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}\\).",
+      "Bilde zuerst die Koordinatendifferenzen, also Ziel minus Start: \\(\\overrightarrow{AB}=B-A=\\left[\\begin{matrix}4\\\\3\\\\0\\end{matrix}\\right]\\).",
+      "Setze diese Differenzen in die Längenformel ein: \\(d(A,B)=\\sqrt{\\left(4\\right)^2+\\left(3\\right)^2+\\left(0\\right)^2}\\).",
       "Damit erhältst du \\(5\\)."
     ],
     "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
@@ -5487,10 +5493,10 @@ window.MQ_SOLUTIONS = {
   },
   "G124": {
     "correct": 2,
-    "explanation": "Ein Einheitsvektor soll die Länge 1 haben. Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren.",
+    "explanation": "Zum Normieren gilt \\(\\vec e=\\frac{\\vec v}{\\lVert\\vec v\\rVert}\\) für \\(\\vec v\\ne0\\). Ein Einheitsvektor soll die Länge 1 haben. Hier ist die Länge 4, also teilst du jede Komponente durch 4. Der Faktor ist \\(\\frac{1}{4}\\). Ein negativer Faktor würde zusätzlich die Richtung umkehren.",
     "steps": [
-      "Ein Einheitsvektor soll die Länge 1 haben.",
-      "Multipliziere deshalb mit dem positiven Kehrwert der bisherigen Länge. Ein negativer Faktor würde zusätzlich die Richtung umkehren."
+      "Zum Normieren gilt \\(\\vec e=\\frac{\\vec v}{\\lVert\\vec v\\rVert}\\) für \\(\\vec v\\ne0\\). Ein Einheitsvektor soll die Länge 1 haben.",
+      "Hier ist die Länge 4, also teilst du jede Komponente durch 4. Der Faktor ist \\(\\frac{1}{4}\\). Ein negativer Faktor würde zusätzlich die Richtung umkehren."
     ],
     "background": "Vektorbeträge und Punktabstände mit Pythagoras berechnen. ",
     "misconception": "Die beiden falschen Antworten stehen für vertauschte Rechenschritte, fehlende Bedingungen oder eine unpassende Regel.",
@@ -6426,10 +6432,12 @@ window.MQ_SOLUTIONS = {
   },
   "G288": {
     "correct": 2,
-    "explanation": "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit. Damit erhältst du \\(4\\).",
+    "explanation": "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Seine Komponenten sind in m/s angegeben. Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\). Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme. Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(4\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{16}\\). Damit erhältst du \\(4\\).",
     "steps": [
-      "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors.",
-      "Hier ist nur eine Komponente ungleich 0; ihr Betrag ist die gesuchte Geschwindigkeit.",
+      "Die Geschwindigkeit als Zahl ist die Länge des Geschwindigkeitsvektors. Seine Komponenten sind in m/s angegeben.",
+      "Die allgemeine Längenformel lautet \\(\\lVert\\vec v\\rVert=\\sqrt{v_x^2+v_y^2+v_z^2}\\).",
+      "Die Komponenten beschreiben senkrechte Richtungen. Nach Pythagoras addierst du ihre Quadrate und ziehst anschließend die Wurzel; so erhältst du die Länge statt der Quadratsumme.",
+      "Setze die Komponenten ein: \\(\\lVert\\vec v\\rVert=\\sqrt{\\left(4\\right)^2+\\left(0\\right)^2+\\left(0\\right)^2}=\\sqrt{16}\\).",
       "Damit erhältst du \\(4\\)."
     ],
     "background": "Bewegungen, Einheiten und geometrische Nebenbedingungen modellieren. ",

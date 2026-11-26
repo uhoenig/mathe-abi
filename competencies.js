@@ -1276,7 +1276,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-01-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A002": {
     "competency": "A01",
@@ -1290,7 +1291,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-01-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A003": {
     "competency": "A02",
@@ -1304,7 +1306,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-01-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A004": {
     "competency": "A03",
@@ -1318,7 +1321,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-01-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A005": {
     "competency": "A05",
@@ -1332,7 +1336,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-01-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A006": {
     "competency": "A07",
@@ -1346,7 +1351,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-02-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A007": {
     "competency": "A07",
@@ -1360,7 +1366,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-02-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A008": {
     "competency": "A06",
@@ -1376,7 +1383,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-02-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A009": {
     "competency": "A06",
@@ -1392,7 +1400,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-02-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A010": {
     "competency": "A07",
@@ -1406,7 +1415,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-02-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A011": {
     "competency": "A07",
@@ -1420,7 +1430,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-03-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A012": {
     "competency": "A07",
@@ -1434,7 +1445,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-03-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A013": {
     "competency": "A03",
@@ -1448,7 +1460,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-03-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A014": {
     "competency": "A07",
@@ -1462,7 +1475,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-03-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A015": {
     "competency": "A04",
@@ -1476,7 +1490,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-03-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A016": {
     "competency": "A09",
@@ -1492,7 +1507,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-04-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A017": {
     "competency": "A09",
@@ -1508,7 +1524,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-04-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A018": {
     "competency": "A09",
@@ -1524,7 +1541,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-04-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A019": {
     "competency": "A09",
@@ -1540,7 +1558,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-04-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A020": {
     "competency": "A09",
@@ -1556,7 +1575,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-04-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A021": {
     "competency": "A11",
@@ -1572,7 +1592,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-05-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A022": {
     "competency": "A11",
@@ -1588,7 +1609,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-05-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A023": {
     "competency": "A12",
@@ -1604,7 +1626,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-05-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A024": {
     "competency": "A12",
@@ -1620,7 +1643,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-05-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A025": {
     "competency": "A12",
@@ -1636,7 +1660,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-05-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A026": {
     "competency": "A14",
@@ -1652,7 +1677,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-06-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A027": {
     "competency": "A14",
@@ -1668,7 +1694,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-06-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A028": {
     "competency": "A15",
@@ -1684,7 +1711,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-06-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A029": {
     "competency": "A15",
@@ -1700,7 +1728,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-06-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A030": {
     "competency": "A16",
@@ -1716,7 +1745,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-06-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A031": {
     "competency": "A10",
@@ -1730,7 +1760,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-07-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A032": {
     "competency": "A22",
@@ -1746,7 +1777,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-07-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A033": {
     "competency": "A23",
@@ -1762,7 +1794,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-07-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A034": {
     "competency": "A23",
@@ -1778,7 +1811,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-07-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A035": {
     "competency": "A24",
@@ -1794,7 +1828,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-07-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A036": {
     "competency": "A26",
@@ -1810,7 +1845,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-08-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A037": {
     "competency": "A26",
@@ -1826,7 +1862,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-08-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A038": {
     "competency": "A27",
@@ -1842,7 +1879,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-08-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A039": {
     "competency": "A27",
@@ -1858,7 +1896,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-08-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A040": {
     "competency": "A30",
@@ -1874,7 +1913,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-08-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A041": {
     "competency": "A31",
@@ -1891,7 +1931,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-09-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A042": {
     "competency": "A31",
@@ -1908,7 +1949,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-09-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A043": {
     "competency": "A31",
@@ -1925,7 +1967,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-09-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A044": {
     "competency": "A31",
@@ -1942,7 +1985,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-09-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A045": {
     "competency": "A33",
@@ -1956,7 +2000,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-09-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A046": {
     "competency": "A33",
@@ -1970,7 +2015,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-10-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A047": {
     "competency": "A33",
@@ -1984,7 +2030,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-10-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A048": {
     "competency": "A32",
@@ -2001,7 +2048,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-10-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A049": {
     "competency": "A32",
@@ -2018,7 +2066,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-10-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "A050": {
     "competency": "A33",
@@ -2032,7 +2081,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-analysis-10-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G001": {
     "competency": "G01",
@@ -2046,7 +2096,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-geometry-01-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G002": {
     "competency": "G01",
@@ -2060,7 +2111,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-geometry-01-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G003": {
     "competency": "G01",
@@ -2074,7 +2126,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-geometry-01-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G004": {
     "competency": "G01",
@@ -2088,7 +2141,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-geometry-01-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G005": {
     "competency": "G01",
@@ -2102,7 +2156,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-geometry-01-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G006": {
     "competency": "G02",
@@ -2118,7 +2173,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-02-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G007": {
     "competency": "G02",
@@ -2134,7 +2190,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-02-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G008": {
     "competency": "G02",
@@ -2150,7 +2207,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-02-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G009": {
     "competency": "G02",
@@ -2166,7 +2224,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-02-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G010": {
     "competency": "G02",
@@ -2182,7 +2241,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-02-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G011": {
     "competency": "G03",
@@ -2198,7 +2258,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-03-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G012": {
     "competency": "G03",
@@ -2214,7 +2275,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-03-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G013": {
     "competency": "G03",
@@ -2230,7 +2292,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-03-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G014": {
     "competency": "G03",
@@ -2246,7 +2309,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-03-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G015": {
     "competency": "G03",
@@ -2262,7 +2326,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-03-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G016": {
     "competency": "G04",
@@ -2278,7 +2343,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-04-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G017": {
     "competency": "G04",
@@ -2294,7 +2360,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-04-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G018": {
     "competency": "G04",
@@ -2310,7 +2377,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-04-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G019": {
     "competency": "G04",
@@ -2326,7 +2394,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-04-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G020": {
     "competency": "G04",
@@ -2342,7 +2411,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-04-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G021": {
     "competency": "G06",
@@ -2358,7 +2428,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-05-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G022": {
     "competency": "G06",
@@ -2374,7 +2445,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-05-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G023": {
     "competency": "G07",
@@ -2390,7 +2462,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-05-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G024": {
     "competency": "G07",
@@ -2406,7 +2479,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-05-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G025": {
     "competency": "G08",
@@ -2423,7 +2497,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-05-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G026": {
     "competency": "G09",
@@ -2440,7 +2515,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-06-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G027": {
     "competency": "G09",
@@ -2457,7 +2533,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-06-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G028": {
     "competency": "G10",
@@ -2473,7 +2550,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-06-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G029": {
     "competency": "G10",
@@ -2489,7 +2567,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-06-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G030": {
     "competency": "G09",
@@ -2506,7 +2585,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-06-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G031": {
     "competency": "G11",
@@ -2523,7 +2603,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-07-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G032": {
     "competency": "G11",
@@ -2540,7 +2621,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-07-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G033": {
     "competency": "G12",
@@ -2557,7 +2639,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-07-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G034": {
     "competency": "G12",
@@ -2574,7 +2657,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-07-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G035": {
     "competency": "G13",
@@ -2591,7 +2675,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-07-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G036": {
     "competency": "G16",
@@ -2608,7 +2693,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-08-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G037": {
     "competency": "G16",
@@ -2625,7 +2711,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-08-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G038": {
     "competency": "G17",
@@ -2641,7 +2728,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-08-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "column-vector"
   },
   "G039": {
     "competency": "G18",
@@ -2658,7 +2746,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-08-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G040": {
     "competency": "G19",
@@ -2674,7 +2763,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-08-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G041": {
     "competency": "G20",
@@ -2691,7 +2781,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-09-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G042": {
     "competency": "G21",
@@ -2707,7 +2798,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-09-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G043": {
     "competency": "G22",
@@ -2724,7 +2816,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-09-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G044": {
     "competency": "G22",
@@ -2741,7 +2834,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-09-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G045": {
     "competency": "G19",
@@ -2757,7 +2851,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-09-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G046": {
     "competency": "G29",
@@ -2774,7 +2869,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-10-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G047": {
     "competency": "G30",
@@ -2790,7 +2886,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-10-1",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G048": {
     "competency": "G32",
@@ -2806,7 +2903,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-10-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G049": {
     "competency": "G32",
@@ -2822,7 +2920,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-10-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "G050": {
     "competency": "G32",
@@ -2838,7 +2937,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-10-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "P001": {
     "competency": "P01",
@@ -2852,7 +2952,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-01-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P002": {
     "competency": "P01",
@@ -2866,7 +2967,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-01-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P003": {
     "competency": "P01",
@@ -2880,7 +2982,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-01-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P004": {
     "competency": "P01",
@@ -2894,7 +2997,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-01-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P005": {
     "competency": "P01",
@@ -2908,7 +3012,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-01-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P006": {
     "competency": "P02",
@@ -2922,7 +3027,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-02-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P007": {
     "competency": "P02",
@@ -2936,7 +3042,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-02-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P008": {
     "competency": "P02",
@@ -2950,7 +3057,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-02-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P009": {
     "competency": "P02",
@@ -2964,7 +3072,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-02-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P010": {
     "competency": "P02",
@@ -2978,7 +3087,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-02-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P011": {
     "competency": "P03",
@@ -2992,7 +3102,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-03-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P012": {
     "competency": "P03",
@@ -3006,7 +3117,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-03-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P013": {
     "competency": "P03",
@@ -3020,7 +3132,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-03-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P014": {
     "competency": "P03",
@@ -3034,7 +3147,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-03-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P015": {
     "competency": "P03",
@@ -3048,7 +3162,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-03-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P016": {
     "competency": "P04",
@@ -3062,7 +3177,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-04-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P017": {
     "competency": "P04",
@@ -3076,7 +3192,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-04-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P018": {
     "competency": "P04",
@@ -3090,7 +3207,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-04-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P019": {
     "competency": "P04",
@@ -3104,7 +3222,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-04-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P020": {
     "competency": "P04",
@@ -3118,7 +3237,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-04-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P021": {
     "competency": "P05",
@@ -3132,7 +3252,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-05-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P022": {
     "competency": "P05",
@@ -3146,7 +3267,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-05-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P023": {
     "competency": "P05",
@@ -3160,7 +3282,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-05-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P024": {
     "competency": "P05",
@@ -3174,7 +3297,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-05-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P025": {
     "competency": "P05",
@@ -3188,7 +3312,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-05-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P026": {
     "competency": "P06",
@@ -3202,7 +3327,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-06-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P027": {
     "competency": "P06",
@@ -3216,7 +3342,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-06-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P028": {
     "competency": "P06",
@@ -3230,7 +3357,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-06-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P029": {
     "competency": "P06",
@@ -3244,7 +3372,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-06-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P030": {
     "competency": "P06",
@@ -3258,7 +3387,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-06-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P031": {
     "competency": "P07",
@@ -3272,7 +3402,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-07-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P032": {
     "competency": "P07",
@@ -3286,7 +3417,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-07-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P033": {
     "competency": "P07",
@@ -3300,7 +3432,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-07-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P034": {
     "competency": "P07",
@@ -3314,7 +3447,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-07-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P035": {
     "competency": "P07",
@@ -3328,7 +3462,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-07-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P036": {
     "competency": "P08",
@@ -3342,7 +3477,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-08-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P037": {
     "competency": "P08",
@@ -3356,7 +3492,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-08-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P038": {
     "competency": "P08",
@@ -3370,7 +3507,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-08-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P039": {
     "competency": "P08",
@@ -3384,7 +3522,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-08-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P040": {
     "competency": "P08",
@@ -3398,7 +3537,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-08-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P041": {
     "competency": "P09",
@@ -3412,7 +3552,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-09-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P042": {
     "competency": "P09",
@@ -3426,7 +3567,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-09-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P043": {
     "competency": "P09",
@@ -3440,7 +3582,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-09-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P044": {
     "competency": "P09",
@@ -3454,7 +3597,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-09-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P045": {
     "competency": "P09",
@@ -3468,7 +3612,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-09-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P046": {
     "competency": "P10",
@@ -3482,7 +3627,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-10-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P047": {
     "competency": "P10",
@@ -3496,7 +3642,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-10-1",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P048": {
     "competency": "P10",
@@ -3510,7 +3657,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-10-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P049": {
     "competency": "P10",
@@ -3524,7 +3672,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-10-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "P050": {
     "competency": "P10",
@@ -3538,7 +3687,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-10-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "F001": {
     "competency": "A23",
@@ -3554,7 +3704,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-07-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "F002": {
     "competency": "A28",
@@ -3570,7 +3721,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-08-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "F003": {
     "competency": "A32",
@@ -3587,7 +3739,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-analysis-10-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "F004": {
     "competency": "G26",
@@ -3604,7 +3757,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-04-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "F005": {
     "competency": "G24",
@@ -3621,7 +3775,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-05-3",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "F006": {
     "competency": "G31",
@@ -3637,7 +3792,8 @@ window.MQ_QUESTION_METADATA = {
     ],
     "variantFamily": "legacy-geometry-10-2",
     "validationStatus": "review_pending",
-    "active": true
+    "active": true,
+    "answerNotation": "standard"
   },
   "F007": {
     "competency": "P05",
@@ -3651,7 +3807,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-05-3",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "F008": {
     "competency": "P09",
@@ -3665,7 +3822,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-09-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "F009": {
     "competency": "P10",
@@ -3679,7 +3837,8 @@ window.MQ_QUESTION_METADATA = {
     "prerequisites": [],
     "variantFamily": "legacy-probability-10-2",
     "validationStatus": "review_pending",
-    "active": false
+    "active": false,
+    "answerNotation": "standard"
   },
   "A101": {
     "competency": "A01",

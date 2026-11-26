@@ -11,6 +11,7 @@ def build_expansion():
     qs,ss,checks=build()
     old=read('questions.js','window.MQ_QUESTIONS = ')+read('final-questions.js','window.MQ_FINAL_QUESTIONS = ')
     metadata={}
+    vector_answers={'G006','G007','G009','G011','G012','G013','G015','G021','G024','G026','G030','G037','G038'}
     for q in old:
         cid=CAT['legacyCompetencies'].get(q['id'])
         active=q['domain']!='probability'
@@ -21,6 +22,8 @@ def build_expansion():
         else:
             cid='P'+q['skill'][-2:]
             metadata[q['id']]=dict(competency=cid,competencies=[cid],mainTopic='Stochastik (inaktiv)',subtopic=q['subskill'],deck=None,unlockEligible=False,prerequisites=[],variantFamily='legacy-'+q['subskill'],validationStatus='review_pending',active=False)
+    for q in old:
+        metadata[q['id']]['answerNotation']='column-vector' if q['id'] in vector_answers else 'standard'
     for q in qs:metadata[q['id']]={k:q[k] for k in ['competency','competencies','mainTopic','subtopic','deck','unlockEligible','prerequisites','variantFamily','validationStatus']};metadata[q['id']]['active']=True
     names=['Grundlagen','Funktionen & Vektoren','Transformationen & Winkel','Ableitungen & Geraden','Rechenregeln & Lagebeziehungen','Funktionen & Ebenen','Kurven & Schnitte','Integrale & Abstände','Modelle & Raumgeometrie','Vernetzen & Begründen']
     desc=['Sicher rechnen, Punkte und Vektoren verstehen.','Funktionsklassen, Definitionsbereiche und Vektorlängen erkunden.','Transformationen, Logarithmen und Skalarprodukte verbinden.','Änderungsraten und Geraden mit LGS untersuchen.','Ableitungsregeln und Geradenlagen anwenden.','Weitere Funktionen und Ebenendarstellungen nutzen.','Tangenten, Kurven und geometrische Schnitte verknüpfen.','Integrale, Flächen und metrische Geometrie einsetzen.','Bestandsmodelle und räumliche Situationen interpretieren.','Optimieren, projizieren und mathematische Argumente prüfen.']
