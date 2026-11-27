@@ -14,6 +14,7 @@
   document.documentElement.style.colorScheme=theme;
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content',theme==='dark'?'#101015':'#f5f3f8');
   document.querySelectorAll('[data-theme-choice]').forEach(select=>{select.value=preference;});
+  document.querySelectorAll('[data-theme-value]').forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.themeValue===preference));});
   document.querySelectorAll('[data-theme-effective]').forEach(el=>{el.textContent=(theme==='dark'?'Dunkel':'Hell');});
   const notice=document.querySelector('#theme-notice');
   if(notice){notice.textContent=storageError;notice.hidden=!storageError;}
@@ -23,12 +24,13 @@
   preference=value;
   try{localStorage.setItem(KEY,value);storageError='';}
   catch(e){storageError=errorText;}
-  apply();return true;
+  apply();document.dispatchEvent(new CustomEvent('mathequest-theme-change'));return true;
  }
  window.MQ_THEME=Object.freeze({getPreference:()=>preference,getEffective:effective,setPreference});
  apply();
  document.addEventListener('DOMContentLoaded',apply);
  document.addEventListener('change',event=>{if(event.target.matches('[data-theme-choice]'))setPreference(event.target.value);});
+ document.addEventListener('click',event=>{const button=event.target.closest('[data-theme-value]');if(button)setPreference(button.dataset.themeValue);});
  window.addEventListener('storage',event=>{
   if(event.key!==KEY&&event.key!==null)return;
   preference=choices.includes(event.newValue)?event.newValue:event.newValue==='system'?legacyChoice():'light';storageError='';apply();

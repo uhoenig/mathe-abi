@@ -298,3 +298,19 @@ Die fest eingetragene dunkle Hintergrundfarbe ausgewählter Antworten wurde durc
 Erfolgreich ausgeführt: Workflow-, Theme-, Tablet-, Speicher-, allgemeine Browser- und Deck-/SRS-Suite sowie die Python-Inhaltsprüfung. Insbesondere direktes Feedback ohne Bestätigungsbutton, Erstantwort nach Neuladen, Hauptmenü-Link auch bei 390 Pixeln, Wiederaufnahme, nur zwei Theme-Optionen, Legacy-Systempräferenz, helle ausgewählte/ungewählte/deaktivierte Antworten, A/B/C-Kontraste, beide Themes und neun Fenstergrößen wurden geprüft. Geprüfte Antworttexte und Markierungen erreichen mindestens 4,5:1. Screenshots `tests/direct-light-selected.png` und `tests/direct-light-feedback.png` wurden visuell kontrolliert. Kein echter Safari-/iPad-Test.
 
 Fragen, Freischaltungen, Wiederholungsplan und XP-Regeln wurden nicht verändert. README und Architekturhinweise an den Direktantwort-Ablauf angepasst. Änderungen liegen lokal auf develop; keine Commits, Pushes oder Änderungen an main in diesem Arbeitsschritt.
+
+### Mobiler Theme-Wechsel – 27. November 2026
+
+Für den gemeldeten Fall „Brave auf dem iPhone“ wurde zusätzlich WebKit mit Touch- und Handy-Simulation geprüft. Ohne externe Farbfilter wechseln die bestehenden Theme-Werte korrekt. Ein separater Versuch mit Dark Reader 4.9.135 zeigte dagegen einen konkreten Konflikt: Bei gewähltem Hell wurde der Hintergrund automatisch dunkel überschrieben. Brave verwendet Dark Reader für seinen iOS-Nachtmodus; dies ist eine mögliche Ursache des gemeldeten Geräteverhaltens, keine Bestätigung der Geräteeinstellungen.
+
+Die App setzt jetzt den von Dark Reader dokumentierten `darkreader-lock`, damit die eigene Theme-Auswahl erhalten bleibt. Bei schmalen Fenstern und Touch-Geräten ersetzen zwei direkt antippbare Tasten die native Theme-Auswahl, sowohl oben als auch in den Einstellungen. Auswahl, sichtbare Tasten und JSON-Backup werden über denselben Theme-Wechsel synchronisiert.
+
+`tests/theme-mobile.cjs` ist mit WebKit und Chromium erfolgreich gelaufen: 320×700, 393×852 und 430×932, Touch-Taps, tatsächlich berechnete Hintergrundfarben, Neuladen, beide Bedienorte, Wechsel des Systemfarbschemas, laufende Lernrunde und blockierte Theme-Speicherung. Der optionale Dark-Reader-Versuch bestand in beiden Engines. Theme-, Speicher-, Workflow-, Raumlabor- und Python-Inhaltsprüfungen bestanden ebenfalls. Kein Test auf einem physischen iPhone; die Korrektur ist lokal und noch nicht veröffentlicht.
+
+Aufruf: `node tests/theme-mobile.cjs`. Für WebKit `MQ_THEME_ENGINE=webkit` setzen; Playwright-WebKit muss installiert sein. Optional eine lokal bereitgestellte Dark-Reader-API-Datei über `MQ_DARKREADER_SCRIPT` angeben. Diese wird ausschließlich im Test geladen und ist keine App-Abhängigkeit.
+
+### Geführte Raumlabor-Lernreise – 27. November 2026
+
+Das Raumlabor zeigt jeweils eine Aufgabe mit direktem Feedback. Sieben Erkundungen und kleine Zwischenschritte führen durch insgesamt 42 Schritte zu den 14 Missionen. Auswahlkacheln, Zahlenfelder, Vorzeichentasten für Touch, Etappenkarte, Fortschrittsbalken und Erfolgsansichten ergänzen die eigenen Rechenwege. Vorhandene Missions-IDs und das Speicherformat bleiben erhalten. Laufende Schritte lassen sich während der offenen Seite fortsetzen; gelöste Missionen bleiben nach dem Neuladen erhalten.
+
+`tests/raumlabor.cjs` bestand vollständig in Chromium und WebKit: alle 42 Schritte, falsche und leere Eingaben, Zurück und Fortsetzen, Touch-Vorzeichenwechsel, keine doppelte Missionszählung, beide Themes, drei Fensterbreiten, geschützte unbekannte Daten und separat gespeicherter Entwicklermodus. Normale Lerndaten bleiben bytegleich. Theme-Touch-, Workflow-, allgemeine Browser- und Python-Inhaltsprüfungen bestanden ebenfalls. Vorschauen: `tests/raumlabor-game-derive-mobile.png`, `tests/raumlabor-game-derive-desktop.png` und `tests/raumlabor-game-reward.png`. Kein Test auf einem physischen iPhone. Änderungen sind lokal.
