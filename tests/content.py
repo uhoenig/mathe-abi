@@ -99,6 +99,8 @@ assert not re.search(r'https?://',(app+css).replace('http://www.w3.org/2000/svg'
 assert 'fetch(' not in app and '@import' not in css
 assert 'MQ_SOLUTIONS' not in qtext
 print('OK: keine externen Laufzeitressourcen, separater Lösungsschlüssel, file://-kompatible Skripte.')
+from version_assets import update as check_asset_versions
+check_asset_versions(check=True)
 
 # Abschlussaufgaben: Datenzuordnung und unabhängige Nachrechnungen.
 final=json.loads((ROOT/'final-questions.js').read_text().split('window.MQ_FINAL_QUESTIONS = ')[1].rsplit(';',1)[0])
