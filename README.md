@@ -44,6 +44,8 @@ Es gibt keine automatische Synchronisierung oder Übermittlung von Lernständen 
 
 Die Anwendung verwendet HTML, CSS und Vanilla JavaScript ohne erforderlichen Build-Schritt oder eigenes Backend. `develop` dient der Entwicklung; GitHub Pages veröffentlicht `main`.
 
+Vor einem Release nach Änderungen an CSS, JavaScript oder Frageninhalten `python3 tools/version_assets.py` ausführen und die aktualisierten Referenzen mit committen. Die Dateiversionen verhindern, dass nach einem Update neues HTML mit alten Dateien aus dem Browsercache gemischt wird. `python3 tools/version_assets.py --check` und die Inhaltsprüfung kontrollieren die Referenzen. Das gilt auch für den später geladenen Lösungsschlüssel; der Offline-Start bleibt möglich.
+
 Der Pool umfasst 502 aktive Aufgaben und 66 Kompetenzen. Die [Deckbelegung](DECKS.md), der [Ausbaubericht](COVERAGE.md) und die [fachliche Nachprüfliste](MANUAL_REVIEW.md) dokumentieren Umfang, Prüfstatus und Grenzen. Stochastik bleibt erhalten, ist aber derzeit inaktiv. Die Multiple-Choice-Ergebnisse ersetzen weder einen mündlichen Verständnisnachweis noch eine vollständige Prüfungsvorbereitung.
 
 ## Datenschutz-Hinweis

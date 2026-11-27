@@ -125,7 +125,7 @@ function recovery(){
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('#toast').classList.remove('visible'),4000);}
 function loadSolutions(){
  if(window.MQ_SOLUTIONS)return Promise.resolve(window.MQ_SOLUTIONS);
- if(!solutionsPromise)solutionsPromise=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='solutions.js';script.onload=()=>window.MQ_SOLUTIONS?resolve(window.MQ_SOLUTIONS):reject(Error('Der Lösungsschlüssel ist ungültig.'));script.onerror=()=>{solutionsPromise=null;script.remove();reject(Error('solutions.js konnte nicht geladen werden. Bitte prüfe, ob alle Projektdateien im selben Ordner liegen.'));};document.head.append(script);});
+ if(!solutionsPromise)solutionsPromise=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='solutions.js?v=a4e80ed33bfe';script.onload=()=>window.MQ_SOLUTIONS?resolve(window.MQ_SOLUTIONS):reject(Error('Der Lösungsschlüssel ist ungültig.'));script.onerror=()=>{solutionsPromise=null;script.remove();reject(Error('solutions.js konnte nicht geladen werden. Bitte prüfe, ob alle Projektdateien im selben Ordner liegen.'));};document.head.append(script);});
  return solutionsPromise;
 }
 function shuffle(array){const a=[...array];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
