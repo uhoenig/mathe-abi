@@ -17,8 +17,8 @@ console.log(`OK ${count} LaTeX-Abschnitte ohne Parsefehler; Brüche, Nennerpoten
  h.assert.equal(await p.locator('#daily-limit').count(),0);
  const bad=await p.evaluate(()=>MQ_MATH.render('<img src=x onerror=alert(1)>'));h.assert.equal(bad,'&lt;img src=x onerror=alert(1)&gt;');
  await h.confirm(p,h.key.A001.correct);h.assert.ok(await p.locator('.answer-feedback .katex-mathml').count()>0);
- for(const theme of ['light','dark']){await p.locator('#theme-choice').selectOption(theme);for(const width of [320,390,768,1440]){await p.setViewportSize({width,height:1024});h.assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));}}
- await p.setViewportSize({width:1440,height:1100});await p.locator('#theme-choice').selectOption('light');await p.screenshot({path:h.path.join(h.root,'tests/latex-feedback.png'),fullPage:true,animations:'disabled'});
+ for(const theme of ['light','dark']){await h.setTheme(p,theme);for(const width of [320,390,768,1440]){await p.setViewportSize({width,height:1024});h.assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));}}
+ await p.setViewportSize({width:1440,height:1100});await h.setTheme(p,'light');await p.screenshot({path:h.path.join(h.root,'tests/latex-feedback.png'),fullPage:true,animations:'disabled'});
  await h.finish(p);await h.route(p,'decks');await p.locator('[data-action="choose-deck"][data-deck="1"]').click();
  await p.getByRole('button',{name:'Weiter üben'}).waitFor();h.assert.equal(await p.getByRole('button',{name:'Weiter üben'}).count(),1);const before=(await h.saved(p)).learning.reviews;
  await p.getByRole('button',{name:'Weiter üben'}).click();await p.locator('.question-title').waitFor();h.assert.equal((await h.saved(p)).active.ids.length,h.J.questionIds.length);

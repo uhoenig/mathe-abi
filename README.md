@@ -11,8 +11,18 @@ MatheQuest 2.0 ist ein minimalistischer Lerntrainer für Analysis und analytisch
 - Themenkarten für Analysis und analytische Geometrie mit Schwierigkeitsstufen und sichtbarer Freischaltung.
 - Kompetenzbasierte Deckfreischaltung: je ein Grundnachweis pro Pflichtkompetenz öffnet dauerhaft das nächste Deck. Mittlere und schwere Varianten sind Vertiefung.
 - Lösungswege und Anregungen zum mündlichen Erklären.
-- Helle und dunkle Darstellung sowie anpassbare Ansichten für unterschiedliche Bildschirmgrößen.
+- Helle und dunkle Darstellung; auf Handys und Touch-Geräten direkt über die Tasten „Hell“ und „Dunkel“ wählbar. Die Auswahl bleibt nach dem Neuladen erhalten.
 - Entwicklermodus unter Einstellungen: alle Decks direkt prüfen, schwere Aufgaben zuerst und ein separat gespeicherter Testlernstand. Beim Ausschalten kehrt der reguläre Lernstand zurück.
+- Raumlabor als spielerische Lernreise: sieben Etappen mit 42 kurzen Schritten, beweglichen Zeichnungen, eigenen Recheneingaben und 14 abschließenden Missionen.
+- Tagesmission, Entdeckerlevel, Meilensteine und sichtbare Grundnachweise auf der Lernreise.
+
+## Geraden und Ebenen im Raumlabor
+
+Das Raumlabor erklärt Geradenparameter, die drei Ebenenformen, Punktproben, Schnittpunkte von Geraden, Gerade–Ebene-Schnitte, Schnittgeraden zweier Ebenen und Lagebeziehungen. Jede Etappe beginnt mit einer Erkundung in der Zeichnung. Anschließend leitest du die Lösung in kleinen Schritten selbst her: passende Ausdrücke wählen, Lücken füllen, rechnen und prüfen. Pro Bildschirm erscheint genau eine Frage. Tipps und direktes Feedback helfen beim nächsten Versuch. Zwei abschließende Missionen und eine Erfolgsansicht runden jede Etappe ab. Die sieben Etappen sind über eine Lernkarte direkt zugänglich; der Regler bewegt einen Punkt in der räumlichen Skizze. Ebenen sind als Ausschnitte gezeichnet. Bereits gelöste Missionen bleiben erhalten. Während die Seite offen ist, kannst du auch einen begonnenen Rechenweg fortsetzen.
+
+Passende Suchlinks zu **Mathe by Daniel Jung** ergänzen die eigenen Erklärungen. Sie öffnen auf Klick seinen YouTube-Kanal in einem neuen Tab. Es werden keine Videos oder Vorschaubilder automatisch geladen. Die App und ihre Zeichnungen funktionieren weiterhin offline; nur die externen Videos benötigen Internet.
+
+Gelöste Raumlabor-Missionen werden unabhängig vom Multiple-Choice-Lernstand auf diesem Gerät gespeichert, im Entwicklermodus nochmals separat. Sie sind derzeit nicht im JSON-Export des Multiple-Choice-Lernstands enthalten. Ein richtig gelöstes Beispiel markiert eine Übung als gelöst; es ist kein automatischer Kompetenznachweis für die Deckfreischaltung.
 
 ## Anwendung starten
 
